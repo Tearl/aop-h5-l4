@@ -1,0 +1,1070 @@
+{
+  "schemaVersion": "fm-frontend-feature-plan/1.0",
+  "sourceSkill": "skill_fm-frontend-arch",
+  "designContract": {
+    "artifactId": "design.engineering-change-contract",
+    "schemaVersion": "fm-frontend-engineering-change-contract/1.0",
+    "sha256": "sha256:e0362012699c5d3a8bbca5151451b6613c50bae8075bbaef3ba96e82a56263f1"
+  },
+  "visualSource": {
+    "type": "existing-source",
+    "artifactId": null,
+    "policy": "inherit-existing-ui"
+  },
+  "executionOrder": [
+    "FEATURE-SOW-HOME",
+    "FEATURE-SOW-EDIT",
+    "FEATURE-SOW-VIEW",
+    "FEATURE-SOW-CREATE"
+  ],
+  "executionLevels": [
+    [
+      "FEATURE-SOW-HOME",
+      "FEATURE-SOW-EDIT",
+      "FEATURE-SOW-VIEW"
+    ],
+    [
+      "FEATURE-SOW-CREATE"
+    ]
+  ],
+  "dependencies": {
+    "FEATURE-SOW-HOME": [],
+    "FEATURE-SOW-EDIT": [],
+    "FEATURE-SOW-VIEW": [],
+    "FEATURE-SOW-CREATE": [
+      "FEATURE-SOW-HOME"
+    ]
+  },
+  "sharedChanges": [
+    {
+      "artifactId": "ARTIFACT-001",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "module",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt",
+      "note": "模块目录 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-002",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "module",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/package.json",
+      "note": "模块包配置 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-003",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "module",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/main.js",
+      "note": "模块入口 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-004",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "component",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+      "note": "模块根组件 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-005",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "module",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/conf.js",
+      "note": "模块配置 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-006",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "module",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/desc.js",
+      "note": "模块描述 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-007",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "route",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+      "note": "路由配置 — 所有 Feature 注册路由，需合并 home/edit/view 三条路由"
+    },
+    {
+      "artifactId": "ARTIFACT-008",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "store",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+      "note": "Vuex Store 入口 — 所有 Feature 共享"
+    },
+    {
+      "artifactId": "ARTIFACT-009",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "store",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+      "note": "SOW 状态模块 — 所有 Feature 共享；HOME 负责列表状态，CREATE 负责创建状态，EDIT 负责编辑状态，VIEW 负责查看状态"
+    },
+    {
+      "artifactId": "ARTIFACT-010",
+      "featureIds": [
+        "FEATURE-SOW-CREATE",
+        "FEATURE-SOW-EDIT",
+        "FEATURE-SOW-HOME",
+        "FEATURE-SOW-VIEW"
+      ],
+      "kind": "service",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+      "note": "SOW API 封装 — 所有 Feature 共享；需包含 list/search/create/update/delete/submit/view 全部接口"
+    }
+  ],
+  "features": [
+    {
+      "featureId": "FEATURE-SOW-HOME",
+      "title": "SOW 首页列表管理",
+      "description": "SOW 管理模块首页：SOW 列表展示、搜索筛选、分页、批量操作（删除/提交）",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "dependsOn": [],
+      "artifactIds": [
+        "ARTIFACT-001",
+        "ARTIFACT-002",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-005",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010",
+        "ARTIFACT-011",
+        "ARTIFACT-012",
+        "ARTIFACT-013",
+        "ARTIFACT-014",
+        "ARTIFACT-026",
+        "ARTIFACT-027"
+      ],
+      "relationshipIds": [
+        "REL-001",
+        "REL-002",
+        "REL-003",
+        "REL-006",
+        "REL-007",
+        "REL-008",
+        "REL-009",
+        "REL-010",
+        "REL-011",
+        "REL-012",
+        "REL-013",
+        "REL-016",
+        "REL-017",
+        "REL-030"
+      ],
+      "pages": [
+        "ARTIFACT-011"
+      ],
+      "components": [
+        "ARTIFACT-004",
+        "ARTIFACT-012",
+        "ARTIFACT-013",
+        "ARTIFACT-014",
+        "ARTIFACT-026",
+        "ARTIFACT-027"
+      ],
+      "apiAndState": [
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010"
+      ],
+      "sourceChanges": [
+        {
+          "artifactId": "ARTIFACT-001",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-002",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/package.json",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-003",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/main.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-004",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-005",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/conf.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-006",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/desc.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-007",
+          "kind": "route",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-008",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-009",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-010",
+          "kind": "service",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-011",
+          "kind": "page",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/index.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-012",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/SearchBar.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-013",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/SowTable.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-014",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/ActionButtons.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-026",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/DeleteDialog.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-027",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/SubmitDialog.vue",
+          "pathStatus": "proposed"
+        }
+      ],
+      "acceptanceIds": []
+    },
+    {
+      "featureId": "FEATURE-SOW-CREATE",
+      "title": "SOW 创建（首页抽屉）",
+      "description": "在 SOW 首页通过抽屉表单创建新的 SOW 记录，包含表单校验、模板选择和提交",
+      "requirementIds": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "dependsOn": [
+        "FEATURE-SOW-HOME"
+      ],
+      "artifactIds": [
+        "ARTIFACT-001",
+        "ARTIFACT-002",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-005",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010",
+        "ARTIFACT-011",
+        "ARTIFACT-015"
+      ],
+      "relationshipIds": [
+        "REL-001",
+        "REL-002",
+        "REL-009",
+        "REL-014",
+        "REL-015",
+        "REL-030"
+      ],
+      "pages": [],
+      "components": [
+        "ARTIFACT-004",
+        "ARTIFACT-015"
+      ],
+      "apiAndState": [
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010"
+      ],
+      "sourceChanges": [
+        {
+          "artifactId": "ARTIFACT-001",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-002",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/package.json",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-003",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/main.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-004",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-005",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/conf.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-006",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/desc.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-007",
+          "kind": "route",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-008",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-009",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-010",
+          "kind": "service",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-011",
+          "kind": "page",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/index.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-015",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/home/components/CreateDrawer.vue",
+          "pathStatus": "proposed"
+        }
+      ],
+      "acceptanceIds": []
+    },
+    {
+      "featureId": "FEATURE-SOW-EDIT",
+      "title": "SOW 编辑页",
+      "description": "SOW 编辑页面：基本信息编辑、POC 信息、SOW 条目增删改、批量导入、条目编辑弹窗",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "dependsOn": [],
+      "artifactIds": [
+        "ARTIFACT-001",
+        "ARTIFACT-002",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-005",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010",
+        "ARTIFACT-016",
+        "ARTIFACT-017",
+        "ARTIFACT-018",
+        "ARTIFACT-019",
+        "ARTIFACT-020",
+        "ARTIFACT-021"
+      ],
+      "relationshipIds": [
+        "REL-001",
+        "REL-002",
+        "REL-004",
+        "REL-018",
+        "REL-019",
+        "REL-020",
+        "REL-021",
+        "REL-022",
+        "REL-023",
+        "REL-024",
+        "REL-028",
+        "REL-030"
+      ],
+      "pages": [
+        "ARTIFACT-016"
+      ],
+      "components": [
+        "ARTIFACT-004",
+        "ARTIFACT-017",
+        "ARTIFACT-018",
+        "ARTIFACT-019",
+        "ARTIFACT-020",
+        "ARTIFACT-021"
+      ],
+      "apiAndState": [
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010"
+      ],
+      "sourceChanges": [
+        {
+          "artifactId": "ARTIFACT-001",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-002",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/package.json",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-003",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/main.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-004",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-005",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/conf.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-006",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/desc.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-007",
+          "kind": "route",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-008",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-009",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-010",
+          "kind": "service",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-016",
+          "kind": "page",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/index.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-017",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/components/BasicInfo.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-018",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/components/PocInfo.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-019",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/components/SowItems.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-020",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/components/ImportDialog.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-021",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/edit/components/ItemEditDialog.vue",
+          "pathStatus": "proposed"
+        }
+      ],
+      "acceptanceIds": []
+    },
+    {
+      "featureId": "FEATURE-SOW-VIEW",
+      "title": "SOW 查看页",
+      "description": "SOW 查看详情页面：基本信息查看、SOW 条目列表查看、方案 Tab 切换",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "dependsOn": [],
+      "artifactIds": [
+        "ARTIFACT-001",
+        "ARTIFACT-002",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-005",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010",
+        "ARTIFACT-022",
+        "ARTIFACT-023",
+        "ARTIFACT-024",
+        "ARTIFACT-025"
+      ],
+      "relationshipIds": [
+        "REL-001",
+        "REL-002",
+        "REL-005",
+        "REL-025",
+        "REL-026",
+        "REL-027",
+        "REL-029",
+        "REL-030"
+      ],
+      "pages": [
+        "ARTIFACT-022"
+      ],
+      "components": [
+        "ARTIFACT-004",
+        "ARTIFACT-023",
+        "ARTIFACT-024",
+        "ARTIFACT-025"
+      ],
+      "apiAndState": [
+        "ARTIFACT-008",
+        "ARTIFACT-009",
+        "ARTIFACT-010"
+      ],
+      "sourceChanges": [
+        {
+          "artifactId": "ARTIFACT-001",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-002",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/package.json",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-003",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/main.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-004",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-005",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/conf.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-006",
+          "kind": "module",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/desc.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-007",
+          "kind": "route",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-008",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-009",
+          "kind": "store",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-010",
+          "kind": "service",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-022",
+          "kind": "page",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/view/index.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-023",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/view/components/BasicInfo.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-024",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/view/components/SowItems.vue",
+          "pathStatus": "proposed"
+        },
+        {
+          "artifactId": "ARTIFACT-025",
+          "kind": "component",
+          "changeType": "add",
+          "targetPath": "src/modules/aop_sowmgmt/views/view/components/SolutionsTab.vue",
+          "pathStatus": "proposed"
+        }
+      ],
+      "acceptanceIds": []
+    }
+  ],
+  "coverage": {
+    "requirementCoverage": {
+      "total": 20,
+      "covered": 20,
+      "uncovered": [],
+      "details": {
+        "REQ-SOW-HOME-001": "FEATURE-SOW-HOME",
+        "REQ-SOW-HOME-002": "FEATURE-SOW-HOME",
+        "REQ-SOW-HOME-003": "FEATURE-SOW-HOME",
+        "REQ-SOW-HOME-004": "FEATURE-SOW-HOME",
+        "REQ-SOW-CREATE-001": "FEATURE-SOW-CREATE",
+        "REQ-SOW-CREATE-002": "FEATURE-SOW-CREATE",
+        "REQ-SOW-CREATE-003": "FEATURE-SOW-CREATE",
+        "REQ-SOW-CREATE-004": "FEATURE-SOW-CREATE",
+        "REQ-SOW-CREATE-005": "FEATURE-SOW-CREATE",
+        "REQ-SOW-CREATE-006": "FEATURE-SOW-CREATE",
+        "REQ-SOW-EDIT-001": "FEATURE-SOW-EDIT",
+        "REQ-SOW-EDIT-002": "FEATURE-SOW-EDIT",
+        "REQ-SOW-EDIT-003": "FEATURE-SOW-EDIT",
+        "REQ-SOW-EDIT-004": "FEATURE-SOW-EDIT",
+        "REQ-SOW-EDIT-005": "FEATURE-SOW-EDIT",
+        "REQ-SOW-EDIT-006": "FEATURE-SOW-EDIT",
+        "REQ-SOW-DELETE-001": "FEATURE-SOW-HOME",
+        "REQ-SOW-SUBMIT-001": "FEATURE-SOW-HOME",
+        "REQ-SOW-VIEW-001": "FEATURE-SOW-VIEW",
+        "REQ-SOW-VIEW-002": "FEATURE-SOW-VIEW"
+      }
+    },
+    "artifactCoverage": {
+      "total": 27,
+      "covered": 27,
+      "uncovered": [],
+      "details": {
+        "ARTIFACT-001": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-002": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-003": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-004": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-005": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-006": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-007": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-008": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-009": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-010": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-011": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE"
+        ],
+        "ARTIFACT-012": [
+          "FEATURE-SOW-HOME"
+        ],
+        "ARTIFACT-013": [
+          "FEATURE-SOW-HOME"
+        ],
+        "ARTIFACT-014": [
+          "FEATURE-SOW-HOME"
+        ],
+        "ARTIFACT-015": [
+          "FEATURE-SOW-CREATE"
+        ],
+        "ARTIFACT-016": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-017": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-018": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-019": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-020": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-021": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "ARTIFACT-022": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-023": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-024": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-025": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "ARTIFACT-026": [
+          "FEATURE-SOW-HOME"
+        ],
+        "ARTIFACT-027": [
+          "FEATURE-SOW-HOME"
+        ]
+      }
+    },
+    "relationshipCoverage": {
+      "total": 30,
+      "covered": 30,
+      "uncovered": [],
+      "details": {
+        "REL-001": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-002": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-003": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-004": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-005": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-006": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-007": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-008": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-009": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE"
+        ],
+        "REL-010": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-011": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-012": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-013": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-014": [
+          "FEATURE-SOW-CREATE"
+        ],
+        "REL-015": [
+          "FEATURE-SOW-CREATE"
+        ],
+        "REL-016": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-017": [
+          "FEATURE-SOW-HOME"
+        ],
+        "REL-018": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-019": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-020": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-021": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-022": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-023": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-024": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-025": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-026": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-027": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-028": [
+          "FEATURE-SOW-EDIT"
+        ],
+        "REL-029": [
+          "FEATURE-SOW-VIEW"
+        ],
+        "REL-030": [
+          "FEATURE-SOW-HOME",
+          "FEATURE-SOW-CREATE",
+          "FEATURE-SOW-EDIT",
+          "FEATURE-SOW-VIEW"
+        ]
+      }
+    }
+  },
+  "planSha256": "sha256:dfa3f5f412c0d60f4b479e0e8a3bd90d73a6cc4beaa2c39a2d26ed93d234490e"
+}
