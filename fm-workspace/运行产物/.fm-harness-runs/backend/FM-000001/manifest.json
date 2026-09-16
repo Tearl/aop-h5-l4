@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "backend-manifest/1.0",
+  "project_root": "/root/.agentix/agentic-dev/runs/DEV-cb8e7b22-ace5-11f1-8b9e-d35516c89fb6-ee69f7dc-2686-4b37-9242-0c35b11c9fb8/worktree",
+  "runs": [
+    {
+      "run_id": "run-20260916-3d8e72b4",
+      "description": "初始 run（FM-000001）",
+      "status": "pending",
+      "parent_run_id": null,
+      "created_at": "2026-09-16T07:45:55.554524+00:00",
+      "completed_at": null
+    }
+  ],
+  "created_at": "2026-09-16T07:45:55.554719+00:00",
+  "updated_at": "2026-09-16T07:45:55.671024+00:00",
+  "current_run_id": "run-20260916-3d8e72b4"
+}

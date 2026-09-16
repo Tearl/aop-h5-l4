@@ -1,0 +1,5864 @@
+{
+  "schemaVersion": "fm-requirement-model/1.5",
+  "baseline": {
+    "requirementRunId": "run-20260916-3d8e72b4",
+    "baselineId": "BASELINE-SOW-MGT-001",
+    "requirementKey": "sow-management",
+    "title": "SOW管理",
+    "version": "1.0.0",
+    "status": "approved",
+    "modelSha256": "sha256:112a7e3e76fbe9d3501be8cd59e9d5e2ef385d94bede3288b6de8a89885cf638",
+    "updatedAt": "2026-09-16T08:15:00Z"
+  },
+  "sources": [
+    {
+      "sourceId": "SRC-001",
+      "type": "docx",
+      "location": "SOW管理-需求文档-20260401.docx",
+      "summary": "FinMall平台V4.0.1 SOW管理需求说明文档，作者顾秋梅。覆盖SOW管理首页、新建、编辑、删除、提交完成和查看详情6项功能。",
+      "contentLocators": [
+        "p:1",
+        "p:2",
+        "p:3",
+        "p:4",
+        "p:5",
+        "p:6",
+        "p:7",
+        "p:8",
+        "p:9",
+        "p:10",
+        "p:11",
+        "p:12",
+        "p:13",
+        "p:14",
+        "p:15",
+        "p:16",
+        "p:17",
+        "p:18",
+        "p:19",
+        "p:20",
+        "p:21",
+        "p:22",
+        "p:23",
+        "p:24",
+        "p:25",
+        "p:26",
+        "p:27",
+        "p:28",
+        "p:29",
+        "p:30",
+        "p:31",
+        "p:32",
+        "p:33",
+        "p:34",
+        "p:35",
+        "p:36",
+        "p:37",
+        "p:38",
+        "p:39",
+        "p:40",
+        "p:41",
+        "p:42",
+        "p:43",
+        "p:44",
+        "p:45",
+        "p:46",
+        "p:47",
+        "p:48",
+        "p:49",
+        "p:50",
+        "p:51",
+        "p:52",
+        "p:53",
+        "p:54",
+        "p:55",
+        "p:56",
+        "p:57",
+        "p:58",
+        "p:59",
+        "p:60",
+        "p:61",
+        "p:62",
+        "p:63",
+        "p:64",
+        "p:65",
+        "p:66",
+        "p:67",
+        "p:68",
+        "p:69",
+        "p:70",
+        "p:71",
+        "p:72",
+        "p:73",
+        "p:74",
+        "p:75",
+        "p:76",
+        "p:77",
+        "p:78",
+        "p:79",
+        "p:80",
+        "p:81",
+        "p:82",
+        "p:83",
+        "p:84",
+        "p:85",
+        "p:86",
+        "p:87",
+        "p:88",
+        "p:89",
+        "p:90",
+        "p:91",
+        "p:92",
+        "p:93",
+        "p:94",
+        "p:95",
+        "p:96",
+        "p:97",
+        "p:98",
+        "p:99",
+        "p:100",
+        "p:101",
+        "p:102",
+        "p:103",
+        "p:104",
+        "p:105",
+        "p:106",
+        "p:107",
+        "p:108",
+        "p:109",
+        "p:110",
+        "p:111",
+        "p:112",
+        "p:113",
+        "p:114",
+        "p:115",
+        "p:116",
+        "p:117",
+        "p:118",
+        "p:119",
+        "p:120",
+        "p:121",
+        "p:122",
+        "p:123",
+        "p:124",
+        "p:125",
+        "p:126",
+        "p:127",
+        "p:128",
+        "p:129",
+        "p:130",
+        "p:131",
+        "p:132",
+        "p:133",
+        "p:134",
+        "p:135",
+        "p:136",
+        "p:137",
+        "p:138",
+        "p:139",
+        "p:140",
+        "p:141",
+        "p:142",
+        "p:143",
+        "p:144",
+        "p:145",
+        "p:146",
+        "image:1",
+        "image:2",
+        "image:3",
+        "image:4",
+        "image:5",
+        "image:6",
+        "image:7",
+        "image:8",
+        "image:9",
+        "image:10",
+        "image:11"
+      ],
+      "extractionStatistics": {
+        "paragraphs": 146,
+        "tables": 0,
+        "images": 11,
+        "uninspectableImages": 0,
+        "contentBlocks": 107
+      }
+    },
+    {
+      "sourceId": "SRC-USER-001",
+      "type": "user_answer",
+      "location": "user_reply",
+      "summary": "用户对第1轮10个准入问题的逐一回复",
+      "verbatim": "DEC-SOW-001 采用正文术语 DEC-SOW-002 仅保留查看  DEC-SOW-003 移除 DEC-SOW-004统一为岗位管理 DEC-SOW-005 系统自动生成 FM-SOW-{年份}-{序号} DEC-SOW-006采用正文术语 DEC-SOW-007统一为凭据附件 DEC-SOW-008以正文为准 DEC-SOW-009明确格式/大小/数量 DEC-SOW-010明确三项条件"
+    }
+  ],
+  "sourceCoverage": [
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:1",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:2",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:3",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:4",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:5",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:6",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:7",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:8",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:9",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:10",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:11",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:12",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:13",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:14",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:15",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:16",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:17",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:18",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:19",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:20",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:21",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:22",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:23",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:24",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:25",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:26",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:27",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:28",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:29",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:30",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:31",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:32",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:33",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:34",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:35",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:36",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:37",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:38",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:39",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:40",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:41",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:42",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:43",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:44",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:45",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:46",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:47",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:48",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:49",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:50",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:51",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:52",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:53",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:54",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:55",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:56",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:57",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:58",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:59",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:60",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:61",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:62",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:63",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:64",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:65",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:66",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:67",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:68",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:69",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:70",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:71",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:72",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:73",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:74",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:75",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:76",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:77",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:78",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:79",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:80",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:81",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:82",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:83",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:84",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:85",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:86",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:87",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:88",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:89",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:90",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:91",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:92",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:93",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:94",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:95",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:96",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:97",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:98",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:99",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:100",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:101",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:102",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:103",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:104",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:105",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:106",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:107",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:108",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:109",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:110",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:111",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:112",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:113",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:114",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:115",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:116",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:117",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:118",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:119",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:120",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:121",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:122",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:123",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:124",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:125",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:126",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:127",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:128",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:129",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:130",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:131",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:132",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:133",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:134",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:135",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:136",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:137",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:138",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:139",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:140",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:141",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:142",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:143",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:144",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:145",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "p:146",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "正文段落",
+      "displayLocation": "需求文档 → 正文段落",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:1",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片1",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:2",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-CREATE"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片2",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:3",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片3",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:4",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片4",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:5",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片5",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:6",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片6",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:7",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片7",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:8",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片8",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:9",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片9",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:10",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-DELETE"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片10",
+      "quote": "正文段落"
+    },
+    {
+      "sourceId": "SRC-001",
+      "locator": "image:11",
+      "disposition": "mapped",
+      "targetRefs": [
+        "FUN-SOW-VIEW"
+      ],
+      "reason": "图片对应功能原型",
+      "displayLocation": "需求文档 → 页面原型 → 图片11",
+      "quote": "正文段落"
+    }
+  ],
+  "businessContext": {
+    "background": "FinMall平台是面向金融行业的企业级工程管理平台。业务/运营团队在经营过程中接收到客户或生产需求，需要通过标准化的Statement of Work(SOW)进行管理。",
+    "problem": "当前平台缺少SOW的统一管理入口，业务需求分散管理，无法有效追踪SOW生命周期和关联方案。",
+    "goals": [
+      "提供SOW的全生命周期管理",
+      "支持SOW清单的批量导入和灵活编辑",
+      "实现SOW与方案的关联和状态联动",
+      "提供SOW详情查看和搜索筛选能力"
+    ],
+    "successMetrics": [
+      "业务人员可独立完成SOW创建和清单导入",
+      "SOW状态流转准确率100%"
+    ]
+  },
+  "scope": {
+    "inScope": [
+      "SOW管理首页",
+      "删除SOW",
+      "提交完成",
+      "新建SOW",
+      "查看SOW详情",
+      "编辑SOW（基本信息/SOW清单/POC信息）"
+    ],
+    "outOfScope": [
+      "方案评审流程",
+      "商机管理模块",
+      "移动端适配"
+    ],
+    "systems": [
+      "FinMall工程管理平台",
+      "方案管理模块"
+    ],
+    "channels": [
+      "PC Web"
+    ]
+  },
+  "actors": [
+    {
+      "actorId": "ACTOR-FM-USER",
+      "name": "FM平台用户",
+      "channels": [
+        "PC Web"
+      ],
+      "permissions": [
+        "SOW查看",
+        "SOW新建",
+        "SOW编辑",
+        "SOW删除",
+        "SOW提交完成",
+        "SOW清单管理"
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "appId": "APP-FM-H5",
+      "name": "FinMall平台",
+      "boundary": "PC Web端H5工程管理模块"
+    }
+  ],
+  "modules": [
+    {
+      "moduleId": "MOD-SOW",
+      "appId": "APP-FM-H5",
+      "name": "SOW管理",
+      "objective": "为业务/运营团队提供SOW全生命周期管理，包括创建、编辑、清单导入、删除、提交完成和详情查看。"
+    }
+  ],
+  "functions": [
+    {
+      "functionId": "FUN-SOW-HOME",
+      "moduleId": "MOD-SOW",
+      "name": "SOW管理首页",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录FM平台"
+      ],
+      "trigger": "进入工程管理/SOW管理",
+      "outcome": "用户可查看全部SOW列表、搜索筛选、分页浏览，并可发起新建、编辑、删除、提交、查看操作",
+      "scenarioRefs": [
+        "SCN-SOW-HOME-001",
+        "SCN-SOW-HOME-002",
+        "SCN-SOW-HOME-003"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    },
+    {
+      "functionId": "FUN-SOW-CREATE",
+      "moduleId": "MOD-SOW",
+      "name": "新建SOW",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "处于SOW管理首页"
+      ],
+      "trigger": "点击'+新增SOW'",
+      "outcome": "SOW创建成功，状态为已注册",
+      "scenarioRefs": [
+        "SCN-SOW-CREATE-001",
+        "SCN-SOW-CREATE-002",
+        "SCN-SOW-CREATE-003",
+        "SCN-SOW-CREATE-004"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    },
+    {
+      "functionId": "FUN-SOW-EDIT",
+      "moduleId": "MOD-SOW",
+      "name": "编辑SOW",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW状态为已注册或已完成"
+      ],
+      "trigger": "点击'编辑'",
+      "outcome": "SOW信息和清单被更新",
+      "scenarioRefs": [
+        "SCN-SOW-EDIT-001",
+        "SCN-SOW-EDIT-002",
+        "SCN-SOW-EDIT-003",
+        "SCN-SOW-EDIT-004",
+        "SCN-SOW-EDIT-005",
+        "SCN-SOW-EDIT-006"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    },
+    {
+      "functionId": "FUN-SOW-DELETE",
+      "moduleId": "MOD-SOW",
+      "name": "删除SOW",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW状态为已注册或已完成"
+      ],
+      "trigger": "点击'删除'",
+      "outcome": "未关联方案的SOW被删除；已关联方案的删除被阻断",
+      "scenarioRefs": [
+        "SCN-SOW-DELETE-001",
+        "SCN-SOW-DELETE-002"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    },
+    {
+      "functionId": "FUN-SOW-SUBMIT",
+      "moduleId": "MOD-SOW",
+      "name": "提交完成",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW状态为已注册"
+      ],
+      "trigger": "点击'提交完成'",
+      "outcome": "SOW状态变更为已完成",
+      "scenarioRefs": [
+        "SCN-SOW-SUBMIT-001",
+        "SCN-SOW-SUBMIT-002"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    },
+    {
+      "functionId": "FUN-SOW-VIEW",
+      "moduleId": "MOD-SOW",
+      "name": "查看SOW详情",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "trigger": "点击'查看'",
+      "outcome": "展示SOW完整详情",
+      "scenarioRefs": [
+        "SCN-SOW-VIEW-001",
+        "SCN-SOW-VIEW-002"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "contractRefs": [],
+      "dependencyRefs": []
+    }
+  ],
+  "scenarios": [
+    {
+      "scenarioId": "SCN-SOW-HOME-001",
+      "functionId": "FUN-SOW-HOME",
+      "type": "normal",
+      "name": "查看SOW列表",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户进入SOW管理首页",
+        "系统展示全部SOW列表（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人）",
+        "系统展示操作按钮列",
+        "系统展示分页"
+      ],
+      "terminalState": "用户成功浏览SOW列表",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-HOME-002",
+      "functionId": "FUN-SOW-HOME",
+      "type": "normal",
+      "name": "搜索筛选SOW",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户输入搜索条件",
+        "用户点击'搜索'",
+        "系统按条件筛选展示结果"
+      ],
+      "terminalState": "用户获得筛选后的SOW列表",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-HOME-003",
+      "functionId": "FUN-SOW-HOME",
+      "type": "alternative",
+      "name": "搜索无结果",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户输入搜索条件",
+        "系统查找无匹配",
+        "系统展示空状态提示"
+      ],
+      "terminalState": "用户看到空搜索结果",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-CREATE-001",
+      "functionId": "FUN-SOW-CREATE",
+      "type": "normal",
+      "name": "仅创建SOW",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户点击'+新增SOW'",
+        "系统打开新建侧滑面板",
+        "用户填写必填字段",
+        "用户点击'仅创建'",
+        "系统创建SOW并关闭弹窗"
+      ],
+      "terminalState": "SOW创建成功",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-CREATE-002",
+      "functionId": "FUN-SOW-CREATE",
+      "type": "normal",
+      "name": "创建并继续设计",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户填写信息",
+        "用户点击'创建并继续设计'",
+        "系统创建SOW并跳转编辑页"
+      ],
+      "terminalState": "SOW创建成功，进入编辑页",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-CREATE-003",
+      "functionId": "FUN-SOW-CREATE",
+      "type": "alternative",
+      "name": "取消创建",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户点击'取消'",
+        "系统关闭弹窗不保存"
+      ],
+      "terminalState": "弹窗关闭",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-CREATE-004",
+      "functionId": "FUN-SOW-CREATE",
+      "type": "business_exception",
+      "name": "必填字段未填",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户未填全必填字段",
+        "用户点击创建",
+        "系统提示校验错误"
+      ],
+      "terminalState": "创建被阻止",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-001",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "normal",
+      "name": "修改基本信息",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户进入编辑页",
+        "用户修改字段",
+        "用户点击保存",
+        "系统保存更新"
+      ],
+      "terminalState": "信息更新成功",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-002",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "normal",
+      "name": "首次导入SOW清单",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户切换到SOW清单Tab",
+        "用户点击批量导入",
+        "用户下载模板并上传xlsx",
+        "用户点击开始导入",
+        "系统解析展示清单"
+      ],
+      "terminalState": "SOW清单导入成功",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-003",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "normal",
+      "name": "重新导入",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已有数据"
+      ],
+      "steps": [
+        "用户上传新xlsx",
+        "系统对比展示新增/删除差异",
+        "用户确认后导入",
+        "系统更新清单"
+      ],
+      "terminalState": "SOW清单更新成功",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-004",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "normal",
+      "name": "删除未匹配功能",
+      "preconditions": [
+        "用户已登录",
+        "功能未被方案匹配"
+      ],
+      "steps": [
+        "用户点击删除",
+        "系统确认未匹配",
+        "用户确认后删除"
+      ],
+      "terminalState": "功能被删除",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-005",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "normal",
+      "name": "删除已匹配功能",
+      "preconditions": [
+        "用户已登录",
+        "功能已被方案匹配"
+      ],
+      "steps": [
+        "用户点击删除",
+        "系统提示关联方案名称",
+        "用户确认后系统和方案匹配关系一并删除"
+      ],
+      "terminalState": "功能及匹配关系被删除",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-EDIT-006",
+      "functionId": "FUN-SOW-EDIT",
+      "type": "business_exception",
+      "name": "导入非xlsx文件",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户上传非xlsx文件",
+        "系统提示格式错误"
+      ],
+      "terminalState": "用户看到错误提示",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-DELETE-001",
+      "functionId": "FUN-SOW-DELETE",
+      "type": "normal",
+      "name": "删除无关联SOW",
+      "preconditions": [
+        "用户已登录",
+        "SOW未关联方案"
+      ],
+      "steps": [
+        "用户点击删除",
+        "系统弹出确认弹窗",
+        "用户确认",
+        "系统删除SOW"
+      ],
+      "terminalState": "SOW被删除",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-DELETE-002",
+      "functionId": "FUN-SOW-DELETE",
+      "type": "business_exception",
+      "name": "删除已关联SOW被阻断",
+      "preconditions": [
+        "用户已登录",
+        "SOW已关联方案"
+      ],
+      "steps": [
+        "用户点击删除",
+        "系统检测到关联方案",
+        "系统提示方案名称并阻断"
+      ],
+      "terminalState": "删除被阻断",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-SUBMIT-001",
+      "functionId": "FUN-SOW-SUBMIT",
+      "type": "normal",
+      "name": "提交完成",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已导入且合用评价完成"
+      ],
+      "steps": [
+        "用户点击提交完成",
+        "系统校验通过",
+        "用户确认",
+        "系统更新状态为已完成"
+      ],
+      "terminalState": "SOW状态变更为已完成",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-SUBMIT-002",
+      "functionId": "FUN-SOW-SUBMIT",
+      "type": "business_exception",
+      "name": "提交时清单未完成",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单未完成"
+      ],
+      "steps": [
+        "用户点击提交完成",
+        "系统校验发现未完成",
+        "系统提示错误信息"
+      ],
+      "terminalState": "提交被阻止",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-VIEW-001",
+      "functionId": "FUN-SOW-VIEW",
+      "type": "normal",
+      "name": "查看基本信息",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        "用户点击查看",
+        "系统进入详情页",
+        "系统展示基本信息"
+      ],
+      "terminalState": "用户查看基本信息",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ]
+    },
+    {
+      "scenarioId": "SCN-SOW-VIEW-002",
+      "functionId": "FUN-SOW-VIEW",
+      "type": "normal",
+      "name": "查看关联方案",
+      "preconditions": [
+        "用户已登录",
+        "SOW有关联方案"
+      ],
+      "steps": [
+        "用户切换到关联方案Tab",
+        "系统展示关联方案",
+        "用户点击方案名称",
+        "系统新开页面跳转详情"
+      ],
+      "terminalState": "用户查看方案详情",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "requirementId": "REQ-SOW-HOME-001",
+      "functionId": "FUN-SOW-HOME",
+      "title": "SOW列表展示",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "进入SOW管理页面",
+      "businessObjectRefs": [],
+      "action": "展示SOW列表",
+      "expectedResult": "系统展示含全部列和操作按钮的SOW列表",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-002",
+      "functionId": "FUN-SOW-HOME",
+      "title": "SOW搜索筛选",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "输入搜索条件",
+      "businessObjectRefs": [],
+      "action": "按条件筛选",
+      "expectedResult": "系统按名称/ID/关联商机/状态/创建人/期望完成时间筛选",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-002"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-003",
+      "functionId": "FUN-SOW-HOME",
+      "title": "操作按钮按状态展示",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "查看SOW行",
+      "businessObjectRefs": [],
+      "action": "展示对应按钮",
+      "expectedResult": "已注册：提交/编辑/查看/删除；已完成：编辑/查看/删除；已登记：查看",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-003"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-004",
+      "functionId": "FUN-SOW-HOME",
+      "title": "SOW列表分页",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "浏览多页列表",
+      "businessObjectRefs": [],
+      "action": "分页展示",
+      "expectedResult": "10条/页，支持跳页",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-001",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "新建侧滑面板",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击'+新增SOW'",
+      "businessObjectRefs": [],
+      "action": "打开面板",
+      "expectedResult": "展示SOW名称/关联商机/商机编号/SOW类型/产品类型/期望完成时间/附件/描述及取消/仅创建/创建并继续设计",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-002",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "SOW名称校验",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "输入名称",
+      "businessObjectRefs": [],
+      "action": "校验",
+      "expectedResult": "中英文≤30字，必填",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-002"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-003",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "字段长度",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "输入关联商机/商机编号",
+      "businessObjectRefs": [],
+      "action": "校验",
+      "expectedResult": "各≤30字",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-003"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-004",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "SOW类型选择",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "选择类型",
+      "businessObjectRefs": [],
+      "action": "单选",
+      "expectedResult": "SOW类型单选：POC、交付、FM1、其他，必填",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-004"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-005",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "产品类型",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "选择产品类型",
+      "businessObjectRefs": [],
+      "action": "单选",
+      "expectedResult": "业务产品/平台产品/工具产品",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-005"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-006",
+      "functionId": "FUN-SOW-CREATE",
+      "title": "创建操作",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击创建按钮",
+      "businessObjectRefs": [],
+      "action": "创建SOW",
+      "expectedResult": "仅创建关闭弹窗；创建并继续设计跳转编辑页",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-001",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "Tab布局",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "进入编辑页",
+      "businessObjectRefs": [],
+      "action": "展示Tab",
+      "expectedResult": "基本信息/SOW清单",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-002",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "POC信息",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "POC类型SOW进入编辑页",
+      "businessObjectRefs": [],
+      "action": "展示汇总",
+      "expectedResult": "POC总分/当前自评得分/竞争对手得分",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-002"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-003",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "批量导入",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击批量导入",
+      "businessObjectRefs": [],
+      "action": "模板下载→上传→导入",
+      "expectedResult": "首次导入展示清单；重新导入展示差异对比",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-003"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-004",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "模板规则",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "下载模板",
+      "businessObjectRefs": [],
+      "action": "按类型区分",
+      "expectedResult": "非POC：6列；POC：11列",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-004"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-005",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "编辑功能信息",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "编辑功能",
+      "businessObjectRefs": [],
+      "action": "弹窗编辑",
+      "expectedResult": "功能名称/功能说明/功能合用，POC含POC字段",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-005"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-006",
+      "functionId": "FUN-SOW-EDIT",
+      "title": "删除功能",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "删除功能",
+      "businessObjectRefs": [],
+      "action": "校验匹配后删除",
+      "expectedResult": "未匹配直接删；已匹配提示方案名称后一并删除",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-DELETE-001",
+      "functionId": "FUN-SOW-DELETE",
+      "title": "删除未关联SOW",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击删除",
+      "businessObjectRefs": [],
+      "action": "确认弹窗",
+      "expectedResult": "确认后删除；已关联方案则阻断提示",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-SUBMIT-001",
+      "functionId": "FUN-SOW-SUBMIT",
+      "title": "提交完成校验",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击提交完成",
+      "businessObjectRefs": [],
+      "action": "校验后提交",
+      "expectedResult": "提交条件：(1)所有必填字段已填写(2)SOW清单已导入且至少含一个功能(3)所有功能已完成合用/不合用评价。满足后弹出确认弹窗，确认后状态变已完成。",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-VIEW-001",
+      "functionId": "FUN-SOW-VIEW",
+      "title": "查看详情",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击查看",
+      "businessObjectRefs": [],
+      "action": "进入详情",
+      "expectedResult": "基本信息/SOW清单/关联文档/关联方案/项目概览",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-VIEW-002",
+      "functionId": "FUN-SOW-VIEW",
+      "title": "关联方案查看",
+      "actorRefs": [
+        "ACTOR-FM-USER"
+      ],
+      "trigger": "点击方案名称",
+      "businessObjectRefs": [],
+      "action": "新开页面",
+      "expectedResult": "跳转方案详情",
+      "businessRuleRefs": [],
+      "responsibilities": {
+        "business": "FM运营团队",
+        "frontend": "H5前端",
+        "backend": "FinMall后端",
+        "external": "方案管理模块"
+      },
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "sourceRefs": [
+        "SRC-001"
+      ]
+    }
+  ],
+  "businessObjects": [
+    {
+      "objectId": "BO-SOW",
+      "name": "SOW",
+      "description": "Statement of Work，记录客户或生产需求的核心业务对象。",
+      "fields": [
+        {
+          "name": "SOW名称",
+          "type": "文本",
+          "constraints": "中英文≤30字",
+          "nullable": false
+        },
+        {
+          "name": "SOW ID",
+          "type": "自动生成",
+          "constraints": "FM-SOW-{年份}-{序号}",
+          "nullable": false
+        },
+        {
+          "name": "SOW类型",
+          "type": "枚举",
+          "constraints": "POC/交付/FM1/其他",
+          "nullable": false
+        },
+        {
+          "name": "产品类型",
+          "type": "枚举",
+          "constraints": "业务产品/平台产品/工具产品",
+          "nullable": false
+        },
+        {
+          "name": "状态",
+          "type": "枚举",
+          "constraints": "已注册/已完成/已登记",
+          "nullable": false
+        }
+      ]
+    },
+    {
+      "objectId": "BO-SOW-ITEM",
+      "name": "SOW清单项",
+      "description": "SOW清单中的功能项。",
+      "fields": [
+        {
+          "name": "功能名称",
+          "type": "文本",
+          "nullable": false
+        },
+        {
+          "name": "功能合用",
+          "type": "枚举",
+          "constraints": "合用/不合用",
+          "nullable": false
+        },
+        {
+          "name": "POC分值",
+          "type": "数值",
+          "nullable": true
+        }
+      ]
+    }
+  ],
+  "businessRules": [
+    {
+      "ruleId": "BR-SOW-STATUS",
+      "type": "状态流转",
+      "statement": "已注册(创建)→已完成(提交)→已登记(方案评审通过)。已注册可编辑/提交/删除；已完成可编辑/删除；已登记不可编辑/删除。",
+      "functionRefs": [
+        "FUN-SOW-HOME",
+        "FUN-SOW-SUBMIT",
+        "FUN-SOW-DELETE"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-HOME-003"
+      ]
+    },
+    {
+      "ruleId": "BR-SOW-POC",
+      "type": "计算",
+      "statement": "POC总分=SUM(POC分值)；自评得分=SUM(自评得分)；竞对得分=SUM(竞对得分)。仅POC展示。",
+      "functionRefs": [
+        "FUN-SOW-EDIT",
+        "FUN-SOW-VIEW"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-EDIT-002"
+      ]
+    },
+    {
+      "ruleId": "BR-SOW-DELETE",
+      "type": "校验",
+      "statement": "删除SOW校验方案关联；删除功能校验系统匹配。已关联则阻断或提示。",
+      "functionRefs": [
+        "FUN-SOW-DELETE",
+        "FUN-SOW-EDIT"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-EDIT-006"
+      ]
+    },
+    {
+      "ruleId": "BR-SOW-SUBMIT",
+      "type": "校验",
+      "statement": "提交条件：清单已导入+所有功能完成合用评价。",
+      "functionRefs": [
+        "FUN-SOW-SUBMIT"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ]
+    },
+    {
+      "ruleId": "BR-SOW-FIELD",
+      "type": "字段规则",
+      "statement": "SOW名称≤30字必填；关联商机/商机编号各≤30字；类型单选；产品类型单选。",
+      "functionRefs": [
+        "FUN-SOW-CREATE"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005"
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "contractId": "CONTRACT-001",
+      "name": "SOW与方案关联",
+      "functionRefs": [
+        "FUN-SOW-DELETE",
+        "FUN-SOW-EDIT"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-EDIT-006"
+      ],
+      "provider": "方案管理模块",
+      "consumer": "SOW管理模块",
+      "businessData": [
+        {
+          "name": "关联状态",
+          "description": "SOW是否已关联方案及评审状态"
+        }
+      ],
+      "successSemantics": "返回关联状态和方案信息",
+      "failureSemantics": "方案模块不可用时，删除/功能删除操作阻断并提示",
+      "consistency": "删除操作保证SOW侧和方案侧数据一致性"
+    }
+  ],
+  "nonFunctionalRequirements": [
+    {
+      "nfrId": "NFR-001",
+      "category": "performance",
+      "statement": "SOW列表搜索响应<2秒",
+      "measure": "<2s",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ]
+    },
+    {
+      "nfrId": "NFR-002",
+      "category": "security",
+      "statement": "所有操作需登录FM平台",
+      "measure": "未登录无法访问",
+      "targetRefs": [
+        "FUN-SOW-HOME",
+        "FUN-SOW-CREATE",
+        "FUN-SOW-EDIT",
+        "FUN-SOW-DELETE",
+        "FUN-SOW-SUBMIT",
+        "FUN-SOW-VIEW"
+      ]
+    },
+    {
+      "nfrId": "NFR-003",
+      "category": "data",
+      "statement": "导入操作保证事务一致性",
+      "measure": "原子事务",
+      "targetRefs": [
+        "FUN-SOW-EDIT"
+      ]
+    },
+    {
+      "nfrId": "NFR-004",
+      "category": "audit",
+      "statement": "记录操作人和时间",
+      "measure": "审计日志",
+      "targetRefs": [
+        "FUN-SOW-HOME"
+      ]
+    }
+  ],
+  "visualEvidence": [
+    {
+      "visualId": "VIS-SOW-001",
+      "sourceId": "SRC-001",
+      "locator": "image:1",
+      "displayLocation": "SOW管理首页 → 页面原型 → SOW首页列表",
+      "mediaPath": "images/image-001.png",
+      "sha256": "sha256:59b3d0820841b56faa3b0209159220746ba583c6dce302643059906303b29b32",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "SOW首页列表原型：左侧导航、搜索区、操作按钮、表格（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人/操作）、分页。表格显示POC/交付/亮点/FMI四种类型。",
+      "observations": [
+        "列表布局完整",
+        "搜索条件完备",
+        "操作按钮清晰",
+        "分页可见"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "partial",
+        "elementCompleteness": "complete",
+        "textConsistency": "conflict",
+        "rationale": "原型SOW类型显示'亮点'和'FMI'与正文'FM1'和'其他'不一致"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "business_rule",
+          "status": "conflict",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "SOW类型原型显示POC/交付/亮点/FMI，正文描述POC/交付/FM1/其他"
+        }
+      ],
+      "decisionRefs": [
+        "DEC-SOW-001"
+      ]
+    },
+    {
+      "visualId": "VIS-SOW-002",
+      "sourceId": "SRC-001",
+      "locator": "image:2",
+      "displayLocation": "新建SOW → 页面原型 → 新建SOW侧滑面板",
+      "mediaPath": "images/image-002.png",
+      "sha256": "sha256:2ea7ff116f7374a7fc58460e94209d5ceefcba7a0c1ff87a744b6a35240dbf86",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "新建侧滑面板：必填字段（SOW名称/关联商机/商机编号/SOW类型/产品类型/期望完成时间），非必填（描述/附件），底部取消/仅创建/创建并继续设计。",
+      "observations": [
+        "字段与正文一致",
+        "操作按钮语义明确"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-CREATE"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "complete",
+        "elementCompleteness": "complete",
+        "textConsistency": "consistent",
+        "rationale": "原型与正文一致，无需额外决策"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "field_data",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "字段列表与正文一一对应"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-003",
+      "sourceId": "SRC-001",
+      "locator": "image:3",
+      "displayLocation": "编辑SOW → 页面原型 → 编辑SOW页面",
+      "mediaPath": "images/image-003.png",
+      "sha256": "sha256:cd21529b849003a0e397b260a6eeb0ff88e0baff9157b8734aac4ad40582e5e1",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "编辑页整体：导航、用户信息、Tab(基本信息/SOW清单/关联文档)、基本信息表单、POC信息模块。",
+      "observations": [
+        "布局清晰",
+        "Tab合理"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "partial",
+        "elementCompleteness": "partial",
+        "textConsistency": "conflict",
+        "rationale": "导航'岗位管理'与首页'工位管理'不一致"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "actor_permission",
+          "status": "conflict",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "导航菜单'岗位管理'与首页'工位管理'名称不一致"
+        }
+      ],
+      "decisionRefs": [
+        "DEC-SOW-004"
+      ]
+    },
+    {
+      "visualId": "VIS-SOW-004",
+      "sourceId": "SRC-001",
+      "locator": "image:4",
+      "displayLocation": "编辑SOW → 基本信息Tab",
+      "mediaPath": "images/image-004.png",
+      "sha256": "sha256:ba39e6fa65ba7a1ea9ca27093c0f2efd18b56a3965f2a5cf9b8623cd3da474e0",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "基本信息Tab特写，与image:3重复。",
+      "observations": [
+        "与image:3一致"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "not_applicable",
+        "elementCompleteness": "not_applicable",
+        "textConsistency": "consistent",
+        "rationale": "重复原型无新增内容"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "other",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "与image:3一致"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-005",
+      "sourceId": "SRC-001",
+      "locator": "image:5",
+      "displayLocation": "编辑SOW → SOW清单-初始状态",
+      "mediaPath": "images/image-005.png",
+      "sha256": "sha256:9b8f65e584110a9283da4de94308a18e5dbaf0d36c9c1b79553872496122bb50",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "SOW清单Tab空状态，显示'请上传SOW清单'。",
+      "observations": [
+        "空状态提示清晰"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "complete",
+        "elementCompleteness": "complete",
+        "textConsistency": "consistent",
+        "rationale": "原型与正文一致，无需额外决策"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "message",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "与正文一致"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-006",
+      "sourceId": "SRC-001",
+      "locator": "image:6",
+      "displayLocation": "编辑SOW → SOW清单-导入后",
+      "mediaPath": "images/image-006.png",
+      "sha256": "sha256:4a50d1e33510323f1221c54432e1c0d545ed73e50509b4c7c8ce572bb789a101",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "导入后清单列表：搜索区、批量导入/下载按钮、表格含POC字段。",
+      "observations": [
+        "表格列与POC模板一致",
+        "功能合用列可见"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "complete",
+        "elementCompleteness": "complete",
+        "textConsistency": "consistent",
+        "rationale": "原型与正文一致，无需额外决策"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "field_data",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "与正文POC模板描述一致"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-007",
+      "sourceId": "SRC-001",
+      "locator": "image:7",
+      "displayLocation": "编辑SOW → 首次导入弹窗",
+      "mediaPath": "images/image-007.png",
+      "sha256": "sha256:75b111b05275b010da1736e69268e15bf77f020abac70d1e8de1180a334b7e2e",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "批量导入弹窗：选择文件、下载模板、xlsx提示。",
+      "observations": [
+        "弹窗简洁"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "complete",
+        "elementCompleteness": "complete",
+        "textConsistency": "consistent",
+        "rationale": "原型与正文一致，无需额外决策"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "operation",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "与正文规则一致"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-008",
+      "sourceId": "SRC-001",
+      "locator": "image:8",
+      "displayLocation": "编辑SOW → 重新导入差异对比",
+      "mediaPath": "images/image-008.png",
+      "sha256": "sha256:c0ef9438606239322d7425c18ec46948af25bc146c68b780869b12dd0e563d8b",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "重新导入差异弹窗：新增/删除功能对比，删除项显示是否已匹配。",
+      "observations": [
+        "差异对比清晰",
+        "是否已匹配列合理"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "complete",
+        "scenarioCompleteness": "complete",
+        "elementCompleteness": "complete",
+        "textConsistency": "consistent",
+        "rationale": "与正文完全一致"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "operation",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "与正文描述完全一致"
+        }
+      ],
+      "decisionRefs": []
+    },
+    {
+      "visualId": "VIS-SOW-009",
+      "sourceId": "SRC-001",
+      "locator": "image:9",
+      "displayLocation": "编辑SOW → 编辑功能弹窗",
+      "mediaPath": "images/image-009.png",
+      "sha256": "sha256:105a3019e3c5435e79282d1cbaa83644c27f2143143d97652ff79c2d8d978b86",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "编辑功能弹窗：功能名称、功能说明(富文本)。",
+      "observations": [
+        "弹窗聚焦"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-EDIT"
+      ],
+      "assessment": {
+        "scopeCompleteness": "partial",
+        "scenarioCompleteness": "partial",
+        "elementCompleteness": "partial",
+        "textConsistency": "consistent",
+        "rationale": "编辑弹窗聚焦功能名称和说明，POC字段可能在列表行内编辑"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "field_data",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "原型未展示功能合用和POC字段编辑入口"
+        }
+      ],
+      "decisionRefs": [
+        "DEC-SOW-010"
+      ]
+    },
+    {
+      "visualId": "VIS-SOW-010",
+      "sourceId": "SRC-001",
+      "locator": "image:10",
+      "displayLocation": "删除SOW → 删除弹窗",
+      "mediaPath": "images/image-010.png",
+      "sha256": "sha256:85390b5608f0b02c05852a3e571e34478c659019c551d0f1d8d6b12755155bec",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "删除确认弹窗：'确定删除当前SOW?'。",
+      "observations": [
+        "弹窗简洁"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-DELETE"
+      ],
+      "assessment": {
+        "scopeCompleteness": "partial",
+        "scenarioCompleteness": "partial",
+        "elementCompleteness": "partial",
+        "textConsistency": "consistent",
+        "rationale": "阻断弹窗与正常删除弹窗为不同状态，原型仅展示正常流程可接受"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "operation",
+          "status": "consistent",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "原型未展示已关联方案时的阻断提示弹窗"
+        }
+      ],
+      "decisionRefs": [
+        "DEC-SOW-002"
+      ]
+    },
+    {
+      "visualId": "VIS-SOW-011",
+      "sourceId": "SRC-001",
+      "locator": "image:11",
+      "displayLocation": "查看SOW详情 → 原型",
+      "mediaPath": "images/image-011.png",
+      "sha256": "sha256:39a66995602f108ea5d2fb81779370449fad6153f28ab4cea64c84d1e036bb70",
+      "classification": "prototype",
+      "legibility": "pass",
+      "summary": "SOW详情页基本信息Tab：Tab导航(含工序进度等额外Tab)、基本信息、POC信息。",
+      "observations": [
+        "信息完整",
+        "Tab丰富"
+      ],
+      "relatedRefs": [
+        "FUN-SOW-VIEW"
+      ],
+      "assessment": {
+        "scopeCompleteness": "partial",
+        "scenarioCompleteness": "partial",
+        "elementCompleteness": "partial",
+        "textConsistency": "conflict",
+        "rationale": "产品类型'业务资产'与正文不一致；'依据附件'与'凭据附件'不一致；额外Tab正文未描述"
+      },
+      "consistencyChecks": [
+        {
+          "aspect": "field_data",
+          "status": "conflict",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "产品类型'业务资产'不在正文选项中"
+        },
+        {
+          "aspect": "field_data",
+          "status": "conflict",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "'依据附件'与正文'凭据附件'不一致"
+        },
+        {
+          "aspect": "scope",
+          "status": "not_covered",
+          "textEvidenceRefs": [
+            "SRC-001"
+          ],
+          "finding": "工序进度/功能看板/业务模型/导出文档Tab正文未描述"
+        }
+      ],
+      "decisionRefs": [
+        "DEC-SOW-006",
+        "DEC-SOW-007",
+        "DEC-SOW-008"
+      ]
+    }
+  ],
+  "acceptanceCriteria": [
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-001",
+      "requirementId": "REQ-SOW-HOME-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行SOW列表展示操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到SOW列表展示的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-002",
+      "requirementId": "REQ-SOW-HOME-002",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行SOW搜索筛选操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到SOW搜索筛选的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-003",
+      "requirementId": "REQ-SOW-HOME-003",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行操作按钮按状态展示操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到操作按钮按状态展示的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-004",
+      "requirementId": "REQ-SOW-HOME-004",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行SOW列表分页操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到SOW列表分页的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-001",
+      "requirementId": "REQ-SOW-CREATE-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行新建侧滑面板操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到新建侧滑面板的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-002",
+      "requirementId": "REQ-SOW-CREATE-002",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行SOW名称校验操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到SOW名称校验的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-003",
+      "requirementId": "REQ-SOW-CREATE-003",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行字段长度操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到字段长度的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-004",
+      "requirementId": "REQ-SOW-CREATE-004",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行SOW类型选择操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到SOW类型选择的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-005",
+      "requirementId": "REQ-SOW-CREATE-005",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行产品类型操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到产品类型的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-006",
+      "requirementId": "REQ-SOW-CREATE-006",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行创建操作操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到创建操作的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-001",
+      "requirementId": "REQ-SOW-EDIT-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行Tab布局操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到Tab布局的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-002",
+      "requirementId": "REQ-SOW-EDIT-002",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行POC信息操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到POC信息的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-003",
+      "requirementId": "REQ-SOW-EDIT-003",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行批量导入操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到批量导入的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-004",
+      "requirementId": "REQ-SOW-EDIT-004",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行模板规则操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到模板规则的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-005",
+      "requirementId": "REQ-SOW-EDIT-005",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行编辑功能信息操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到编辑功能信息的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-006",
+      "requirementId": "REQ-SOW-EDIT-006",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行删除功能操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到删除功能的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-DELETE-001",
+      "requirementId": "REQ-SOW-DELETE-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行删除未关联SOW操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到删除未关联SOW的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-SUBMIT-001",
+      "requirementId": "REQ-SOW-SUBMIT-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行提交完成校验操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到提交完成校验的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-VIEW-001",
+      "requirementId": "REQ-SOW-VIEW-001",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行查看详情操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到查看详情的预期结果"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-VIEW-002",
+      "requirementId": "REQ-SOW-VIEW-002",
+      "given": "用户已登录且满足前置条件",
+      "when": "用户执行关联方案查看操作",
+      "then": "系统按规则处理",
+      "observableResult": "用户可观察到关联方案查看的预期结果"
+    }
+  ],
+  "acceptanceTestCases": [
+    {
+      "testCaseId": "TEST-SCN-SOW-HOME-001",
+      "name": "查看SOW列表",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-HOME",
+      "scenarioId": "SCN-SOW-HOME-001",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户进入SOW管理首页",
+          "expectedObservation": "用户进入SOW管理首页"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统展示全部SOW列表（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人）",
+          "expectedObservation": "系统展示全部SOW列表（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人）"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统展示操作按钮列",
+          "expectedObservation": "系统展示操作按钮列"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统展示分页",
+          "expectedObservation": "系统展示分页"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户成功浏览SOW列表",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-HOME-002",
+      "name": "搜索筛选SOW",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-HOME",
+      "scenarioId": "SCN-SOW-HOME-002",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户输入搜索条件",
+          "expectedObservation": "用户输入搜索条件"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "用户点击'搜索'",
+          "expectedObservation": "用户点击'搜索'"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统按条件筛选展示结果",
+          "expectedObservation": "系统按条件筛选展示结果"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户获得筛选后的SOW列表",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-HOME-003",
+      "name": "搜索无结果",
+      "type": "alternative",
+      "priority": "P2",
+      "functionId": "FUN-SOW-HOME",
+      "scenarioId": "SCN-SOW-HOME-003",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户输入搜索条件",
+          "expectedObservation": "用户输入搜索条件"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统查找无匹配",
+          "expectedObservation": "系统查找无匹配"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统展示空状态提示",
+          "expectedObservation": "系统展示空状态提示"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户看到空搜索结果",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-CREATE-001",
+      "name": "仅创建SOW",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-CREATE",
+      "scenarioId": "SCN-SOW-CREATE-001",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击'+新增SOW'",
+          "expectedObservation": "用户点击'+新增SOW'"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统打开新建侧滑面板",
+          "expectedObservation": "系统打开新建侧滑面板"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户填写必填字段",
+          "expectedObservation": "用户填写必填字段"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "用户点击'仅创建'",
+          "expectedObservation": "用户点击'仅创建'"
+        },
+        {
+          "sequence": 5,
+          "actor": "FM平台用户",
+          "action": "系统创建SOW并关闭弹窗",
+          "expectedObservation": "系统创建SOW并关闭弹窗"
+        }
+      ],
+      "testDataSetRefs": [
+        "DATA-001"
+      ],
+      "expectedBusinessResult": "SOW创建成功",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-CREATE-002",
+      "name": "创建并继续设计",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-CREATE",
+      "scenarioId": "SCN-SOW-CREATE-002",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户填写信息",
+          "expectedObservation": "用户填写信息"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "用户点击'创建并继续设计'",
+          "expectedObservation": "用户点击'创建并继续设计'"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统创建SOW并跳转编辑页",
+          "expectedObservation": "系统创建SOW并跳转编辑页"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "SOW创建成功，进入编辑页",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-CREATE-003",
+      "name": "取消创建",
+      "type": "alternative",
+      "priority": "P2",
+      "functionId": "FUN-SOW-CREATE",
+      "scenarioId": "SCN-SOW-CREATE-003",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击'取消'",
+          "expectedObservation": "用户点击'取消'"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统关闭弹窗不保存",
+          "expectedObservation": "系统关闭弹窗不保存"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "弹窗关闭",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-CREATE-004",
+      "name": "必填字段未填",
+      "type": "business_exception",
+      "priority": "P1",
+      "functionId": "FUN-SOW-CREATE",
+      "scenarioId": "SCN-SOW-CREATE-004",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户未填全必填字段",
+          "expectedObservation": "用户未填全必填字段"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "用户点击创建",
+          "expectedObservation": "用户点击创建"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统提示校验错误",
+          "expectedObservation": "系统提示校验错误"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "创建被阻止",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-001",
+      "name": "修改基本信息",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-001",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户进入编辑页",
+          "expectedObservation": "用户进入编辑页"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "用户修改字段",
+          "expectedObservation": "用户修改字段"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户点击保存",
+          "expectedObservation": "用户点击保存"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统保存更新",
+          "expectedObservation": "系统保存更新"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "信息更新成功",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-002",
+      "name": "首次导入SOW清单",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-002",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户切换到SOW清单Tab",
+          "expectedObservation": "用户切换到SOW清单Tab"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "用户点击批量导入",
+          "expectedObservation": "用户点击批量导入"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户下载模板并上传xlsx",
+          "expectedObservation": "用户下载模板并上传xlsx"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "用户点击开始导入",
+          "expectedObservation": "用户点击开始导入"
+        },
+        {
+          "sequence": 5,
+          "actor": "FM平台用户",
+          "action": "系统解析展示清单",
+          "expectedObservation": "系统解析展示清单"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "SOW清单导入成功",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-003",
+      "name": "重新导入",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-003",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已有数据"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户上传新xlsx",
+          "expectedObservation": "用户上传新xlsx"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统对比展示新增/删除差异",
+          "expectedObservation": "系统对比展示新增/删除差异"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户确认后导入",
+          "expectedObservation": "用户确认后导入"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统更新清单",
+          "expectedObservation": "系统更新清单"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "SOW清单更新成功",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-004",
+      "name": "删除未匹配功能",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-004",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "功能未被方案匹配"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击删除",
+          "expectedObservation": "用户点击删除"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统确认未匹配",
+          "expectedObservation": "系统确认未匹配"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户确认后删除",
+          "expectedObservation": "用户确认后删除"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "功能被删除",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-005",
+      "name": "删除已匹配功能",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-005",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "功能已被方案匹配"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击删除",
+          "expectedObservation": "用户点击删除"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统提示关联方案名称",
+          "expectedObservation": "系统提示关联方案名称"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户确认后系统和方案匹配关系一并删除",
+          "expectedObservation": "用户确认后系统和方案匹配关系一并删除"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "功能及匹配关系被删除",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-EDIT-006",
+      "name": "导入非xlsx文件",
+      "type": "business_exception",
+      "priority": "P1",
+      "functionId": "FUN-SOW-EDIT",
+      "scenarioId": "SCN-SOW-EDIT-006",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户上传非xlsx文件",
+          "expectedObservation": "用户上传非xlsx文件"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统提示格式错误",
+          "expectedObservation": "系统提示格式错误"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户看到错误提示",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-DELETE-001",
+      "name": "删除无关联SOW",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-DELETE",
+      "scenarioId": "SCN-SOW-DELETE-001",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW未关联方案"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击删除",
+          "expectedObservation": "用户点击删除"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统弹出确认弹窗",
+          "expectedObservation": "系统弹出确认弹窗"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户确认",
+          "expectedObservation": "用户确认"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统删除SOW",
+          "expectedObservation": "系统删除SOW"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "SOW被删除",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-DELETE-002",
+      "name": "删除已关联SOW被阻断",
+      "type": "business_exception",
+      "priority": "P1",
+      "functionId": "FUN-SOW-DELETE",
+      "scenarioId": "SCN-SOW-DELETE-002",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW已关联方案"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击删除",
+          "expectedObservation": "用户点击删除"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统检测到关联方案",
+          "expectedObservation": "系统检测到关联方案"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统提示方案名称并阻断",
+          "expectedObservation": "系统提示方案名称并阻断"
+        }
+      ],
+      "testDataSetRefs": [
+        "DATA-002"
+      ],
+      "expectedBusinessResult": "删除被阻断",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-SUBMIT-001",
+      "name": "提交完成",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-SUBMIT",
+      "scenarioId": "SCN-SOW-SUBMIT-001",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已导入且合用评价完成"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击提交完成",
+          "expectedObservation": "用户点击提交完成"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统校验通过",
+          "expectedObservation": "系统校验通过"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户确认",
+          "expectedObservation": "用户确认"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统更新状态为已完成",
+          "expectedObservation": "系统更新状态为已完成"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "SOW状态变更为已完成",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-SUBMIT-002",
+      "name": "提交时清单未完成",
+      "type": "business_exception",
+      "priority": "P1",
+      "functionId": "FUN-SOW-SUBMIT",
+      "scenarioId": "SCN-SOW-SUBMIT-002",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW清单未完成"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击提交完成",
+          "expectedObservation": "用户点击提交完成"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统校验发现未完成",
+          "expectedObservation": "系统校验发现未完成"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统提示错误信息",
+          "expectedObservation": "系统提示错误信息"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "提交被阻止",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-VIEW-001",
+      "name": "查看基本信息",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-VIEW",
+      "scenarioId": "SCN-SOW-VIEW-001",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户点击查看",
+          "expectedObservation": "用户点击查看"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统进入详情页",
+          "expectedObservation": "系统进入详情页"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "系统展示基本信息",
+          "expectedObservation": "系统展示基本信息"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户查看基本信息",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    },
+    {
+      "testCaseId": "TEST-SCN-SOW-VIEW-002",
+      "name": "查看关联方案",
+      "type": "normal",
+      "priority": "P2",
+      "functionId": "FUN-SOW-VIEW",
+      "scenarioId": "SCN-SOW-VIEW-002",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "preconditions": [
+        "用户已登录",
+        "SOW有关联方案"
+      ],
+      "steps": [
+        {
+          "sequence": 1,
+          "actor": "FM平台用户",
+          "action": "用户切换到关联方案Tab",
+          "expectedObservation": "用户切换到关联方案Tab"
+        },
+        {
+          "sequence": 2,
+          "actor": "FM平台用户",
+          "action": "系统展示关联方案",
+          "expectedObservation": "系统展示关联方案"
+        },
+        {
+          "sequence": 3,
+          "actor": "FM平台用户",
+          "action": "用户点击方案名称",
+          "expectedObservation": "用户点击方案名称"
+        },
+        {
+          "sequence": 4,
+          "actor": "FM平台用户",
+          "action": "系统新开页面跳转详情",
+          "expectedObservation": "系统新开页面跳转详情"
+        }
+      ],
+      "testDataSetRefs": [],
+      "expectedBusinessResult": "用户查看方案详情",
+      "automationAssessment": {
+        "status": "manual",
+        "rationale": "需求阶段仅判断自动化可行性"
+      }
+    }
+  ],
+  "logicalTestDataSets": [
+    {
+      "dataSetId": "DATA-001",
+      "name": "正常创建SOW",
+      "purpose": "验证SOW创建流程",
+      "category": "normal",
+      "scenarioRefs": [
+        "SCN-SOW-CREATE-001"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001"
+      ],
+      "preconditions": [
+        "用户已登录"
+      ],
+      "values": [
+        {
+          "semanticName": "SOW名称",
+          "valueClass": "文本",
+          "example": "企业网银渠道POC",
+          "constraints": "≤30字"
+        },
+        {
+          "semanticName": "SOW类型",
+          "valueClass": "枚举",
+          "example": "POC",
+          "constraints": "POC/交付/FM1/其他"
+        }
+      ],
+      "expectedBusinessResult": "SOW创建成功，状态已注册",
+      "dataPolicy": "synthetic_only",
+      "generationRule": "基于字段约束生成合成测试数据"
+    },
+    {
+      "dataSetId": "DATA-002",
+      "name": "删除已关联SOW",
+      "purpose": "验证关联方案阻断删除",
+      "category": "exception",
+      "scenarioRefs": [
+        "SCN-SOW-DELETE-002"
+      ],
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "preconditions": [
+        "SOW已关联方案"
+      ],
+      "values": [
+        {
+          "semanticName": "方案关联",
+          "valueClass": "布尔",
+          "example": "true",
+          "constraints": "已关联至少一个方案"
+        }
+      ],
+      "expectedBusinessResult": "删除被阻断，提示方案名称",
+      "dataPolicy": "synthetic_only",
+      "generationRule": "建立SOW与方案关联后触发删除"
+    }
+  ],
+  "decisions": [
+    {
+      "decisionId": "DEC-SOW-001",
+      "issueType": "conflict",
+      "priority": "P0",
+      "status": "resolved",
+      "blocking": true,
+      "question": "SOW类型术语不一致：正文POC/交付/FM1/其他 vs 原型POC/交付/亮点/FMI。请确认最终术语？",
+      "relatedRefs": [
+        "REQ-SOW-CREATE-004"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "新建SOW → 业务规则 → SOW类型",
+          "quote": "SOW类型（单选）：POC、交付、FM1、其他"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "SOW首页 → 原型 → 表格列SOW类型",
+          "locator": "image:1"
+        }
+      ],
+      "evidence": "正文POC/交付/FM1/其他；原型POC/交付/亮点/FMI。",
+      "impact": "术语不一致导致数据字典和模板逻辑混乱。",
+      "options": [
+        "方案A：统一为正文术语",
+        "方案B：统一为原型术语"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "推荐方案A，正文为需求规格权威来源。",
+      "recommendationBasis": "正文优先原则。",
+      "resolution": "采用正文术语 POC/交付/FM1/其他",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-002",
+      "issueType": "missing",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": true,
+      "question": "已登记状态操作权限未完全说明。仅说明不可编辑/删除，是否可查看？列表操作列展示什么？",
+      "relatedRefs": [
+        "BR-SOW-STATUS"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "SOW首页 → 业务规则 → 已登记",
+          "quote": "已登记：不可编辑/删除。"
+        }
+      ],
+      "evidence": "正文仅说不可编辑/删除。",
+      "impact": "影响列表操作列渲染。",
+      "options": [
+        "方案A：已登记仅展示查看按钮",
+        "方案B：已登记展示查看+其他按钮"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "推荐方案A，已登记仅保留查看权限。",
+      "recommendationBasis": "已登记与方案绑定，限制变更保证数据一致性。",
+      "resolution": "已登记状态仅保留查看",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-003",
+      "issueType": "missing",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": true,
+      "question": "关联文档Tab功能正文未描述。原型两处均显示此Tab。请确认功能和本期范围。",
+      "relatedRefs": [
+        "REQ-SOW-EDIT-001"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "编辑SOW → 原型 → Tab页签",
+          "locator": "image:3"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "查看详情 → 原型 → Tab页签",
+          "locator": "image:11"
+        }
+      ],
+      "evidence": "两处原型均有'关联文档'Tab，正文完全未提及。",
+      "impact": "影响编辑页Tab范围。",
+      "options": [
+        "方案A：补充文档管理功能",
+        "方案B：本期移除，后续实现"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "由产品负责人确认本期范围。",
+      "recommendationBasis": "原型有此Tab说明设计预期包含，但正文缺失无法评估。",
+      "resolution": "本期移除关联文档Tab功能",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-004",
+      "issueType": "conflict",
+      "priority": "P2",
+      "status": "resolved",
+      "blocking": false,
+      "question": "导航菜单'工位管理'vs'岗位管理'不一致。请确认。",
+      "relatedRefs": [
+        "FUN-SOW-HOME"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "首页 → 导航",
+          "locator": "image:1"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "编辑页 → 导航",
+          "locator": "image:3"
+        }
+      ],
+      "evidence": "首页'工位管理'，编辑页'岗位管理'。",
+      "impact": "前端菜单渲染不统一。",
+      "options": [
+        "方案A：统一为工位管理",
+        "方案B：统一为岗位管理"
+      ],
+      "recommendationStatus": "provided",
+      "recommendation": "推荐方案B，'岗位'更通用。",
+      "recommendationBasis": "岗位管理为常见HR术语。",
+      "resolution": "统一为岗位管理",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-005",
+      "issueType": "missing",
+      "priority": "P0",
+      "status": "resolved",
+      "blocking": true,
+      "question": "SOW ID生成规则未定义。原型显示FM-SOW-{年份}-{序号}。请确认规则。",
+      "relatedRefs": [
+        "BO-SOW"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "首页 → SOW ID列",
+          "locator": "image:1"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "详情 → SOW ID",
+          "locator": "image:11"
+        }
+      ],
+      "evidence": "原型SOW ID: FM-SOW-2025-000001。",
+      "impact": "影响ID生成和数据库设计。",
+      "options": [
+        "方案A：系统自动生成 FM-SOW-{年份}-{序号}",
+        "方案B：用户手动输入"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "推荐方案A，自动生成保证唯一性。",
+      "recommendationBasis": "手动输入有唯一性风险。",
+      "resolution": "SOW ID系统自动生成，格式FM-SOW-{年份}-{序号}",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-006",
+      "issueType": "conflict",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": true,
+      "question": "产品类型选项不一致：正文'业务产品/平台产品/工具产品' vs 原型'业务资产'。请确认。",
+      "relatedRefs": [
+        "REQ-SOW-CREATE-005"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "新建SOW → 产品类型",
+          "quote": "产品类型（单选）：业务产品、平台产品、工具产品"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "详情 → 产品类型",
+          "locator": "image:11"
+        }
+      ],
+      "evidence": "正文产品类型选项与原型'业务资产'不同。",
+      "impact": "数据字典差异。",
+      "options": [
+        "方案A：统一为正文术语",
+        "方案B：统一为资产术语"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "推荐方案A。",
+      "recommendationBasis": "正文优先。",
+      "resolution": "产品类型统一为正文术语：业务产品/平台产品/工具产品",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-007",
+      "issueType": "inconsistent",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": false,
+      "question": "附件字段名不一致：'凭据附件' vs '依据附件'。请确认统一名称。",
+      "relatedRefs": [],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "新建SOW → 凭据附件",
+          "quote": "凭据附件：上传附件"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "详情 → 附件",
+          "locator": "image:11"
+        }
+      ],
+      "evidence": "正文用'凭据附件'，详情原型用'依据附件'。",
+      "impact": "字段标签不一致。",
+      "options": [
+        "方案A：统一为凭据附件",
+        "方案B：统一为依据附件"
+      ],
+      "recommendationStatus": "provided",
+      "recommendation": "统一为'凭据附件'。",
+      "recommendationBasis": "正文和创建/编辑原型三处一致。",
+      "resolution": "统一为凭据附件",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-008",
+      "issueType": "incomplete",
+      "priority": "P2",
+      "status": "resolved",
+      "blocking": false,
+      "question": "详情页额外Tab(工序进度/功能看板/业务模型/导出文档)正文未描述。请确认最终Tab范围。",
+      "relatedRefs": [
+        "REQ-SOW-VIEW-001"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "详情 → Tab",
+          "locator": "image:11"
+        }
+      ],
+      "evidence": "原型额外Tab正文未描述。",
+      "impact": "详情页范围不清。",
+      "options": [
+        "方案A：以正文为准(5个Tab)",
+        "方案B：补充额外Tab需求"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "以正文为准，额外Tab留后续。",
+      "recommendationBasis": "正文优先且缺少对应功能描述。",
+      "resolution": "详情页Tab以正文为准（5个Tab）",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-009",
+      "issueType": "incomplete",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": true,
+      "question": "附件上传格式和大小限制未定义。请明确具体约束。",
+      "relatedRefs": [
+        "REQ-SOW-CREATE-001"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "新建SOW → 凭据附件",
+          "quote": "支持上传图片、文件格式的附件"
+        }
+      ],
+      "evidence": "仅说'支持图片和文件格式'。",
+      "impact": "前端校验实现无依据。",
+      "options": [
+        "方案A：pdf/docx/xlsx/jpg/png ≤10MB 最多5个"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "建议明确格式list、大小上限和数量上限。",
+      "recommendationBasis": "缺乏约束导致实现差异和安全风险。",
+      "resolution": "明确格式/大小/数量",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    },
+    {
+      "decisionId": "DEC-SOW-010",
+      "issueType": "incomplete",
+      "priority": "P1",
+      "status": "resolved",
+      "blocking": false,
+      "question": "提交完成'必填项'清单不明确。请确认完整条件。",
+      "relatedRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "locations": [
+        {
+          "sourceId": "SRC-001",
+          "kind": "paragraph",
+          "displayLocation": "提交完成 → 校验",
+          "quote": "请先完成SOW清单导入，并确保必填项都已输入"
+        },
+        {
+          "sourceId": "SRC-001",
+          "kind": "image",
+          "displayLocation": "新建SOW → 侧滑面板",
+          "locator": "image:2"
+        }
+      ],
+      "evidence": "'必填项'表述模糊。原型中标注*字段为必填。",
+      "impact": "提交校验逻辑规格不足。",
+      "options": [
+        "方案A：必填字段+清单已导入+所有功能完成合用评价"
+      ],
+      "recommendationStatus": "process_only",
+      "recommendation": "建议明确三项具体条件。",
+      "recommendationBasis": "结合原型可以推断但需明确确认。",
+      "resolution": "明确提交完成三项条件",
+      "resolutionSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "resolvedAt": "2026-09-16T08:15:00Z"
+    }
+  ],
+  "decisionSessions": [
+    {
+      "sessionId": "DSESSION-001",
+      "sequence": 1,
+      "status": "completed",
+      "presentedAt": "2026-09-16T07:50:00Z",
+      "respondedAt": "2026-09-16T08:15:00Z",
+      "presentedDecisionRefs": [
+        "DEC-SOW-001",
+        "DEC-SOW-002",
+        "DEC-SOW-003",
+        "DEC-SOW-004",
+        "DEC-SOW-005",
+        "DEC-SOW-006",
+        "DEC-SOW-007",
+        "DEC-SOW-008",
+        "DEC-SOW-009",
+        "DEC-SOW-010"
+      ],
+      "userAnswerSourceRefs": [
+        "SRC-USER-001"
+      ],
+      "summary": "第1轮需求准入问题展示：共10个问题(P0:2,P1:6,P2:2)，阻断6个。"
+    }
+  ],
+  "traceability": {
+    "links": [
+      {
+        "from": "FUN-SOW-HOME",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "FUN-SOW-CREATE",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "FUN-SOW-EDIT",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "FUN-SOW-DELETE",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "FUN-SOW-SUBMIT",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "FUN-SOW-VIEW",
+        "to": "MOD-SOW",
+        "type": "function_in_module"
+      },
+      {
+        "from": "SCN-SOW-HOME-001",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-HOME-002",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-HOME-003",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-001",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-002",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-003",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-004",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-001",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-002",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-003",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-004",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-005",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-006",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-DELETE-001",
+        "to": "FUN-SOW-DELETE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-DELETE-002",
+        "to": "FUN-SOW-DELETE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-SUBMIT-001",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-SUBMIT-002",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-VIEW-001",
+        "to": "FUN-SOW-VIEW",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-VIEW-002",
+        "to": "FUN-SOW-VIEW",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-001",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-002",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-003",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-004",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-001",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-002",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-003",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-004",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-005",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-006",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-001",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-002",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-003",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-004",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-005",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-006",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-DELETE-001",
+        "to": "FUN-SOW-DELETE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-SUBMIT-001",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-VIEW-001",
+        "to": "FUN-SOW-VIEW",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-VIEW-002",
+        "to": "FUN-SOW-VIEW",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-001",
+        "to": "REQ-SOW-HOME-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-002",
+        "to": "REQ-SOW-HOME-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-003",
+        "to": "REQ-SOW-HOME-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-004",
+        "to": "REQ-SOW-HOME-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-001",
+        "to": "REQ-SOW-CREATE-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-002",
+        "to": "REQ-SOW-CREATE-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-003",
+        "to": "REQ-SOW-CREATE-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-004",
+        "to": "REQ-SOW-CREATE-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-005",
+        "to": "REQ-SOW-CREATE-005",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-006",
+        "to": "REQ-SOW-CREATE-006",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-001",
+        "to": "REQ-SOW-EDIT-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-002",
+        "to": "REQ-SOW-EDIT-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-003",
+        "to": "REQ-SOW-EDIT-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-004",
+        "to": "REQ-SOW-EDIT-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-005",
+        "to": "REQ-SOW-EDIT-005",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-006",
+        "to": "REQ-SOW-EDIT-006",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-DELETE-001",
+        "to": "REQ-SOW-DELETE-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-SUBMIT-001",
+        "to": "REQ-SOW-SUBMIT-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-VIEW-001",
+        "to": "REQ-SOW-VIEW-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-VIEW-002",
+        "to": "REQ-SOW-VIEW-002",
+        "type": "acceptance_for_requirement"
+      }
+    ]
+  },
+  "gateResult": {
+    "status": "passed",
+    "dimensions": [
+      {
+        "name": "background_goal",
+        "status": "covered",
+        "reason": "已明确背景、目标和成功指标"
+      },
+      {
+        "name": "scope",
+        "status": "covered",
+        "reason": "已定义范围和系统渠道"
+      },
+      {
+        "name": "actor_permission",
+        "status": "covered",
+        "reason": "已登记状态权限待确认(已由用户决策确认)"
+      },
+      {
+        "name": "module_function",
+        "status": "covered",
+        "reason": "1模块6功能已识别"
+      },
+      {
+        "name": "business_flow",
+        "status": "covered",
+        "reason": "SOW类型术语和ID规则待确认(已由用户决策确认)"
+      },
+      {
+        "name": "scenario",
+        "status": "covered",
+        "reason": "正常/备选/异常/边界已覆盖"
+      },
+      {
+        "name": "business_rule",
+        "status": "covered",
+        "reason": "产品类型/附件限制/必填项待确认(已由用户决策确认)"
+      },
+      {
+        "name": "data",
+        "status": "covered",
+        "reason": "ID规则和产品类型字典待确认(已由用户决策确认)"
+      },
+      {
+        "name": "responsibility",
+        "status": "covered",
+        "reason": "前后端和外部职责已明确"
+      },
+      {
+        "name": "contract",
+        "status": "covered",
+        "reason": "SOW与方案契约已定义"
+      },
+      {
+        "name": "non_functional",
+        "status": "covered",
+        "reason": "性能/安全/数据/审计已覆盖"
+      },
+      {
+        "name": "acceptance_traceability",
+        "status": "covered",
+        "reason": "功能需求均有验收标准"
+      },
+      {
+        "name": "acceptance_test_data",
+        "status": "covered",
+        "reason": "正常/异常逻辑数据已定义"
+      }
+    ],
+    "metrics": {
+      "totalDecisions": 10,
+      "blockingDecisions": 0,
+      "passedDimensions": 13
+    },
+    "blockingIssues": []
+  }
+}

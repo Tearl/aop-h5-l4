@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "backend-pointer/1.0",
+  "project_path": "/root/.agentix/agentic-dev/runs/DEV-cb8e7b22-ace5-11f1-8b9e-d35516c89fb6-ee69f7dc-2686-4b37-9242-0c35b11c9fb8/worktree",
+  "framework_type": "",
+  "development_mode": "fm",
+  "fm_pipeline": "active",
+  "pipeline_mode": "backend",
+  "current_run_id": "run-20260916-3d8e72b4",
+  "manifest_path": "fm-workspace/运行产物/.fm-harness-runs/backend/FM-000001/manifest.json",
+  "agents_md_path": "AGENTS.md",
+  "arch_knowledge_base_path": "docs/arch-knowledge-base",
+  "artifacts": {
+    "project_number": "FM-000001",
+    "project_name": "aop_agement"
+  },
+  "last_updated": "2026-09-16T07:45:55.683655+00:00"
+}

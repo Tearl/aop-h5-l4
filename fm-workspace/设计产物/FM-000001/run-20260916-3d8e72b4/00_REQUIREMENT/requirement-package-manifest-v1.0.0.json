@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "requirement-package/2.0",
+  "packageId": "FM-000001-sow-management-v1.0.0",
+  "baselineId": "BASELINE-SOW-MGT-001",
+  "requirementRunId": "run-20260916-3d8e72b4",
+  "requirementKey": "sow-management",
+  "version": "1.0.0",
+  "modelSha256": "sha256:112a7e3e76fbe9d3501be8cd59e9d5e2ef385d94bede3288b6de8a89885cf638",
+  "artifacts": {
+    "requirementModel": {
+      "relativePath": "sow-management-requirement-model-v1.0.0.json",
+      "sha256": "sha256:04e1e7e234b3d903b2cc121eadd09bd9cab275cdec6191bc14e410b8f2810bda"
+    },
+    "requirementDocument": {
+      "relativePath": "sow-management-完整需求-v1.0.0.md",
+      "sha256": "sha256:7ab001ff5eaa64353b2a90a86d1cfc68103508bfce591ca24cb2f159e73662fd"
+    },
+    "decisionRecord": {
+      "relativePath": "sow-management-需求问题与决策记录-v1.0.0.md",
+      "sha256": "sha256:c0be709eaf9a86d3ff36c020871f66d467268515335088f6ebfe062d760e6589"
+    },
+    "acceptancePlan": {
+      "relativePath": "sow-management-业务验收测试方案-v1.0.0.md",
+      "sha256": "sha256:b7fb74651c8640cb08f58767632b9063028136e9dcb253057f274c05e1c260eb"
+    },
+    "acceptanceModel": {
+      "relativePath": "sow-management-acceptance-model-v1.0.0.json",
+      "sha256": "sha256:1b4fca62fa37f5842473c82f8e8aae3808364cffa33eb30f3ee19985f69ad74d"
+    }
+  }
+}

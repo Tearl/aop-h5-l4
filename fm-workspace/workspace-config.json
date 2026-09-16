@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "fm-workspace/1.0",
+  "workspace_parent": ".",
+  "description": "FM 工作目录统一配置 - v10 工程目录分离方案（backend）",
+  "created_at": "2026-09-16T07:45:55.551936+00:00",
+  "updated_at": "2026-09-16T07:45:55.551959+00:00",
+  "paths": {
+    "design_products": "fm-workspace/设计产物",
+    "code_products": "fm-workspace/代码产物",
+    "run_products": "fm-workspace/运行产物/.fm-harness-runs",
+    "product_index": "fm-workspace/产物索引"
+  },
+  "backend": {
+    "projects": {
+      "FM-000001": {
+        "project_code_root": ".",
+        "code_roots": [],
+        "agents_md_path": "AGENTS.md",
+        "arch_knowledge_base_path": "docs/arch-knowledge-base",
+        "pointer_state_path": "harness-state.json",
+        "design_products_root": "fm-workspace/设计产物/FM-000001",
+        "runs_root": "fm-workspace/运行产物/.fm-harness-runs/backend/FM-000001",
+        "manifest_path": "fm-workspace/运行产物/.fm-harness-runs/backend/FM-000001/manifest.json",
+        "project_name": "aop_agement"
+      }
+    }
+  }
+}

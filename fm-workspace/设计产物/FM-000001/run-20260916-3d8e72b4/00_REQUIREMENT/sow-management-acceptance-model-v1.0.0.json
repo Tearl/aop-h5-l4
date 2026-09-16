@@ -1,0 +1,1532 @@
+{
+  "acceptanceCriteria": [
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到SOW列表展示的预期结果",
+      "requirementId": "REQ-SOW-HOME-001",
+      "then": "系统按规则处理",
+      "when": "用户执行SOW列表展示操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-002",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到SOW搜索筛选的预期结果",
+      "requirementId": "REQ-SOW-HOME-002",
+      "then": "系统按规则处理",
+      "when": "用户执行SOW搜索筛选操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-003",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到操作按钮按状态展示的预期结果",
+      "requirementId": "REQ-SOW-HOME-003",
+      "then": "系统按规则处理",
+      "when": "用户执行操作按钮按状态展示操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-HOME-004",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到SOW列表分页的预期结果",
+      "requirementId": "REQ-SOW-HOME-004",
+      "then": "系统按规则处理",
+      "when": "用户执行SOW列表分页操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到新建侧滑面板的预期结果",
+      "requirementId": "REQ-SOW-CREATE-001",
+      "then": "系统按规则处理",
+      "when": "用户执行新建侧滑面板操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-002",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到SOW名称校验的预期结果",
+      "requirementId": "REQ-SOW-CREATE-002",
+      "then": "系统按规则处理",
+      "when": "用户执行SOW名称校验操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-003",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到字段长度的预期结果",
+      "requirementId": "REQ-SOW-CREATE-003",
+      "then": "系统按规则处理",
+      "when": "用户执行字段长度操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-004",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到SOW类型选择的预期结果",
+      "requirementId": "REQ-SOW-CREATE-004",
+      "then": "系统按规则处理",
+      "when": "用户执行SOW类型选择操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-005",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到产品类型的预期结果",
+      "requirementId": "REQ-SOW-CREATE-005",
+      "then": "系统按规则处理",
+      "when": "用户执行产品类型操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-CREATE-006",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到创建操作的预期结果",
+      "requirementId": "REQ-SOW-CREATE-006",
+      "then": "系统按规则处理",
+      "when": "用户执行创建操作操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到Tab布局的预期结果",
+      "requirementId": "REQ-SOW-EDIT-001",
+      "then": "系统按规则处理",
+      "when": "用户执行Tab布局操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-002",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到POC信息的预期结果",
+      "requirementId": "REQ-SOW-EDIT-002",
+      "then": "系统按规则处理",
+      "when": "用户执行POC信息操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-003",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到批量导入的预期结果",
+      "requirementId": "REQ-SOW-EDIT-003",
+      "then": "系统按规则处理",
+      "when": "用户执行批量导入操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-004",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到模板规则的预期结果",
+      "requirementId": "REQ-SOW-EDIT-004",
+      "then": "系统按规则处理",
+      "when": "用户执行模板规则操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-005",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到编辑功能信息的预期结果",
+      "requirementId": "REQ-SOW-EDIT-005",
+      "then": "系统按规则处理",
+      "when": "用户执行编辑功能信息操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-EDIT-006",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到删除功能的预期结果",
+      "requirementId": "REQ-SOW-EDIT-006",
+      "then": "系统按规则处理",
+      "when": "用户执行删除功能操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-DELETE-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到删除未关联SOW的预期结果",
+      "requirementId": "REQ-SOW-DELETE-001",
+      "then": "系统按规则处理",
+      "when": "用户执行删除未关联SOW操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-SUBMIT-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到提交完成校验的预期结果",
+      "requirementId": "REQ-SOW-SUBMIT-001",
+      "then": "系统按规则处理",
+      "when": "用户执行提交完成校验操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-VIEW-001",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到查看详情的预期结果",
+      "requirementId": "REQ-SOW-VIEW-001",
+      "then": "系统按规则处理",
+      "when": "用户执行查看详情操作"
+    },
+    {
+      "acceptanceId": "AC-REQ-SOW-VIEW-002",
+      "given": "用户已登录且满足前置条件",
+      "observableResult": "用户可观察到关联方案查看的预期结果",
+      "requirementId": "REQ-SOW-VIEW-002",
+      "then": "系统按规则处理",
+      "when": "用户执行关联方案查看操作"
+    }
+  ],
+  "baseline": {
+    "baselineId": "BASELINE-SOW-MGT-001",
+    "requirementKey": "sow-management",
+    "requirementModelSha256": "sha256:9551ba6959086b35d7bee39ae46d42d81c3e8071bc824984fe8f99ca018ab6c0",
+    "requirementRunId": "run-20260916-3d8e72b4",
+    "requirementVersion": "1.0.0"
+  },
+  "logicalTestDataSets": [
+    {
+      "category": "normal",
+      "dataPolicy": "synthetic_only",
+      "dataSetId": "DATA-001",
+      "expectedBusinessResult": "SOW创建成功，状态已注册",
+      "generationRule": "基于字段约束生成合成测试数据",
+      "name": "正常创建SOW",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "purpose": "验证SOW创建流程",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001"
+      ],
+      "scenarioRefs": [
+        "SCN-SOW-CREATE-001"
+      ],
+      "values": [
+        {
+          "constraints": "≤30字",
+          "example": "企业网银渠道POC",
+          "semanticName": "SOW名称",
+          "valueClass": "文本"
+        },
+        {
+          "constraints": "POC/交付/FM1/其他",
+          "example": "POC",
+          "semanticName": "SOW类型",
+          "valueClass": "枚举"
+        }
+      ]
+    },
+    {
+      "category": "exception",
+      "dataPolicy": "synthetic_only",
+      "dataSetId": "DATA-002",
+      "expectedBusinessResult": "删除被阻断，提示方案名称",
+      "generationRule": "建立SOW与方案关联后触发删除",
+      "name": "删除已关联SOW",
+      "preconditions": [
+        "SOW已关联方案"
+      ],
+      "purpose": "验证关联方案阻断删除",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "scenarioRefs": [
+        "SCN-SOW-DELETE-002"
+      ],
+      "values": [
+        {
+          "constraints": "已关联至少一个方案",
+          "example": "true",
+          "semanticName": "方案关联",
+          "valueClass": "布尔"
+        }
+      ]
+    }
+  ],
+  "schemaVersion": "fm-acceptance-model/1.0",
+  "testCases": [
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户成功浏览SOW列表",
+      "functionId": "FUN-SOW-HOME",
+      "name": "查看SOW列表",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "scenarioId": "SCN-SOW-HOME-001",
+      "steps": [
+        {
+          "action": "用户进入SOW管理首页",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户进入SOW管理首页",
+          "sequence": 1
+        },
+        {
+          "action": "系统展示全部SOW列表（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人）",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示全部SOW列表（SOW ID/名称/类型/关联商机/期望完成时间/状态/创建人）",
+          "sequence": 2
+        },
+        {
+          "action": "系统展示操作按钮列",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示操作按钮列",
+          "sequence": 3
+        },
+        {
+          "action": "系统展示分页",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示分页",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-HOME-001",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户获得筛选后的SOW列表",
+      "functionId": "FUN-SOW-HOME",
+      "name": "搜索筛选SOW",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "scenarioId": "SCN-SOW-HOME-002",
+      "steps": [
+        {
+          "action": "用户输入搜索条件",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户输入搜索条件",
+          "sequence": 1
+        },
+        {
+          "action": "用户点击'搜索'",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击'搜索'",
+          "sequence": 2
+        },
+        {
+          "action": "系统按条件筛选展示结果",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统按条件筛选展示结果",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-HOME-002",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-HOME-001",
+        "AC-REQ-SOW-HOME-002",
+        "AC-REQ-SOW-HOME-003",
+        "AC-REQ-SOW-HOME-004"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户看到空搜索结果",
+      "functionId": "FUN-SOW-HOME",
+      "name": "搜索无结果",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "scenarioId": "SCN-SOW-HOME-003",
+      "steps": [
+        {
+          "action": "用户输入搜索条件",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户输入搜索条件",
+          "sequence": 1
+        },
+        {
+          "action": "系统查找无匹配",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统查找无匹配",
+          "sequence": 2
+        },
+        {
+          "action": "系统展示空状态提示",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示空状态提示",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-HOME-003",
+      "testDataSetRefs": [],
+      "type": "alternative"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW创建成功",
+      "functionId": "FUN-SOW-CREATE",
+      "name": "仅创建SOW",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "scenarioId": "SCN-SOW-CREATE-001",
+      "steps": [
+        {
+          "action": "用户点击'+新增SOW'",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击'+新增SOW'",
+          "sequence": 1
+        },
+        {
+          "action": "系统打开新建侧滑面板",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统打开新建侧滑面板",
+          "sequence": 2
+        },
+        {
+          "action": "用户填写必填字段",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户填写必填字段",
+          "sequence": 3
+        },
+        {
+          "action": "用户点击'仅创建'",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击'仅创建'",
+          "sequence": 4
+        },
+        {
+          "action": "系统创建SOW并关闭弹窗",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统创建SOW并关闭弹窗",
+          "sequence": 5
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-CREATE-001",
+      "testDataSetRefs": [
+        "DATA-001"
+      ],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW创建成功，进入编辑页",
+      "functionId": "FUN-SOW-CREATE",
+      "name": "创建并继续设计",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "scenarioId": "SCN-SOW-CREATE-002",
+      "steps": [
+        {
+          "action": "用户填写信息",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户填写信息",
+          "sequence": 1
+        },
+        {
+          "action": "用户点击'创建并继续设计'",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击'创建并继续设计'",
+          "sequence": 2
+        },
+        {
+          "action": "系统创建SOW并跳转编辑页",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统创建SOW并跳转编辑页",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-CREATE-002",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "弹窗关闭",
+      "functionId": "FUN-SOW-CREATE",
+      "name": "取消创建",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "scenarioId": "SCN-SOW-CREATE-003",
+      "steps": [
+        {
+          "action": "用户点击'取消'",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击'取消'",
+          "sequence": 1
+        },
+        {
+          "action": "系统关闭弹窗不保存",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统关闭弹窗不保存",
+          "sequence": 2
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-CREATE-003",
+      "testDataSetRefs": [],
+      "type": "alternative"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-CREATE-001",
+        "AC-REQ-SOW-CREATE-002",
+        "AC-REQ-SOW-CREATE-003",
+        "AC-REQ-SOW-CREATE-004",
+        "AC-REQ-SOW-CREATE-005",
+        "AC-REQ-SOW-CREATE-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "创建被阻止",
+      "functionId": "FUN-SOW-CREATE",
+      "name": "必填字段未填",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P1",
+      "requirementRefs": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "scenarioId": "SCN-SOW-CREATE-004",
+      "steps": [
+        {
+          "action": "用户未填全必填字段",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户未填全必填字段",
+          "sequence": 1
+        },
+        {
+          "action": "用户点击创建",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击创建",
+          "sequence": 2
+        },
+        {
+          "action": "系统提示校验错误",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统提示校验错误",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-CREATE-004",
+      "testDataSetRefs": [],
+      "type": "business_exception"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "信息更新成功",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "修改基本信息",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-001",
+      "steps": [
+        {
+          "action": "用户进入编辑页",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户进入编辑页",
+          "sequence": 1
+        },
+        {
+          "action": "用户修改字段",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户修改字段",
+          "sequence": 2
+        },
+        {
+          "action": "用户点击保存",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击保存",
+          "sequence": 3
+        },
+        {
+          "action": "系统保存更新",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统保存更新",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-001",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW清单导入成功",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "首次导入SOW清单",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-002",
+      "steps": [
+        {
+          "action": "用户切换到SOW清单Tab",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户切换到SOW清单Tab",
+          "sequence": 1
+        },
+        {
+          "action": "用户点击批量导入",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击批量导入",
+          "sequence": 2
+        },
+        {
+          "action": "用户下载模板并上传xlsx",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户下载模板并上传xlsx",
+          "sequence": 3
+        },
+        {
+          "action": "用户点击开始导入",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击开始导入",
+          "sequence": 4
+        },
+        {
+          "action": "系统解析展示清单",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统解析展示清单",
+          "sequence": 5
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-002",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW清单更新成功",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "重新导入",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已有数据"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-003",
+      "steps": [
+        {
+          "action": "用户上传新xlsx",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户上传新xlsx",
+          "sequence": 1
+        },
+        {
+          "action": "系统对比展示新增/删除差异",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统对比展示新增/删除差异",
+          "sequence": 2
+        },
+        {
+          "action": "用户确认后导入",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户确认后导入",
+          "sequence": 3
+        },
+        {
+          "action": "系统更新清单",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统更新清单",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-003",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "功能被删除",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "删除未匹配功能",
+      "preconditions": [
+        "用户已登录",
+        "功能未被方案匹配"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-004",
+      "steps": [
+        {
+          "action": "用户点击删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击删除",
+          "sequence": 1
+        },
+        {
+          "action": "系统确认未匹配",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统确认未匹配",
+          "sequence": 2
+        },
+        {
+          "action": "用户确认后删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户确认后删除",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-004",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "功能及匹配关系被删除",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "删除已匹配功能",
+      "preconditions": [
+        "用户已登录",
+        "功能已被方案匹配"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-005",
+      "steps": [
+        {
+          "action": "用户点击删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击删除",
+          "sequence": 1
+        },
+        {
+          "action": "系统提示关联方案名称",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统提示关联方案名称",
+          "sequence": 2
+        },
+        {
+          "action": "用户确认后系统和方案匹配关系一并删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户确认后系统和方案匹配关系一并删除",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-005",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-EDIT-001",
+        "AC-REQ-SOW-EDIT-002",
+        "AC-REQ-SOW-EDIT-003",
+        "AC-REQ-SOW-EDIT-004",
+        "AC-REQ-SOW-EDIT-005",
+        "AC-REQ-SOW-EDIT-006"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户看到错误提示",
+      "functionId": "FUN-SOW-EDIT",
+      "name": "导入非xlsx文件",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P1",
+      "requirementRefs": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "scenarioId": "SCN-SOW-EDIT-006",
+      "steps": [
+        {
+          "action": "用户上传非xlsx文件",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户上传非xlsx文件",
+          "sequence": 1
+        },
+        {
+          "action": "系统提示格式错误",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统提示格式错误",
+          "sequence": 2
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-EDIT-006",
+      "testDataSetRefs": [],
+      "type": "business_exception"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW被删除",
+      "functionId": "FUN-SOW-DELETE",
+      "name": "删除无关联SOW",
+      "preconditions": [
+        "用户已登录",
+        "SOW未关联方案"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "scenarioId": "SCN-SOW-DELETE-001",
+      "steps": [
+        {
+          "action": "用户点击删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击删除",
+          "sequence": 1
+        },
+        {
+          "action": "系统弹出确认弹窗",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统弹出确认弹窗",
+          "sequence": 2
+        },
+        {
+          "action": "用户确认",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户确认",
+          "sequence": 3
+        },
+        {
+          "action": "系统删除SOW",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统删除SOW",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-DELETE-001",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-DELETE-001"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "删除被阻断",
+      "functionId": "FUN-SOW-DELETE",
+      "name": "删除已关联SOW被阻断",
+      "preconditions": [
+        "用户已登录",
+        "SOW已关联方案"
+      ],
+      "priority": "P1",
+      "requirementRefs": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "scenarioId": "SCN-SOW-DELETE-002",
+      "steps": [
+        {
+          "action": "用户点击删除",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击删除",
+          "sequence": 1
+        },
+        {
+          "action": "系统检测到关联方案",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统检测到关联方案",
+          "sequence": 2
+        },
+        {
+          "action": "系统提示方案名称并阻断",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统提示方案名称并阻断",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-DELETE-002",
+      "testDataSetRefs": [
+        "DATA-002"
+      ],
+      "type": "business_exception"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "SOW状态变更为已完成",
+      "functionId": "FUN-SOW-SUBMIT",
+      "name": "提交完成",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单已导入且合用评价完成"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "scenarioId": "SCN-SOW-SUBMIT-001",
+      "steps": [
+        {
+          "action": "用户点击提交完成",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击提交完成",
+          "sequence": 1
+        },
+        {
+          "action": "系统校验通过",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统校验通过",
+          "sequence": 2
+        },
+        {
+          "action": "用户确认",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户确认",
+          "sequence": 3
+        },
+        {
+          "action": "系统更新状态为已完成",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统更新状态为已完成",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-SUBMIT-001",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-SUBMIT-001"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "提交被阻止",
+      "functionId": "FUN-SOW-SUBMIT",
+      "name": "提交时清单未完成",
+      "preconditions": [
+        "用户已登录",
+        "SOW清单未完成"
+      ],
+      "priority": "P1",
+      "requirementRefs": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "scenarioId": "SCN-SOW-SUBMIT-002",
+      "steps": [
+        {
+          "action": "用户点击提交完成",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击提交完成",
+          "sequence": 1
+        },
+        {
+          "action": "系统校验发现未完成",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统校验发现未完成",
+          "sequence": 2
+        },
+        {
+          "action": "系统提示错误信息",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统提示错误信息",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-SUBMIT-002",
+      "testDataSetRefs": [],
+      "type": "business_exception"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户查看基本信息",
+      "functionId": "FUN-SOW-VIEW",
+      "name": "查看基本信息",
+      "preconditions": [
+        "用户已登录"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "scenarioId": "SCN-SOW-VIEW-001",
+      "steps": [
+        {
+          "action": "用户点击查看",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击查看",
+          "sequence": 1
+        },
+        {
+          "action": "系统进入详情页",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统进入详情页",
+          "sequence": 2
+        },
+        {
+          "action": "系统展示基本信息",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示基本信息",
+          "sequence": 3
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-VIEW-001",
+      "testDataSetRefs": [],
+      "type": "normal"
+    },
+    {
+      "acceptanceCriteriaRefs": [
+        "AC-REQ-SOW-VIEW-001",
+        "AC-REQ-SOW-VIEW-002"
+      ],
+      "automationAssessment": {
+        "rationale": "需求阶段仅判断自动化可行性",
+        "status": "manual"
+      },
+      "expectedBusinessResult": "用户查看方案详情",
+      "functionId": "FUN-SOW-VIEW",
+      "name": "查看关联方案",
+      "preconditions": [
+        "用户已登录",
+        "SOW有关联方案"
+      ],
+      "priority": "P2",
+      "requirementRefs": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "scenarioId": "SCN-SOW-VIEW-002",
+      "steps": [
+        {
+          "action": "用户切换到关联方案Tab",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户切换到关联方案Tab",
+          "sequence": 1
+        },
+        {
+          "action": "系统展示关联方案",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统展示关联方案",
+          "sequence": 2
+        },
+        {
+          "action": "用户点击方案名称",
+          "actor": "FM平台用户",
+          "expectedObservation": "用户点击方案名称",
+          "sequence": 3
+        },
+        {
+          "action": "系统新开页面跳转详情",
+          "actor": "FM平台用户",
+          "expectedObservation": "系统新开页面跳转详情",
+          "sequence": 4
+        }
+      ],
+      "testCaseId": "TEST-SCN-SOW-VIEW-002",
+      "testDataSetRefs": [],
+      "type": "normal"
+    }
+  ],
+  "traceability": {
+    "links": [
+      {
+        "from": "SCN-SOW-HOME-001",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-HOME-002",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-HOME-003",
+        "to": "FUN-SOW-HOME",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-001",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-002",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-003",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-CREATE-004",
+        "to": "FUN-SOW-CREATE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-001",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-002",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-003",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-004",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-005",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-EDIT-006",
+        "to": "FUN-SOW-EDIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-DELETE-001",
+        "to": "FUN-SOW-DELETE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-DELETE-002",
+        "to": "FUN-SOW-DELETE",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-SUBMIT-001",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-SUBMIT-002",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-VIEW-001",
+        "to": "FUN-SOW-VIEW",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "SCN-SOW-VIEW-002",
+        "to": "FUN-SOW-VIEW",
+        "type": "scenario_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-001",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-002",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-003",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-HOME-004",
+        "to": "FUN-SOW-HOME",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-001",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-002",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-003",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-004",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-005",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-CREATE-006",
+        "to": "FUN-SOW-CREATE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-001",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-002",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-003",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-004",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-005",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-EDIT-006",
+        "to": "FUN-SOW-EDIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-DELETE-001",
+        "to": "FUN-SOW-DELETE",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-SUBMIT-001",
+        "to": "FUN-SOW-SUBMIT",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-VIEW-001",
+        "to": "FUN-SOW-VIEW",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "REQ-SOW-VIEW-002",
+        "to": "FUN-SOW-VIEW",
+        "type": "requirement_in_function"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-001",
+        "to": "REQ-SOW-HOME-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-002",
+        "to": "REQ-SOW-HOME-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-003",
+        "to": "REQ-SOW-HOME-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-HOME-004",
+        "to": "REQ-SOW-HOME-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-001",
+        "to": "REQ-SOW-CREATE-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-002",
+        "to": "REQ-SOW-CREATE-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-003",
+        "to": "REQ-SOW-CREATE-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-004",
+        "to": "REQ-SOW-CREATE-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-005",
+        "to": "REQ-SOW-CREATE-005",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-CREATE-006",
+        "to": "REQ-SOW-CREATE-006",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-001",
+        "to": "REQ-SOW-EDIT-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-002",
+        "to": "REQ-SOW-EDIT-002",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-003",
+        "to": "REQ-SOW-EDIT-003",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-004",
+        "to": "REQ-SOW-EDIT-004",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-005",
+        "to": "REQ-SOW-EDIT-005",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-EDIT-006",
+        "to": "REQ-SOW-EDIT-006",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-DELETE-001",
+        "to": "REQ-SOW-DELETE-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-SUBMIT-001",
+        "to": "REQ-SOW-SUBMIT-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-VIEW-001",
+        "to": "REQ-SOW-VIEW-001",
+        "type": "acceptance_for_requirement"
+      },
+      {
+        "from": "AC-REQ-SOW-VIEW-002",
+        "to": "REQ-SOW-VIEW-002",
+        "type": "acceptance_for_requirement"
+      }
+    ]
+  }
+}
