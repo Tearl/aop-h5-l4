@@ -1,0 +1,19 @@
+{
+    "name": "aop_tradedesign",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vue-json-viewer": "^2.2.19",
+        "@toast-ui/vue-editor": "^3.1.2",
+        "echarts": "^5.4.3",
+        "pinyin": "^2.10.2",
+        "sortablejs": "^1.14.0",
+        "vue-quill-editor": "^3.0.6"
+    }
+}

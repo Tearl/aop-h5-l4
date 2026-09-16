@@ -1,0 +1,97 @@
+.s4-review-block {
+    width: 100%;
+    height: calc(100vh - 40px);
+    overflow: auto;
+    position: relative;
+    background-color: #fff;
+    .el-divider--horizontal {
+        margin: 0 !important;
+    }
+    .review-content-block {
+        width: 100%;
+        // height: calc(100% - 40px);
+        height: 100%;
+        @include flex(row, space-between, center);
+        // padding: 10px 0;
+        .el-divider--vertical {
+            margin: 0 !important;
+        }
+        .el-container {
+            width: 100%;
+            height: 100%;
+            .el-header {
+                @include flex(row, flex-start, center);
+                span {
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                border-bottom: 1px solid #dcdfe6;
+                .c3-title {
+                    margin-right: 12px;
+                }
+                .left-header {
+                    @include flex(row, flex-start, center);
+                    i {
+                        cursor: pointer;
+                        font-size: 20px;
+                        margin-right: 4px;
+                    }
+                }
+                .check-result {
+                    margin-left: 40px;
+                    @include flex(row, flex-start, center);
+                    font-weight: 400;
+                    .success {
+                        color: #67c23a;
+                        margin-right: 10px;
+                    }
+                    .error {
+                        color: #f56c6c;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .el-aside {
+                @include flex(column, flex-start, center);
+                border-right: 1px solid #dcdfe6;
+                .side-tree {
+                    width: 100%;
+                    // height: calc(100% - 30px);
+                    height: 100%;
+                    overflow: auto;
+                    /deep/ .el-tree-node__content {
+                        height: 32px;
+                        user-select: none;
+                        margin-top: 4px;
+                        width: 100%;
+                        overflow: hidden;
+                    }
+                    .custom-tree-node {
+                        @include flex(row, flex-start, center);
+                        width: 100%;
+                        overflow: hidden;
+                        position: relative;
+                        i {
+                            margin-right: 4px;
+                        }
+                        .label-block {
+                            margin-left: 4px;
+                        }
+                    }
+                }
+            }
+            .el-main {
+                background-color: #fff;
+                padding: 0;
+                .content-wrapper {
+                    // padding: 20px;
+                    height: 100%;
+                    overflow-y: scroll;
+                }
+            }
+        }
+        .d2 {
+            border-right: 1px solid #dcdfe6;
+        }
+    }
+}

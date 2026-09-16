@@ -1,0 +1,163 @@
+@import '../../var.scss';
+.x6-relation-custom-shape-node{
+    position: relative;
+    font-family: PingFangSC-Regular;
+    cursor: pointer;
+
+    &:hover{
+        & > .bar{
+            display: flex;
+        }
+    }
+
+    .bar{
+        padding: 0 2px;
+        background-color: #358AFF;
+        width: 40px;
+        height: 20px;
+        position: absolute;
+        right: 2px;
+        top: -20px;
+        display: none;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 2px;
+        i{
+            cursor: pointer;
+            display: block;
+            color: #fff;
+        }
+    }
+
+    .x6-relation-custom-shape-body{
+        // width: 150px;
+        border-radius: $broderRadius;
+        overflow: hidden;
+        text-align: center;
+        box-sizing: border-box;
+
+        .header{
+            height: 46px;
+            line-height: 46px;
+            padding: 0 12px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            position: relative;
+            i{
+                position: absolute;
+                right: 5px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #005dd7;
+                cursor: pointer;
+
+            }
+        }
+
+        &.common-layout{
+            box-sizing: border-box;
+            text-align: left;
+            .main{
+                height: 46px;
+                padding: 0 12px;
+                box-sizing: border-box;
+                background-color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span{
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+                label{
+                    color: #333;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &.level1{
+            border: solid 1px $level1;
+            box-sizing: border-box;
+            background-color: $level1Inner;
+            color: $level1;
+            height: 46px;
+            line-height: 46px;
+            
+        }
+        &.level2{
+            border: solid 1px $level2;
+            box-sizing: border-box;
+            background-color: $level2Inner;
+            color: $level2;
+            height: 46px;
+            line-height: 46px;
+        }
+        &.level3{
+            border: solid 1px $level3;
+            background-color: $level3Inner;
+            color: $level3;
+            box-sizing: border-box;
+            .main{
+                border-top: solid 1px $level3;
+            }
+        }
+        &.level4{
+            border: solid 1px $level4;
+            background-color: $level4Inner;
+            color: $level4;
+            box-sizing: border-box;
+            .main{
+                border-top: solid 1px $level4;
+            }
+        }
+        &.level5{
+            border: solid 1px $level5;
+            background-color: $level5Inner;
+            color: #333;
+            box-sizing: border-box;
+            .main{
+                border-top: solid 1px $level5;
+            }
+        }
+    }
+}
+
+.x6-relation-custom-shape-region{
+    position: relative;
+    font-family: PingFangSC-Regular;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: solid 1px $regionBdColor;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: $broderRadius;
+    overflow: hidden;
+    .header{
+        height: 48px;
+        line-height: 48px;
+        padding: 0 12px;
+        position: relative;
+        background-color: $regionBgColor;
+        display: flex;
+        align-items: center;
+
+        & > p{
+            flex:1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            padding-right: 4px;
+        }
+        i{
+            cursor: pointer;
+        }
+    }
+    .main{
+        flex: 1;
+        border-top: solid 1px $regionBdColor;
+    }
+}

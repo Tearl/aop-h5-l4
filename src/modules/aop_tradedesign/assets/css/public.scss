@@ -1,0 +1,41 @@
+// 自定义弹窗
+/*自定义确认弹窗*/
+.custom_confirm_box .el-message-box__title,
+.custom_confirm_box .el-message-box__content,
+.custom_confirm_box .el-message-box__btns {
+    text-align: center;
+}
+.custom_confirm_box .el-message-box__title {
+    font-size: 16px;
+}
+.custom_confirm_box .el-message-box__header {
+    padding: 30px 15px 0;
+}
+.custom_confirm_box .el-message-box__content {
+    color: #999;
+    padding: 15px;
+}
+.custom_confirm_box .el-button {
+    width: 112px;
+    text-align: center;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.custom_confirm_box .el-button + .el-button {
+    margin-left: 24px;
+}
+.fade-enter,
+.fade-leave-to {
+    transform: translateX(-100%);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: 0.1s;
+}
+
+.fade-enter-to {
+    transform: translateX(0);
+}

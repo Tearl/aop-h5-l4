@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/16/审批处理</title>
+    <g id="4.管控工作台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="12.新增业务对象审批" transform="translate(-100.000000, -870.000000)">
+            <g id="编组-23" transform="translate(72.000000, 808.000000)">
+                <g id="编组-17" transform="translate(24.000000, 60.000000)">
+                    <g id="icon/16/审批处理" transform="translate(4.000000, 2.000000)">
+                        <rect id="矩形" x="0" y="0" width="16" height="16"></rect>
+                        <g id="搜索用户_people-search" transform="translate(4.000000, 3.000000)" stroke="#333333" stroke-linejoin="round" stroke-width="1.19458068">
+                            <path d="M3.82356315,4.27777778 C4.96063201,4.27777778 5.88240484,3.32016667 5.88240484,2.13888889 C5.88240484,0.957614167 4.96063201,0 3.82356315,0 C2.68649429,0 1.76472145,0.957614167 1.76472145,2.13888889 C1.76472145,3.32016667 2.68649429,4.27777778 3.82356315,4.27777778 Z" id="路径"></path>
+                            <path d="M6.17652509,6.72222222 L3.7647391,6.72222222 C2.44696277,6.72222222 1.7880746,6.72222222 1.28474663,6.98863611 C0.842001547,7.22299722 0.482042489,7.59696667 0.256458145,8.05691944 C0,8.57981667 0,9.26432222 0,10.6333333 L0,11 L6.17652509,11" id="路径" stroke-linecap="round"></path>
+                            <polyline id="路径" stroke-linecap="round" points="10.0486725 6.12195657 8.34849907 10.0881786 7.31116327 8.84918526"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

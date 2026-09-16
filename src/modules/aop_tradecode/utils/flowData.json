@@ -1,0 +1,140 @@
+{
+    "interfaceProcessActionInfoList": [
+        {
+            "actionId": "组件ID",
+            "parnetActionId": "父组件ID",
+            "tranId": "交易ID",
+            "actionCd": "组件编码，例：inputAction1",
+            "actionSeqNo": "组件序号，例：R0001",
+            "actionNm": "组件名称",
+            "actionDesc": "组件描述",
+            "actionType": "组件类型",
+            "svcId": "服务ID",
+            "crtTm": "",
+            "creatrNo": "",
+            "creatrNm": "",
+            "updTm": "",
+            "updNo": "",
+            "updNm": "",
+            "actionParamList": [
+                {
+                    "actionId": "",
+                    "actionName": "",
+                    "apBsnobjId": "",
+                    "apBsnobjNm": "",
+                    "apEncryType": "0",
+                    "apEnum": "",
+                    "apSource": "",
+                    "checkPattern": "",
+                    "checkRule": "",
+                    "desensitizationType": "0",
+                    "encodeMappingKey": "",
+                    "isEncode": "0",
+                    "isFilter": "1",
+                    "isNeed": "1",
+                    "paraMapgNm": "",
+                    "paramCName": "请求IP",
+                    "paramCustomFlg": "",
+                    "paramDesc": "",
+                    "paramDirection": "0",
+                    "paramEncode": "0",
+                    "paramId": "10512442485423348149",
+                    "paramIndex": "1",
+                    "paramIsCheck": "0",
+                    "paramKey": "requestIP",
+                    "paramLength": "",
+                    "paramMappingKey": "",
+                    "paramName": "请求IP",
+                    "paramOrder": "1.1",
+                    "paramParentId": "1",
+                    "paramPosition": "1",
+                    "paramType": "String",
+                    "paramValue": "",
+                    "paramValueType": "String",
+                    "serviceId": "10512392788620302117",
+                    "signatureType": "",
+                    "standFlg": "10",
+                    "standType": "10"
+                }
+            ],
+            "interfaceProcessActionStyleList": [
+                {
+                    "id": "",
+                    "actionId": "组件ID",
+                    "styleType": "样式类型:00-分支视图;01-简化视图",
+                    "actionWidth": "组件宽度",
+                    "actionHeight": "组件高度",
+                    "actionXCoordinate": "组件横坐标",
+                    "actionYCoordinate": "组件纵坐标",
+                    "crtTm": "",
+                    "creatrNo": "",
+                    "creatrNm": "",
+                    "updTm": "",
+                    "updNo": "",
+                    "updNm": ""
+                }
+            ],
+            "interfaceProcessActionConfList": [
+                {
+                    "id": "",
+                    "actionId": "组件ID",
+                    "confKey": "配置键",
+                    "confValue": "配置值",
+                    "confDesc": "配置描述",
+                    "crtTm": "",
+                    "creatrNo": "",
+                    "creatrNm": "",
+                    "updTm": "",
+                    "updNo": "",
+                    "updNm": ""
+                }
+            ],
+            "interfaceProcessActionLayoutRelList": [
+                {
+                    "relId": "关系ID",
+                    "tranId": "交易ID",
+                    "relDescType": "关系说明类型:0-系统默认;1-自定义",
+                    "relDesc": "关系说明",
+                    "startActionId": "起点组件ID",
+                    "startActionSeqNo": "起点组件序号，例：R0001",
+                    "startActionNm": "起点组件名称",
+                    "endActionType": "终点组件类型:00-一般组件;01-异常组件",
+                    "endActionId": "终点组件ID",
+                    "endActionSeqNo": "终点组件序号，例：R0001",
+                    "endActionNm": "终点组件名称",
+                    "priorityLevel": "优先级",
+                    "executeConditionJson": "执行条件json",
+                    "crtTm": "",
+                    "creatrNo": "",
+                    "creatrNm": "",
+                    "updTm": "",
+                    "updNo": "",
+                    "updNm": "",
+                    "exceptionActionInfo": {
+                        "actionId": "组件ID",
+                        "actionNm": "组件名称",
+                        "actionDesc": "组件描述",
+                        "excepInfoJson": "异常信息json",
+                        "crtTm": "",
+                        "creatrNo": "",
+                        "creatrNm": "",
+                        "updTm": "",
+                        "updNo": "",
+                        "updNm": ""
+                    },
+                    "interfaceProcessActionLayoutRelStyleInfo": [
+                        {
+                            "styleId": "",
+                            "styleType": "样式类型:00-分支视图;01-简化视图",
+                            "relId": "关系ID",
+                            "coordinateInfoStr": "坐标信息",
+                            "crtTm": "",
+                            "creatrNo": "",
+                            "creatrNm": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

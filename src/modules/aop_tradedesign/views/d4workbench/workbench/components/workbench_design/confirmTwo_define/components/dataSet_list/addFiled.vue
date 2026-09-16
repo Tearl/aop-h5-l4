@@ -1,0 +1,742 @@
+<template>
+  <div class="aop_workgate_comps_systemmgmt_dic_form_select">
+    <PageDialog
+      dialogTitle="基本信息"
+      :dialogVisiable="dialogVisible"
+      dialogWidth="70%"
+      @closeDialog="closeDialog"
+      class="dialog"
+    >
+      <div slot="box">
+        <el-form
+          :model="formData"
+          :rules="rules"
+          class="service_create_form"
+          ref="formData"
+          label-width="120px"
+        >
+          <div class="service_create_form_info">
+            <el-form-item label="所属数据集">
+              <span class="text_style">{{
+                datasetInfo.dataSetNm || formData.dataSetNm
+              }}</span>
+            </el-form-item>
+            <el-form-item label="所属分段">
+              <span class="text_style">{{
+                subInfo.dataSubstnNm || formData.dataSubstnNm
+              }}</span>
+            </el-form-item>
+            <el-form-item label="参数名称" prop="dictryNo">
+              <el-input
+                v-model="formData.dictryNo"
+                clearable
+                placeholder="请输入参数名称"
+                show-word-limit
+                :disabled="true"
+              >
+              </el-input>
+              <el-button class="" type="primary" @click="showSelectDialog"
+                >从字段池中选择</el-button
+              >
+            </el-form-item>
+            <el-form-item label="参数中文名称" prop="dictryNm">
+              <el-input
+                v-model="formData.dictryNm"
+                clearable
+                maxlength="100"
+                placeholder="请输入参数中文名称"
+                :disabled="true"
+              >
+              </el-input>
+            </el-form-item>
+            <el-form-item label="关键字" class="no_before">
+              <el-input
+                v-model="formData.dictryKeywd"
+                clearable
+                maxlength="100"
+                placeholder="请输入关键字"
+                :disabled="true"
+              >
+              </el-input>
+              <el-tag size="small" type="warning">多个关键字用空格隔开</el-tag>
+            </el-form-item>
+            <el-form-item label="英文名字全称" class="no_before">
+              <el-input
+                v-model="formData.dictryEnm"
+                clearable
+                maxlength="100"
+                placeholder="请输入英文名字全称"
+                :disabled="true"
+              >
+              </el-input>
+            </el-form-item>
+            <el-form-item label="参数描述" prop="dictryDescr" class="no_before">
+              <el-input
+                type="textarea"
+                :rows="4"
+                maxlength="150"
+                placeholder="请输入参数描述"
+                v-model="formData.dictryDescr"
+                clearable
+                show-word-limit
+                :disabled="true"
+              >
+              </el-input>
+            </el-form-item>
+            <!-- 
+              <el-form-item label="所属分类" prop="dictryGateg" v-if="!sysId">
+                <el-select
+                  v-model="formData.dictryGateg"
+                  placeholder="请选择所属分类"
+                  clearable
+                  @change="handleDictryGategChange"
+                >
+                  <el-option
+                    v-for="item in dictGategList"
+                    :label="item.clsfNm"
+                    :key="item.clsfId"
+                    :value="item.clsfId"
+                  ></el-option>
+                </el-select>
+              </el-form-item> -->
+
+            <el-form-item label="参数类型" prop="dictryTyp">
+              <el-select
+                v-model="formData.dictryTyp"
+                placeholder="请选择参数类型"
+                clearable
+              >
+                <el-option
+                  v-for="item in selectVal"
+                  :label="item.type"
+                  :key="item.value"
+                  :value="item.value"
+                ></el-option>
+              </el-select>
+            </el-form-item>
+
+            <el-form-item
+              label="最大长度"
+              prop="dictryLength"
+              class="no_before"
+              v-show="
+                formData.dictryTyp != 'List' && formData.dictryTyp != 'Object'
+              "
+            >
+              <el-input
+                v-model="formData.dictryLength"
+                clearable
+                placeholder="请输入最大长度"
+              />
+              <el-tag
+                size="small"
+                type="warning"
+                v-show="
+                  ['double', 'float', 'Double', 'Float', 'BigDecimal'].indexOf(
+                    formData.dictryTyp
+                  ) != -1
+                "
+                >格式：最大长度,精度。如20,2</el-tag
+              >
+            </el-form-item>
+
+            <el-form-item
+              label="子参数列表"
+              class="no_before"
+              v-show="
+                (formData.dictryTyp == 'List' ||
+                  formData.dictryTyp == 'Object') &&
+                type == 'edit'
+              "
+            >
+              <el-button
+                class="add_params_button"
+                icon="el-icon-plus"
+                type="primary"
+                @click="addSonParams"
+                >添加子参数</el-button
+              >
+              <Table
+                class="table_style"
+                :data="iInputList"
+                :table="iInputListTable"
+                rowK="serialNumber"
+                :cellStyle="dictListCellStyle"
+                @operate="operate"
+              ></Table>
+            </el-form-item>
+
+            <el-form-item
+              label="枚举值"
+              class="no_before"
+              v-show="formData.dictryTyp == 'String' && type == 'edit'"
+            >
+              <Enumerate
+                ref="enumRef"
+                :bizType="pageMode"
+                @showDialog="showDialog"
+              ></Enumerate>
+            </el-form-item>
+
+            <el-form-item
+              label="验证规则"
+              class="no_before"
+              v-show="formData.dictryTyp == 'String' && type == 'edit'"
+            >
+              <Rule
+                ref="ruleRef"
+                :bizType="pageMode"
+                @showDialog="showDialog"
+              ></Rule>
+            </el-form-item>
+            <el-form-item
+              label="示例列表"
+              class="no_before"
+              v-show="type == 'edit'"
+            >
+              <DicExampleList :bizType="pageMode"></DicExampleList>
+            </el-form-item>
+            <el-form-item
+              label="L5服务"
+              class="no_before"
+              v-show="type == 'edit'"
+            >
+              <ServList
+                bizType="read"
+                :servList="servList"
+                :infoData="infoData"
+                :type="type"
+              ></ServList>
+            </el-form-item>
+          </div>
+        </el-form>
+      </div>
+      <span slot="footer">
+        <el-button @click="closeDialog">取 消</el-button>
+        <el-button type="primary" @click="confirm">确 定</el-button>
+      </span>
+    </PageDialog>
+    <!-- 从字段池中选择 -->
+    <SelectFromFiledPool ref="selectRef" @confirmData="confirmData"></SelectFromFiledPool>
+  </div>
+</template>
+
+<script>
+import mixin from "@m/core/mixin";
+import Table from "@m/core/components/page_table"; // 公共表格组件
+import PageDialog from "@m/core/components/page_dialog";
+import PagePagination from "@m/core/components/page_pagination";
+import ServiceTop from "@m/core/components/page_search_top"; // 搜索栏
+import SelectFromFiledPool from "../public_dialog/selcFromFiledPool";
+import DictionarySelect from "./components/select";
+import Enumerate from "./components/enumerate";
+import Rule from "./components/rule";
+import ServList from "./components/servList";
+import DicExampleList from "./components/dicExampleList";
+import DictionaryPublic from "./components/public";
+import { unduplicated } from "@m/utils/array";
+import filters from "@m/utils/filters";
+import validate from "@m/utils/validate";
+
+export default {
+  mixins: [mixin],
+  components: {
+    PageDialog,
+    PagePagination,
+    Table,
+    ServiceTop,
+    DictionarySelect,
+    Enumerate,
+    Rule,
+    DictionaryPublic,
+    DicExampleList,
+    ServList,
+    SelectFromFiledPool,
+  },
+  props: {
+    dictGategList: {
+      type: Array,
+      default: () => false,
+    },
+    type: {
+      type: String,
+      default: "read",
+    },
+    // 数据集信息
+    datasetInfo: {
+      type: Object,
+      default: () => ({}),
+    },
+    //分段信息
+    subInfo: {
+      type: Object,
+      default: () =>({}),
+    },
+    //编辑分段信息
+    fieldInfo: {
+      type: Object,
+      default: () =>({}),
+    },
+    backType: {
+      type: String,
+      default: "",
+    },
+  },
+  data() {
+    return {
+      dialogVisible: false,
+      dictryId: "",
+      servList: [],
+      iInputList: [],
+      iInputListTable: [
+        {
+          prop: "dictryNo",
+          label: "参数名称",
+          minWidth: "30%",
+          type: "text",
+          tooltip: true,
+        },
+        {
+          prop: "dictryNm",
+          minWidth: "30%",
+          label: "参数中文名称",
+          type: "text",
+          tooltip: true,
+        },
+        {
+          prop: "dictryDescr",
+          label: "参数描述",
+          minWidth: "30%",
+          type: "text",
+          tooltip: true,
+        },
+        {
+          prop: "dictryGategName",
+          label: "所属分类",
+          minWidth: "20%",
+          type: "text",
+        },
+        {
+          prop: "dictryTyp",
+          filter: "paraTyp",
+          label: "参数类型",
+          minWidth: "15%",
+          align: "center",
+          type: "text",
+        },
+        {
+          prop: "dictryLength",
+          label: "最大长度",
+          minWidth: "15%",
+          align: "center",
+          type: "text",
+        },
+        {
+          prop: "dictryRule",
+          label: "验证规则",
+          minWidth: "30%",
+          type: "text",
+          operate: "read",
+          tooltip: true,
+        },
+        {
+          label: "操作",
+          type: "button",
+          width: "50",
+          buttonList: [
+            {
+              desc: "删除",
+              operate: "delete",
+            },
+          ],
+        },
+      ],
+      selectVal: [
+        { type: "String", value: "String" },
+        { type: "File", value: "File" },
+        { type: "List", value: "List" },
+        { type: "boolean", value: "boolean" },
+        { type: "char", value: "char" },
+        { type: "int", value: "int" },
+        { type: "byte", value: "byte" },
+        { type: "short", value: "short" },
+        { type: "long", value: "long" },
+        { type: "float", value: "float" },
+        { type: "double", value: "double" },
+        { type: "Boolean", value: "Boolean" },
+        { type: "Character", value: "Character" },
+        { type: "Integer", value: "Integer" },
+        { type: "Byte", value: "Byte" },
+        { type: "Short", value: "Short" },
+        { type: "Long", value: "Long" },
+        { type: "Float", value: "Float" },
+        { type: "Double", value: "Double" },
+        { type: "BigDecimal", value: "BigDecimal" },
+        { type: "Object", value: "Object" },
+        { type: "Date", value: "Date" },
+      ],
+      // 表单数据
+      formData: {
+        dictryNo: "", // 参数名称
+        dictryNm: "", // 参数中文名称
+        dictryKeyWord: "", // 关键字
+        dictryEnglishFullName: "", // 英文名字全称
+        dictryDescr: "", // 参数描述
+        dictryTyp: "String", // 参数类型
+        dictryLength: "", // 最大长度
+      },
+      //服务资产基本信息绑定的验证规则
+      rules: {
+        dictryNo: [
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入参数名称",
+          },
+          {
+            required: true,
+            trigger: "blur",
+            validator: this.validator,
+          },
+        ],
+        dictryNm: [
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入参数中文名称",
+          },
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入中文",
+            validator: validate.containChinese,
+          },
+        ],
+        dictryKeyWord: [
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入关键字",
+          },
+        ],
+        dictryEnglishFullName: [
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入英文名字全称",
+          },
+          {
+            required: true,
+            trigger: "blur",
+            message: "请输入英文",
+            validator: validate.isEnglish,
+          },
+        ],
+        dictryTyp: [
+          { required: true, trigger: "blur", message: "请选择参数类型" },
+        ],
+        // dictryGateg: [
+        //   { required: true, trigger: "change", message: "请选择所属分类" },
+        // ],
+        // dictryLength: [
+        //   { required: true, trigger: "change", validator: this.validator },
+        // ],
+      },
+      // 所属分类列表
+      dictGategList: [],
+      // 数据字典选择弹框
+      dictionaryDialogVisible: false,
+      // 公共数据字典选择
+      publicDialogVisible: false,
+
+      // 判断是否从公共数据字典过来
+      type: "",
+    };
+  },
+  methods: {
+    showFiledDialog() {
+      if(this.type == "edit") this.getDetail()
+      this.dialogVisible = true;
+      // console.log("datasetInfo",this.datasetInfo,this.subInfo,this.fieldInfo)
+    },
+    async getDetail() {
+      const params = {
+        dataSetDataId: this.fieldInfo.dataSetDataId,
+      };
+      const res = await this.rpc.dicmgmtDefine.getMyFieldDetail(params);
+      console.log("getDetail",res)
+      this.formData = res;
+      this.servList = res.apiList;
+      // this.$refs.baseRef.formData = res;
+      // this.$refs.baseRef.servList = res.apiList
+    },
+    closeDialog() {
+      this.$refs.formData.resetFields();
+      this.dialogVisible = false;
+    },
+    showSelectDialog() {
+      this.$refs.selectRef.showDialog()
+    },
+    showDialog(type, data) {
+      if (type == "enumerate") {
+        this.$refs.enumRef.dialogTitle = "添加枚举";
+        this.$refs.enumRef.enumerateValueVisible = true;
+      } else if (type == "rule") {
+        this.$refs.ruleRef.addRuleGetList();
+        this.$refs.ruleRef.getRuleClassification();
+        this.$refs.ruleRef.dialogTitle = "配置验证规则";
+        this.$refs.ruleRef.addRuleDialogVisible = true;
+      }
+    },
+    async validator(rule, value, callback) {
+      if (rule.field == "dictryLength") {
+        if (
+          this.formData.dictryTyp == "List" ||
+          this.formData.dictryTyp == "Object"
+        ) {
+          callback();
+        } else if (
+          ["double", "float", "Double", "Float", "BigDecimal"].indexOf(
+            this.formData.dictryTyp
+          ) != -1
+        ) {
+          const reg = /^([1-9][0-9]*)(,([1-9][0-9]*))$/;
+          if (value && !reg.test(value)) callback(new Error("格式错误"));
+          const lengthNum = value.split(",");
+          if (lengthNum[0] * 1 < lengthNum[1] * 1)
+            callback(new Error("最大长度不能小于精度长度"));
+          else callback();
+        } else {
+          const reg = /^[0-9]*$/;
+          if (value && !reg.test(value)) {
+            callback(new Error("请输入数字"));
+          } else {
+            callback();
+          }
+        }
+      } else if (rule.field == "dictryNo") {
+        if (this.formData.dictryNo) {
+          const params = {
+            dictryId: this.dictryId,
+            dictryNo: this.formData.dictryNo,
+            sysId: this.sysId,
+          };
+          const res = await this.rpc.dictionary.duplicateChenck(params);
+          if (res.result == "1") {
+            callback("参数名称重复，请重新输入");
+          }
+        }
+      }
+    },
+    operate(operation, data) {
+      if (operation == "delete") {
+        this.iInputList = this.iInputList.filter(
+          (item) => item.dictryId != data.dictryId
+        );
+      }
+    },
+    // 所属分类选择框变化时
+    async handleDictryGategChange() {
+      if (this.formData.dictryNo) {
+        this.$refs.formData.validateField("dictryNo");
+      }
+    },
+    // 添加子参数
+    addSonParams() {
+      console.log(this.dictGategList);
+      this.dictionaryDialogVisible = true;
+    },
+    // 数据字典选择弹框取消
+    dictionaryCloseDialog() {
+      this.dictionaryDialogVisible = false;
+    },
+    setDictChildList(data) {
+      this.iInputList = setSerialNumber(
+        unduplicated(this.iInputList.concat(data), "dictryId")
+      );
+      this.dictionaryCloseDialog();
+    },
+    // 从公共数据字典选择
+    publicCloseDialog() {
+      this.publicDialogVisible = false;
+    },
+    // 获取所属分类列表
+    async getTypeList() {
+      const params = { turnPageShowNum: "0" };
+      if (!this.sysId) {
+        params.excludeClsfId = "10000000";
+      }
+      const res = await this.rpc.dictionary.getClassifyTypeList(params);
+      this.dictGategList = res.serviceList;
+    },
+    confirm(){
+      this.$refs.formData.validate(async(valid) =>{
+        if(!valid) return this.$message.error("基本信息填写有误或未填写");
+        this.addDictionary();
+      })
+    },
+    // 创建数据字典
+    async addDictionary() {
+      const params = JSON.parse(JSON.stringify(this.formData).replace(/dictryId/g,"dataSetDictId"));
+      if(this.type == "edit") {
+        if (params.dictryTyp == "String") {
+          const enumerateValueList = this.$refs.enumRef.enumerateValueList;
+          params.dictryEnum = enumerateValueList.reduce((pre, item, index) => {
+            return `${pre}${item.key}-${item.value}${
+              index == enumerateValueList.length - 1 ? "" : ";"
+            }`;
+          }, "");
+          params.ruleIdList = this.$refs.ruleRef.ruleTableData.map((item) => ({
+            ruleId: item.ruleId,
+          }));
+        } else if (params.dictryTyp == "List" || params.dictryTyp == "Object") {
+          params.dictChildList = this.iInputList;
+          params.dictryLength = "";
+        }
+      }
+      if (!!this.sysId) {
+        params.sysId = this.sysId;
+      }
+      params.dataSetDataId = this.fieldInfo.dataSetDataId || ""
+      params.dataSetNo = this.fieldInfo.dataSetNo ?? this.datasetInfo?.dataSetNo
+      params.dataSubstnNo = this.fieldInfo.dataSubstnNo ?? this.subInfo.dataSubstnNo
+      // 从字段池选择时的传参
+      const addParams = {
+        dictId: this.dictryId,
+        dataSetNo: this.fieldInfo.dataSetNo ?? this.datasetInfo?.dataSetNo,
+        dataSubstnNo:this.fieldInfo.dataSubstnNo ?? this.subInfo.dataSubstnNo
+      }
+      console.log("参数",this.formData,params,addParams,this.type)
+      const api = this.type == "edit" ? "editMyField" : "addMyField"
+      const res = await this.rpc.dicmgmtDefine[api](!this.dictryId ? params : addParams);
+      this.$notify({
+        title: "成功",
+        message: "成功",
+        duration: 2000,
+        type: "success",
+      });
+      this.$emit("confirmFiled");
+      this.closeDialog()
+    },
+    handleCancel() {
+      console.log("backType",this.backType)
+      if(this.backType == "dataset") {
+        this.$router.push({
+            path: "/aop_tradedesign/dicmgmt/editDataSet",
+            query: {
+              dataSetNo: this.infoData.dataSetNo,
+            },
+          });
+      }else {
+        this.$router.push({
+          path: "/aop_tradedesign/dicmgmt/editSubstn",
+          query: {
+            dataSetNo: this.infoData.dataSetNo,
+            dataSubstnNo: this.infoData.dataSubstnNo,
+          },
+        });
+      }
+    },
+    // 点击确定按钮
+    preservation() {
+      this.$refs.formData.validate(async (valid) => {
+        if (!valid) return this.$message.error("基本信息填写有误或未填写");
+          // 创建数据字典
+          this.addDictionary();
+      });
+    },
+    //判断是否有子参数
+    dicGetNodeId(arrs, id) {
+      arrs.forEach((item, i) => {
+        if (item.children.length > 0) {
+          item.serialNumber = id ? id + "." + (i + 1) : i + 1 + "";
+          this.dicGetNodeId(item.children, item.serialNumber);
+        } else {
+          item.serialNumber = id ? id + "." + (i + 1) : i + 1 + "";
+          delete item.children;
+        }
+      });
+    },
+    confirmData(e) {
+      this.dictryId = e.dictryId
+      this.getDictionaryInfoById(e.dictryId, "confirmPublic")
+    },
+    // 进入编辑页面时查询详情
+    async getDictionaryInfoById (e, operation) {
+      console.log("88", e, operation)
+      const params = {
+        dictryId: e,
+      }
+      const res = await this.rpc.dicmgmt.editList(params)
+      this.formData.dictryNo = res.dictryNo
+      this.formData.dictryNm = res.dictryNm
+      this.formData.dictryKeyWord = res.dictryKeyWord.replace(
+        /(^\s*)|(\s*$)/g,
+        ""
+      ) // 去除前后空格
+      this.formData.dictryEnglishFullName = res.dictryEnglishFullName
+      this.formData.dictryDescr = res.dictryDescr
+      this.formData.dictryTyp = res.dictryTyp
+      this.formData.dictryLength = res.dictryLength
+      this.dicGetNodeId(res.dictChildList)
+      this.iInputList = JSON.parse(JSON.stringify(res.dictChildList))
+      if (res.dictryTyp == "String") {
+        if (res.dictryEnum) {
+          this.$refs.enumRef.enumerateValueList = res.dictryEnum
+            .split(";")
+            .map((item) => {
+              const arr = item.split("-")
+              return {
+                key: arr[0],
+                value: arr[1],
+              }
+            })
+        }
+        this.$refs.ruleRef.ruleTableData = res.ruleList
+      }
+      console.log("查详情", e, operation, this.formData, res)
+    },
+    // 初始化
+    init() {
+      // this.getList();
+      // this.getClassifyTypeList()
+    },
+  },
+  created() {
+    this.init();
+  },
+  filters: {
+    ...filters,
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+@import "@m/assets/css/mixin.scss";
+.aop_workgate_comps_systemmgmt_dic_form_select {
+  ::v-deep .table_dialog th {
+    color: $sec_ft_color;
+  }
+  .dialog {
+    ::v-deep.el-dialog {
+      margin-top: 3vh !important;
+    }
+    ::v-deep.el-dialog__body {
+      max-height: 78vh;
+    }
+  }
+  .service_top ::v-deep.serivce_top_box {
+    padding: 0;
+    margin: 0;
+  }
+  .show_conf {
+    padding: 15px 24px;
+    overflow: hidden;
+    .show_conf_title {
+      float: left;
+      margin-right: 10px;
+      font-family: $font_medium;
+    }
+  }
+}
+</style>

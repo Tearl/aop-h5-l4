@@ -1,0 +1,20 @@
+.x6-graph-custom-flowWorks-container{
+    position: relative;
+}
+.x6-graph-scroller{
+    overflow: scroll!important;
+}
+.x6-graph-scroller-content{
+    width:4000px !important;
+    height: 4000px !important;
+    position:  relative !important;
+}
+.x6-custom-flowWorks-view x6-graph{
+    width: 4000px !important;
+    height: 4000px !important;
+    position: absolute;
+    left:0;
+    top:0;
+}
+
+@import '../../lib/style/index.scss';

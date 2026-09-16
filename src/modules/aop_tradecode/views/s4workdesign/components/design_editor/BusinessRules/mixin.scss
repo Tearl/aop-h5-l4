@@ -1,0 +1,9 @@
+@mixin flex($d, $j, $a) {
+    display: flex;
+    flex-direction: $d;
+    justify-content: $j;
+    align-items: $a;
+}
+$success: #36d542;
+$error: #fe4758;
+$warning: #ffb531;

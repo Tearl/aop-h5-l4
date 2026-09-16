@@ -1,0 +1,32 @@
+<template>
+    <i class="next-icon">
+        <svg class="next-icon-remote" focusable="false" :fill="fill">
+            <use :xlink:href="name"></use>
+        </svg>
+    </i>
+</template>
+<script>
+export default {
+    props: ['name', 'fill']
+}
+</script>
+<style lang="scss">
+.next-icon{
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 0;
+    vertical-align: top;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    .next-icon-remote{
+        width: 100%;
+        height: 100%;
+        font-size: 0px;
+        line-height: inherit;
+    }
+}
+</style>

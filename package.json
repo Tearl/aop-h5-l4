@@ -1,0 +1,31 @@
+{
+    "name": "aop-h5-l4",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "dev": "ynet-spa-build --cmd=dev --env=dev --bundle",
+        "build:develop": "ynet-spa-build --cmd=release --env=develop --bundle",
+        "build:develop2": "ynet-spa-build --cmd=release --env=develop2 --bundle",
+        "build:sit": "ynet-spa-build --cmd=release --env=sit --bundle",
+        "build:sit2": "ynet-spa-build --cmd=release --env=sit2 --bundle",
+        "build:uat": "ynet-spa-build --cmd=release --env=uat --bundle",
+        "build:uat2": "ynet-spa-build --cmd=release --env=uat2 --bundle",
+        "build:prod": "ynet-spa-build --cmd=release --env=prod --bundle",
+        "build:prod2": "ynet-spa-build --cmd=release --env=prod2 --bundle",
+        "clean": "rimraf dist"
+    },
+    "author": "YNET",
+    "license": "ISC",
+    "private": true,
+    "workspaces": [
+        "src/modules/*"
+    ],
+    "dependencies": {
+        "@antv/g6": "^4.8.22",
+        "@logicflow/core": "2.0.10",
+        "@logicflow/extension": "2.0.14",
+        "@ynet/h5-pc-terminal-cli": "^0.0.33",
+        "core-js": "^3.1.4",
+        "plantuml-encoder": "^1.4.0"
+    }
+}

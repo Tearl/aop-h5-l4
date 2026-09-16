@@ -1,0 +1,356 @@
+@import '@m/assets/css/mixin.scss';
+@import url('~@m/assets/css/ttf/iconfont.scss');
+
+.flex-space{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-space-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.border-t {
+  border-top: 1px solid #E7E7EE;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 16px;
+  color: #131313;
+  font-weight: 600;
+  height: 64px;
+  line-height: 64px;
+}
+.border-b-n {
+  border-bottom: none;
+}
+.border-b {
+  border-bottom: 1px solid #E7E7EE;
+}
+.cursor{
+  cursor: pointer;
+}
+.align{
+  text-align: center;
+}
+.fb{
+  font-weight: bold;
+}
+$i: 100;
+@while $i >= 0 {
+  .w#{$i} { width: $i * 1%; }
+  .mb#{$i}{margin-bottom: $i + px}
+  .ml#{$i}{margin-left: $i + px}
+  .mt#{$i}{margin-top: $i + px}
+  .mr#{$i}{margin-right: $i + px}
+  .lh#{$i}{line-height: $i + px;}
+  .h#{$i}{height: $i + px;}
+  .padding-b-#{$i}{
+    padding-bottom:$i + px;
+  }
+  .padding-t-#{$i}{
+    padding-top:$i + px;
+  }
+  .padding-l-#{$i}{
+    padding-left:$i + px;
+  }
+  .padding-r-#{$i}{
+    padding-right:$i + px;
+  }
+  .padding-lr-#{$i}{
+    padding:0 $i + px;
+  }
+  .padding-tb-#{$i}{
+    padding:$i + px 0;
+  }
+  .h#{$i}{
+    height: $i + px;
+  }
+  .lh#{$i}{
+    line-height: $i + px;
+  }
+  .f#{$i} {
+    font-size: $i + px;
+  }
+  $i: $i - 1;
+}
+.mainColor{
+  color: #358AFF;
+}
+.fb{
+  font-weight: bold;
+}
+ // 常用样式类名
+.cursor,
+.pointer {
+    cursor: pointer;
+}
+.align {
+    text-align: center;
+}
+.fb {
+    font-weight: bold;
+}
+.font12 {
+    font-size: 12px;
+}
+.font16 {
+    font-size: 16px;
+}
+.font18 {
+    font-size: 18px;
+}
+// color
+.green {
+  color: #36D542;
+}
+.red {
+  color: #FE4758;
+}
+.grey9 {
+  color: #999;
+}
+.blue {
+  color: #358AFF;
+}
+.businessd2_wrapper {
+// 公共样式
+.title {
+    font-size: 16px;
+    color: #131313;
+    font-weight: 600;
+    height: 64px;
+    line-height: 64px;
+}
+.mainColor {
+    color: #358aff;
+}
+::v-deep .el-textarea__inner,
+::v-deep .el-input__inner {
+  border-color: #DDE0E4;
+  border-radius: 2px;
+}
+}
+// 蓝色白底按钮
+.com-plain-primary-btn {
+    border-color: $theme_color;
+    color: $theme_color;
+    height: 28px;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+.com-plain-danger-btn {
+    border-color: #fe4758;
+    color: #fe4758;
+    height: 28px;
+    border-radius: 2px;
+    padding: 0 10px;
+    &:hover, &:active, &:focus {
+      border-color: #fe4758;
+      color: #fe4758;
+    }
+}
+// 蓝底白字按钮-保存按钮
+.com-primary-large-btn {
+    height: 40px;
+    padding: 0 45px;
+    @extend .flex-center;
+}
+.com-danger-large-btn {
+    height: 40px;
+    padding: 0 20px;
+    @extend .flex-center;
+    background: #fe4758;
+}
+// 蓝底白字按钮-样式覆盖
+.com-primary-medium-btn {
+    padding: 8px 10px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.border-t {
+  border-top: 1px solid #E7E7EE;
+}
+
+.border-b-n {
+  border-bottom: none;
+}
+.border-b {
+  border-bottom: 1px solid #E7E7EE;
+}
+
+.title16 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.blue_border_btn {
+    border: 1px solid #358AFF;
+    padding: 0 5px;
+    color: #358AFF;
+    border-radius: 2px;
+}
+.blue_btn {
+    padding: 10px;
+}
+.red_btn {
+  &:not(:disabled) {
+    background-color: #FE4758;
+  }
+  border-radius: 2px;
+  font-size: 14px;
+}
+
+.white_box {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.w180 {
+    width: 180px;
+}
+
+
+// 抽屉样式覆盖
+.aop-com-drawer {
+    ::v-deep .el-drawer__container {
+        .el-drawer__header {
+            height: 46px;
+            padding: 0 24px;
+            margin: 0;
+            box-shadow: 0px 0.5px 0px 0px rgba(231,231,238,1);font-size: 16px;
+            color: #333333;
+            font-weight: 600;
+        }
+    }
+}
+
+.blue_btn, .grey_btn {
+  font-size: 14px;
+  height: 32px;
+  line-height: 30px;
+  padding: 0 18px;
+  letter-spacing: 2px;
+  border-radius: 2px;
+}
+//表格
+.table_box {
+  /deep/ th.el-table__cell {
+    background:#F5F5F8;
+  }
+  /deep/ .cell_grey_bg,
+  /deep/ tr:hover>td.el-table__cell.cell_grey_bg {
+    background: #F5F5F8 !important;
+  }
+  /deep/ .el-table__cell {
+    color: #333;
+  }
+}
+/deep/ .el-table--border .el-table__cell {
+  border-color: #DDE0E4 !important;
+}
+
+//表格 二级
+.table_second {
+  line-height: 25px;
+  /deep/ th.el-table__cell {
+    background:#F5F5F8;
+    height: 40px;
+  }
+  /deep/ .cell_grey_bg,
+  /deep/ tr:hover>td.el-table__cell.cell_grey_bg {
+    background: #F5F5F8 !important;
+  }
+  /deep/ .el-table__cell {
+    padding: 7px 0;
+    color: #333;
+  }
+  /deep/ .el-textarea__inner {
+    border-radius: 2px;
+  }
+}
+/deep/ .el-table--border .el-table__cell {
+  border-color: #DDE0E4 !important;
+}
+.tabs_box {
+  margin: 0 -24px 16px;
+  padding: 0 24px;
+  border-bottom: 1px solid #E5E5E5;
+  /deep/ .el-tabs__header {
+    border-bottom: 1px solid #E5E5E5;
+  }
+}
+
+.title30 {
+  font-size: 16px;
+  color: #131313;
+  font-weight: 600;
+  height: 30px;
+  line-height: 30px;
+  &.mb10 {
+    margin-bottom: 10px;
+  }
+}
+
+// 确认弹层 选择人员
+.confirm_person_box {
+  display: flex;
+  flex-wrap: wrap;
+  .blue_border_btn,
+  .tag_item {
+    margin: 2px 5px 2px 0;
+    height: 28px !important;
+    line-height: 26px;
+    font-size: 14px;
+  }
+  .blue_border_btn {
+    padding: 0 8px;
+  }
+  .tag_item {
+    padding: 0 6px;
+    color: #333;
+    background: #F7F7F9;
+    border-radius: 2px;
+    border-color: #F7F7F9;
+    /deep/ .el-tag__close {
+      right: -2px;
+      color: #999;
+      &:hover {
+        color: #fff;
+        background-color: #999;
+      }
+    }
+  }
+}

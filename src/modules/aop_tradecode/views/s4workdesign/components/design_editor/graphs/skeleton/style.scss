@@ -1,0 +1,21 @@
+
+.x6-graph-custom-works-skeleton{
+    font-family: PingFangSC-Regular;
+    user-select: none;
+    overflow: hidden;
+}
+
+.x6-graph-custom-works-skeleton-main{
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    background-color: #edeeef;
+}
+
+@import './components/header/style.scss';
+@import './components/iconContainer/style.scss';
+@import './components/legend/style.scss';
+@import './components/model/style.scss';
+@import './components/scale/style.scss';
+@import './components/shortcut/style.scss';
+@import './components/sider/style.scss';

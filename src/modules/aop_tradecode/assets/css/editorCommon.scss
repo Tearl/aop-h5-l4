@@ -1,0 +1,108 @@
+
+// @import url('~@m/views/layouteditor/components/serviceCom/ttf/iconfont.scss');
+
+.flex-space{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-space-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.border-t {
+  border-top: 1px solid #E7E7EE;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-end{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 16px;
+  color: #131313;
+  font-weight: 600;
+  height: 64px;
+  line-height: 64px;
+}
+.border-b-n {
+  border-bottom: none;
+}
+.border-b {
+  border-bottom: 1px solid #E7E7EE;
+}
+.cursor{
+  cursor: pointer;
+}
+.align{
+  text-align: center;
+}
+.fb{
+  font-weight: bold;
+}
+$i: 100;
+@while $i >= 0 {
+  .w#{$i} { width: $i * 1%; }
+  .mb#{$i}{margin-bottom: $i + px}
+  .ml#{$i}{margin-left: $i + px}
+  .mt#{$i}{margin-top: $i + px}
+  .mr#{$i}{margin-right: $i + px}
+  .lh#{$i}{line-height: $i + px;}
+  .h#{$i}{height: $i + px;}
+  .padding-b-#{$i}{
+    padding-bottom:$i + px;
+  }
+  .padding-t-#{$i}{
+    padding-top:$i + px;
+  }
+  .padding-l-#{$i}{
+    padding-left:$i + px;
+  }
+  .padding-r-#{$i}{
+    padding-right:$i + px;
+  }
+  .padding-lr-#{$i}{
+    padding:0 $i + px;
+  }
+  .padding-tb-#{$i}{
+    padding:$i + px 0;
+  }
+  .h#{$i}{
+    height: $i + px;
+  }
+  .lh#{$i}{
+    line-height: $i + px;
+  }
+  .f#{$i} {
+    font-size: $i + px;
+  }
+  $i: $i - 1;
+}
+.mainColor{
+  color: #358AFF;
+}
+.fb{
+  font-weight: bold;
+}
+    

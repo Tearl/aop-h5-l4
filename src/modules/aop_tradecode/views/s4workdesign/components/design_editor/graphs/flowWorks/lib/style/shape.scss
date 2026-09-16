@@ -1,0 +1,38 @@
+
+
+
+.x6-custom-flowWorks-shape{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #5F95FF;
+  display: flex;
+  flex-direction: column;
+  .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #F9FCFF;
+      padding: 0 10px;
+      box-sizing: border-box;
+      color: #5F95FF;
+      border-bottom: solid 1px #5F95FF;
+      font-size: 14px;
+      height: 40px;
+      p{
+          flex: 1;
+          word-break: keep-all;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+      }
+      i{
+          cursor: pointer;
+          margin-left: 4px;
+          color: #5F95FF;
+      }
+  }
+  .body{
+      flex: 1;
+      background: #fff;
+  }
+}

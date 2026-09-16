@@ -1,0 +1,353 @@
+/**
+ * 颜色相关的变量
+ */
+$theme_color: #358aff; // 主题颜色
+$success_color: #3fd6ae; // 成功颜色
+$warning_color: #ffb531; // 警告颜色
+$sec_warning_color: #ff9104 ; // 次要警告颜色
+$danger_color: #fe4758; // 危险颜色
+$sec_danger_color: #fc226e; // 次要危险颜色
+$base_white: #fff; // 基础白色
+$base_black: #000; // 基础黑色
+$base_bg_color: #fafafc; // 基础占位背景色
+$pri_ft_color: #131313; // 主要字体颜色
+$reg_ft_color: #333; // 常规字体颜色
+$sec_ft_color: #999; // 次要字体颜色
+$pri_br_color: #dcdfe6; // 主要边框颜色
+$table_bg_color: #F5F5F8; // 公共表格样式
+
+/**
+ * 字体相关的变量
+ */
+$font_regular: PingFangSC-Regular;
+$font_medium: PingFangSC-Medium;
+
+/**
+ * 弧度
+ */
+$theme_radius: 2px;
+
+/**
+ * 按钮高度 mini 28, small 32, normal 36, large 40
+ */
+$btn_mini_h: 28px;
+$btn_small_h: 32px;
+$btn_normal_h: 36px;
+$btn_large_h: 40px;
+
+// 字体加粗
+$font_weight_600: 600;
+
+@mixin fs12 {
+  font-size: 12px;
+}
+
+@mixin fs14 {
+  font-size: 14px;
+}
+
+@mixin fs16 {
+  font-size: 16px;
+}
+
+// 表格头部按钮样式
+@mixin button_common {
+  border-radius: $theme_radius;
+  cursor: pointer;
+  padding: 0 8px;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: $font_regular;
+}
+
+@mixin mini_button_common {
+  @include fs12;
+  @include button_common;
+  height: $btn_mini_h;
+}
+
+@mixin small_button_common {
+  @include fs12;
+  @include button_common;
+  height: $btn_small_h;
+}
+
+@mixin normal_button_common {
+  @include fs14;
+  @include button_common;
+  height: $btn_normal_h;
+}
+
+@mixin large_button_common {
+  @include fs14;
+  @include button_common;
+  height: $btn_large_h;
+}
+
+// 按钮type: primary样式
+@mixin primary_button {
+  background: $theme_color;
+  color: $base_white;
+  border: 1px solid $theme_color;
+}
+
+// 按钮type: normal样式
+@mixin normal_button {
+  background: $base_white;
+  border: 1px solid $pri_br_color;
+  color: $reg_ft_color;
+}
+
+// 页面顶部内容
+@mixin content_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  background: $base_white;
+}
+
+/**
+ * form表单样式
+ * @param {*} class_name 表单容器类名
+ * @param {*} input_width input框宽度
+ * @param {*} input_height input框高度
+ * @param {*} textarea_width textarea区域宽度
+ * @param {*} textarea_height textarea区域高度
+ * @return {*}
+ */
+@mixin form($class_name: ".form_info", $input_width: 400px, $input_height: 40px, $textarea_width: 400px, $textarea_height: 80px) {
+  .el-form-item {
+    @include el_form_item;
+  }
+  #{$class_name} {
+    ::v-deep .el-input,
+    .el-textarea {
+      width: $input_width;
+    }
+    ::v-deep .el-input__inner {
+      // background: $base_white;
+      padding-left: 16px;
+      border-radius: $theme_radius;
+    }
+    ::v-deep .el-textarea__inner {
+      // background: $base_white;
+      height: $textarea_height;
+      padding: 12px 16px;
+      border-radius: $theme_radius;
+    }
+    ::v-deep .el-select .el-input__inner:focus,
+    ::v-deep .el-textarea__inner:focus,
+    ::v-deep .el-input__inner:focus {
+      border-color: $pri_br_color;
+    }
+  }
+}
+
+// el-form-item的样式
+@mixin el_form_item {
+  margin-bottom: 24px;
+  ::v-deep .el-form-item__label {
+    @include form_label;
+    // &::before {
+    //   @include form_label_before;
+    // }
+  }
+}
+
+// el-form-item__label的before伪元素样式
+// @mixin form_label_before {
+//   content: "*";
+//   color: $sec_danger_color;
+//   margin-right: 2px;
+// }
+
+// el-form-item__label的样式
+@mixin form_label {
+  font-family: $font_regular;
+  font-size: 14px;
+  color: $reg_ft_color;
+  letter-spacing: 0;
+  text-align: right;
+  padding-right: 16px;
+  font-weight: $font_weight_600;
+}
+
+// 滚动条样式
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+// 步骤条的样式
+@mixin el_steps {
+  ::v-deep .el-steps {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+    .el-step__icon {
+      width: 28px;
+      height: 28px;
+    }
+    .el-step__icon-inner {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .el-step__title {
+      font-size: 12px;
+      // font-weight: 400;
+      // font-weight: 600;
+      // font-weight: 200;
+      font-family: PingFangSC-Semibold;
+      color:#999;
+      position: relative;
+      top: -6px;
+    }
+    .el-step__head {
+      &.is-finish >.el-step__icon{
+        background: #488bf7 !important;
+        color: #ffffff;
+      }
+    }
+    .el-step__head {
+      &.is-process >.el-step__icon{
+        background: rgb(248, 248, 248);
+        color: rgb(153, 153, 153);
+        // background: #f8f8f8!important;
+        // color:#999;
+      }
+    }
+    .el-step__head {
+      &.is-wait >.el-step__icon{
+        background: rgb(248, 248, 248);
+        color: rgb(153, 153, 153);
+        // background: #f8f8f8!important;
+        // color:#999;
+      }
+    }
+    .el-step__title.is-finish{
+      background: #ffffff;
+      font-weight: 600;
+      // font-weight: bold;
+      color: #565656;
+      // color: #333333;
+    }
+    .el-step__icon.is-text{
+      border: 1px solid #f8f8f8;
+    }
+    .el-step.is-center .is-finish .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+    .el-step.is-center .is-process .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+    .el-step.is-center .is-wait .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+  }
+}
+// 步骤条的样式
+@mixin el_steps_dataset {
+  ::v-deep .el-steps {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8px;
+    height: 64px;
+    .el-step__icon {
+      width: 28px;
+      height: 28px;
+    }
+    .el-step__icon-inner {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .el-step__title.is-process{
+      font-weight: 400;
+    }
+    .el-step__title {
+      font-size: 12px;
+      // font-weight: 400;
+      // font-weight: 600;
+      // font-weight: 200;
+      font-family: PingFangSC-Semibold;
+      color:#8C8C8C;
+      position: relative;
+      font-size: 16px;
+      top: -6px;
+    }
+    .el-step__head {
+      &.is-finish >.el-step__icon{
+        background: #358AFF !important;
+        color: #ffffff;
+      }
+    }
+    .el-step__head {
+      &.is-process >.el-step__icon{
+        // background: rgb(248, 248, 248);
+        // color: rgb(153, 153, 153);
+        // background: #f8f8f8!important;
+        // color:#999;
+        color: #BFBFBF;
+      }
+    }
+    .el-step__head {
+      &.is-wait >.el-step__icon{
+        background: rgb(248, 248, 248);
+        color: rgb(153, 153, 153);
+        // background: #f8f8f8!important;
+        // color:#999;
+      }
+    }
+    .el-step__title.is-finish{
+      background: #ffffff;
+      font-weight: 500;
+      // font-weight: bold;
+      // color: #565656;
+      color: #358AFF;
+      // color: #333333;
+    }
+    .el-step__icon.is-text{
+      border: 1px solid #D9D9D9;;
+    }
+    .el-step.is-center .is-finish .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+    .el-step.is-center .is-process .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+    .el-step.is-center .is-wait .el-step__line{
+      margin-left: 29px;
+      margin-right: 29px !important;
+      top: 50%;
+      background-color: #e7e7e7;
+    }
+  }
+}
+
+//固定导航、页签栏样式
+@mixin fixed_common {
+  position: fixed;
+  z-index: 99;
+  background: #f7f7f9;
+}

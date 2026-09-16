@@ -1,0 +1,43 @@
+.bold {
+    font-weight: 600;
+    color: #1b1d1d;
+}
+.font16 {
+    font-size: 16px;
+}
+.font12 {
+    font-size: 12px;
+}
+
+.right12 {
+    margin-right: 12px;
+}
+
+.right4 {
+    margin-right: 4px;
+}
+
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+@mixin scrollbar {
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@mixin flex($d, $j, $a) {
+    display: flex;
+    flex-direction: $d;
+    justify-content: $j;
+    align-items: $a;
+}
+
+@mixin wh($w, $h) {
+    width: $w;
+    height: $h;
+}
+

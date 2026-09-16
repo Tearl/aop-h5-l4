@@ -1,0 +1,26 @@
+
+.x6-graph-custom-works-scale{
+    padding: 6px 10px 3px 6px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 499;
+    background: #fff;
+    box-shadow: 0 0 0 1px #dddbda, 0 2px 3px 0 rgba(0,0,0,.16);
+}
+.x6-graph-custom-works-scale-bar{
+    display: flex;
+    align-items: center;
+    .x6-graph-custom-works-next-icon{
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+        }
+        .el-dropdown-link{
+            display: block;
+            width: 74px;
+            box-sizing: border-box;
+            font-size: 14px;
+            text-align: center;
+        }
+}

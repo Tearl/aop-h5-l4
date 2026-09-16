@@ -1,0 +1,172 @@
+/**分页器公共样式*/
+.inner_cheetah_common_pagination {
+    // margin: 24px 0;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+
+    .el-pagination.is-background .el-pager li:not(.disabled).active{
+        background-color: #3671FF;
+    }
+}
+
+.inner_cheetah_common_dialog{
+    
+    .el-dialog__header{
+        border-bottom: 1px solid #F5F5FA;
+        padding: 12px 20px;
+        background: #FAFAFC;
+
+        .el-dialog__title{
+            font-size: 16px;
+            color: #323C41;
+            letter-spacing: 0;
+            line-height: 24px;
+            font-weight: bold;
+        }
+
+        .el-dialog__headerbtn{
+            top: 14px;
+        }
+    }
+
+    .el-dialog__body {
+        .comps_applicationpositiondialog_form {
+            .el-form-item__label {
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #333333;
+                letter-spacing: 0;
+            }
+            .el-radio__label, .el-checkbox__label {
+                font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #333333;
+            }
+        }
+    }
+
+    .el-dialog__footer{
+        border-top: 1px solid #F5F5FA;
+        padding: 15.5px 20px;
+    }
+}
+
+.inner_cheetah_common_btns_area {
+    text-align: center;
+
+    .el-button{
+        width: 112px;
+        height: 40px;
+        font-size: 14px;
+        color: #323C41;
+        letter-spacing: 1px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 2px;
+        padding: 0;
+
+        &+.el-button{
+            margin-left: 24px;
+        }
+
+        &.el-button--primary{
+            color: #FFF;
+            background-color: #3671FF;
+            border-color: #3671FF;
+            background: #3671FF;
+        }
+    }
+}
+
+.D2_workspace_common_table{
+
+    &.el-table .el-table__body tr{
+        cursor: pointer;
+    }
+
+    &.el-table th{
+        background: #FAFAFC;
+        font-size: 14px;
+        color: #333333;
+    }
+    
+    &.el-table th .cell{
+        padding-left: 24px;
+        line-height: 23px;
+    }
+
+    &.el-table td{
+        padding: 11px 0;
+        font-size: 14px;
+        color: #666666;
+        position: relative;
+    }
+
+    &.el-table td .cell{
+        padding-left: 24px;
+        line-height: 23px;
+    }
+}
+
+
+.inner_cheetah_common_tabs{
+
+    &.el-tabs{
+
+        .el-tabs__nav-scroll{
+            padding-left: 24px;
+        }
+
+        .el-tabs__nav-wrap::after{
+            height: 1px;
+            background-color: #E4E7ED;
+        }
+
+        .el-tabs__active-bar{
+            background-color: #3671FF;
+            height: 3px;
+        }
+
+        .el-tabs__header{
+            margin: 0;
+        }
+
+        .el-tabs__item{
+            height: 80px;
+            line-height: 80px;
+            font-size: 16px;
+            color: #333333;
+            letter-spacing: 0;
+            font-weight: bold;
+
+            &.is-active{
+                color: #3671FF;
+            }
+
+            &:focus.is-active.is-focus:not(:active){
+                box-shadow: none;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+
+.inner_cheetah_common_tree{
+
+    &.el-tree{
+        background-color: rgba(255, 255, 255, 0);
+        color: #333333;
+        letter-spacing: 0;
+
+        .el-tree-node__label{
+            font-size: 14px;
+        }
+        
+        .el-tree-node__content{
+            height: 34px;
+        }
+    }
+
+}

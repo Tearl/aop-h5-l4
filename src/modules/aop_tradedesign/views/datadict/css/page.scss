@@ -1,0 +1,198 @@
+// 标签在上表单
+.aop-com-info-form-wrap {
+    ::v-deep .el-form {
+        .el-select {
+            width: 100%;
+        }
+        .el-input {
+            width: 100%;
+        }
+        .el-form-item {
+            margin-bottom: 24px;
+        }
+        .el-form-item__label {
+            color: #333;
+            line-height: 20px;
+        }
+        .w150p {
+            display: block;
+            width: 180px;
+        }
+    }
+}
+// 标签在左表单
+.aop-com-form-label-inline-wrap {
+    ::v-deep .el-form {
+        .el-form-item__label {
+            color: #333;
+        }
+    }
+}
+
+// 数据列表弹窗
+.aop-com-handle-dialog-wrap {
+    ::v-deep .el-dialog {
+        border-radius: 8px;
+        .el-dialog__header {
+            background: #fafafc;
+            border-radius: 8px 8px 0 0;
+            padding: 12px;
+            .el-dialog__title {
+                font-size: 16px;
+                color: #000000;
+                line-height: 24px;
+                font-weight: 500;
+            }
+            .el-dialog__headerbtn {
+                top: 16px;
+                right: 24px;
+            }
+        }
+        .el-dialog__body {
+            padding: 0;
+        }
+        .el-dialog__footer {
+            padding: 16px 0;
+            border-top: 1px solid #f5f5fa;
+            text-align: center;
+            .info-bottom-handle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .el-button {
+                    width: 112px;
+                    height: 40px;
+                    border-radius: 2px;
+                }
+            }
+        }
+    }
+}
+// 表格
+.aop_common_page_table {
+    ::v-deep .status {
+        display: inline-block;
+        text-align: center;
+        height: 24px;
+        line-height: 24px;
+        padding: 0 6px;
+        border-radius: 2px;
+        // 绿色标签
+        &.tag-green {
+            background: #e5ffe7;
+            color: #36d542;
+        }
+        // 橙色标签
+        &.tag-orange {
+            background: #fff4e5;
+            color: #ff9104;
+        }
+        //蓝色标签
+        &.tag-blue {
+            background: #f2f8ff;
+            color: $theme_color;
+        }
+    }
+    // min-height: 390px;
+    ::v-deep .el-table tr {
+        background: #fff;
+        color: $reg_ft_color;
+        padding: 12px 0;
+        .cell {
+            padding: 0 0 0 24px;
+            line-height: 24px;
+            div {
+                display: inline-block;
+            }
+        }
+        & td:last-child {
+            .cell {
+                padding-right: 10px;
+            }
+        }
+    }
+    ::v-deep .el-table th {
+        background: $table_bg_color;
+        color: $reg_ft_color;
+        padding: 12px 0;
+        font-family: $font_medium;
+        &:last-child {
+            .cell {
+                padding-right: 24px;
+            }
+        }
+    }
+    ::v-deep .el-table {
+        table {
+            width: 100% !important;
+        }
+        .el-table__empty-block {
+            width: 100% !important;
+        }
+        .is-scrolling-none + .el-table__fixed-right::before {
+            display: none;
+        }
+    }
+    .table_button {
+        display: inline-block;
+        cursor: pointer;
+        color: $theme_color;
+        margin-right: 16px;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        font-size: 30px;
+        line-height: 20px;
+        color: $reg_ft_color;
+    }
+    .text_style {
+        color: $theme_color;
+        font-family: $font_regular;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .table_text {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    // 隐藏全选框
+    .hide_checkbox ::v-deep thead th .el-checkbox {
+        visibility: hidden;
+    }
+    .table_btn_box .table_border {
+        display: inline-block;
+        cursor: pointer;
+        color: $theme_color;
+    }
+    .btn_delete {
+        color: #fe4758;
+    }
+    .table_btn_box {
+        .table_border {
+            &::after {
+                content: "|";
+                margin: 0 8px;
+                color: $pri_br_color;
+            }
+            &:last-child {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+}
+
+/**分页器公共样式*/
+.workspace_common_pagination {
+    display: flex;
+    justify-content: center;
+
+    .el-pagination.is-background .el-pager li:not(.disabled).active {
+        background-color: #3671ff;
+    }
+}

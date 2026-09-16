@@ -1,0 +1,43 @@
+
+.x6-graph-custom-works-model-list{
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+    padding: 10px;
+    li{
+        padding: 4px;
+        font-weight: 500;
+        border-radius: 2px;
+        cursor: pointer;
+        &:hover{
+            background-color: #eef3f9;
+            .x6-graph-custom-works-model-info-edit{
+                visibility: visible;
+            }
+        }
+    }
+}
+
+.x6-graph-custom-works-model{
+    display: grid;
+    grid-template-columns: 14px auto;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.x6-graph-custom-works-model-info{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.x6-graph-custom-works-model-info-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.x6-graph-custom-works-model-info-edit{
+    padding-left: 10px;
+    visibility: hidden;
+}

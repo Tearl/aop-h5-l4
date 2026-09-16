@@ -1,0 +1,105 @@
+.x6-graph-custom-works-legend{
+    font-size: 12px;
+    font-weight: 600;
+    color: #59575c;
+    z-index: 500;
+    position: absolute;
+    user-select: none;
+    .bwf-m-designer-do-legend{
+        box-shadow: 0 0 0 1px #dddbda, 0 2px 3px 0 rgba(0,0,0,.16);
+        width: 128px;
+        background-color: #fff;
+    }
+    .bwf-m-designer-do-legend-title{
+        padding: 0 8px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bwf-m-designer-do-legend-content {
+        border-top: 1px solid #ddd;
+        padding: 0 8px;
+        .bwf-m-designer-do-legend-content-block-wrap {
+            padding: 7px 0;
+            .bwf-m-designer-do-legend-content-block-wrap{
+                padding: 7px 0;
+            }
+            .bwf-m-designer-do-legend-content-block {
+                line-height: 24px;
+            }
+            .bwf-m-designer-do-legend-content-block-rect {
+                display: inline-block;
+                width: 32px;
+                line-height: 12px;
+                margin: 6px 8px;
+                overflow: hidden;
+                vertical-align: top;
+            }
+
+            .bwf-m-designer-do-legend-content-block-root {
+                background-color: #005fb2;
+            }
+            .bwf-m-designer-do-legend-content-block-inst {
+                background-color: #04844b;
+            }
+            .bwf-m-designer-do-legend-content-block-value {
+                background-color: #3e3e3c;
+            }
+            .bwf-m-designer-do-legend-content-block-aggregate {
+                border: 2px solid #005fb2;
+                background-color: #e9edf2;
+                line-height: 8px;
+            }
+        }
+
+        .legend-line-wrap{
+            padding: 7px 0;
+            border-top: 1px solid #ddd;
+            .legend-content-line{
+                display: flex;
+                align-items: center;
+                margin-bottom: 6px;
+                .relationship{
+                    min-width: 32px;
+                    position: relative;
+                    margin:0 8px;
+                    .line-svg-wrap{
+                        width: 30px;
+                        height: 12px;
+                        position: absolute;
+                        top: -7.5px;
+                        right: 2px;
+                        z-index: 1;
+                    }
+                    .line-svg{
+                        stroke-width: 2px;
+                        stroke: #000;
+                    }
+                    .shape-svg{
+                        position: absolute;
+                        width: 18px;
+                        height: 12px;
+                        right: 0;
+                        top: 50%;
+                        transform: translate(0, -50%);
+                        z-index: 2;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .bwf-shared-obj-demo-relationship-arrow{
+        position: relative;
+        z-index: 2;
+    }
+
+    .bwf-shared-obj-demo-relationship-line-svg{
+        stroke-width: 1.6px;
+        stroke: #000;
+        position: absolute;
+        top:0
+    }
+}
