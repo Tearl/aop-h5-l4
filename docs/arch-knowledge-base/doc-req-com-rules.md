@@ -33,8 +33,19 @@
 
 仅记录源码观察；本次业务角色、范围、REQ/BR/AC/DEC 留在 Run 需求基线。
 
-权限机制：not-analyzed；状态机制：not-analyzed。
+权限机制：candidate；状态机制：not-found。
 
 | 类别 | 源码（webSourceRoot） | 符号 | 位置 | 状态 |
 | --- | --- | --- | --- | --- |
+| storage-read | src/modules/aop_assetcenter/views/applicationPanorama/diagramStorage.js | localStorage.getItem | 30 | verified |
+| storage-read | src/modules/aop_assetcenter/views/applicationPanorama/diagramStorage.js | localStorage.getItem | 35 | verified |
+| storage-read | src/modules/aop_assetcenter/views/applicationPanorama/diagramStorage.js | localStorage.getItem | 36 | verified |
+| storage-read | src/modules/aop_assetcenter/views/applicationPanorama/modelDiagramStorage.js | localStorage.getItem | 15 | verified |
+| storage-read | src/modules/aop_tradedesign/views/d4workbench/workbench/components/workbench_design/confirmTwo_define/components/base_info/components/selcFromDataSet.vue | sessionStorage.getItem | 169 | verified |
+| storage-read | src/modules/aop_tradedesign/views/d4workbench/workbench/components/workbench_design/confirmTwo_define/components/service_list/basic.vue | sessionStorage.getItem | 533 | verified |
+| storage-read | src/modules/aop_tradedesign/views/d4workbench/workbench/components/workbench_design/confirmTwo_define/components/service_list/basic.vue | sessionStorage.getItem | 534 | verified |
+| storage-read | src/modules/aop_tradedesign/views/dicmgmt/components/dic_view/index.vue | localStorage.getItem | 137 | verified |
+| storage-read | src/modules/aop_tradedesign/views/dicmgmt/components/sideBar.vue | sessionStorage.getItem | 206 | verified |
+
+公共机制分析：284 / 1651 个索引文件；1367 个文件留待 Design 按需求定向分析。not-found 仅适用于当前范围。
 <!-- frontend-engineering:end -->
