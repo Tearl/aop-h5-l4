@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "generatedBy": "skill_init-frontend-project-scan",
+  "generatedByComponent": "skill_init-frontend-project-scan/platform-detector",
+  "scanRoot": ".",
+  "projectKind": "frontend",
+  "workspaceKind": "web_only",
+  "scopeValidation": {
+    "expectedScope": "frontend-client",
+    "backendDetected": false,
+    "verdict": "PASS",
+    "errorCode": "",
+    "violations": []
+  },
+  "nativeDetected": false,
+  "nativePlatforms": [],
+  "nativeSourceFingerprint": null,
+  "webDetected": true,
+  "webApplications": [
+    {
+      "id": "web-root",
+      "scanRoot": ".",
+      "primaryVariant": "vue",
+      "secondaryTechnologies": [],
+      "confidence": "high",
+      "evidence": {
+        "primary": [
+          "package.json",
+          "src/modules/aop_tradedesign/package.json",
+          "src/modules/aop_tradecode/package.json",
+          "src/modules/aop_assetcenter/package.json",
+          "src/modules/aop_tradedesign/Entry.vue",
+          "src/modules/aop_tradedesign/views/dicmgmt/L5serviceDetail.vue",
+          "src/modules/aop_tradedesign/views/dicmgmt/L5serviceDetail_copy.vue",
+          "src/modules/aop_tradedesign/views/dicmgmt/addDataset.vue"
+        ],
+        "secondary": [
+          "package.json",
+          "src/modules/aop_tradedesign/package.json",
+          "src/modules/aop_tradecode/package.json",
+          "src/modules/aop_assetcenter/package.json"
+        ]
+      }
+    }
+  ],
+  "webApplicationSelection": {
+    "required": false,
+    "selectedApplicationId": "web-root",
+    "selectionSource": "auto"
+  },
+  "detectedPlatforms": [
+    {
+      "id": "web",
+      "kind": "web",
+      "scanRoot": ".",
+      "webVariant": "vue",
+      "evidence": [
+        "package.json",
+        "src/modules/aop_tradedesign/package.json",
+        "src/modules/aop_tradecode/package.json",
+        "src/modules/aop_assetcenter/package.json",
+        "src/modules/aop_tradedesign/Entry.vue",
+        "src/modules/aop_tradedesign/views/dicmgmt/L5serviceDetail.vue",
+        "src/modules/aop_tradedesign/views/dicmgmt/L5serviceDetail_copy.vue",
+        "src/modules/aop_tradedesign/views/dicmgmt/addDataset.vue"
+      ]
+    }
+  ],
+  "engineeringFacts": {
+    "schemaVersion": "fm-frontend-engineering-facts/1.0",
+    "facts": "frontend-engineering-facts.json",
+    "publicationManifest": "frontend-engineering-manifest.json",
+    "pathBase": "knowledgeRoot",
+    "sourceRoot": ".",
+    "analysisStage": "scan"
+  }
+}
