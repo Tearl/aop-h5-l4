@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "fm-frontend-design-projection-manifest/1.0",
+  "sourceSkill": "skill_fm-frontend-design",
+  "designIrSchemaVersion": "fm-frontend-design-work-model/1.1",
+  "designIrSha256": "7473995dd5a8d909eab528912258e09a885d40421b1f57139f49c697b798eb11",
+  "rendererVersion": "stdlib-ooxml/1.0.0",
+  "artifacts": [
+    {
+      "artifactId": "design.design-context",
+      "path": "design-context.json",
+      "sizeBytes": 1840,
+      "sha256": "sha256:654f716be1995e0d935c7563565122ac51f96b56b70d94872405cdaf857929b4"
+    },
+    {
+      "artifactId": "design.engineering-change-contract",
+      "path": "engineering-change-contract.json",
+      "sizeBytes": 42816,
+      "sha256": "sha256:7a79362f2c7844087bdc6b2c4466f7dd6f0a554e9bf8711639d9f86b5a5ce145"
+    },
+    {
+      "artifactId": "design.open-gaps-list",
+      "path": "open-gaps-list.md",
+      "sizeBytes": 1418,
+      "sha256": "sha256:2ef6d743b470bbe7b5105934c8e827cbe65f76a6322b94202de6246da4f914ea"
+    },
+    {
+      "artifactId": "design.requirement-traceability",
+      "path": "requirement-design-traceability.json",
+      "sizeBytes": 20224,
+      "sha256": "sha256:981681526ec53ffa67cbc2c8bb8af0ad9e16cc7a11b344d1a85912aefa76e2e2"
+    },
+    {
+      "artifactId": "design.frontend-design-document",
+      "path": "sow-management-前端详细设计.docx",
+      "sizeBytes": 630139,
+      "sha256": "sha256:0b28ef3cfe1481e48c62da7d015f59a77d1f0253d4918a80a5d7a5ef9be0a4e7"
+    },
+    {
+      "artifactId": "design.frontend-design-markdown",
+      "path": "sow-management-前端详细设计.md",
+      "sizeBytes": 88272,
+      "sha256": "sha256:64aee287543f47193337ea15fcce62e1a373777d3094233001d79120793aa0d8"
+    }
+  ],
+  "self": {
+    "artifactId": "design.projection-manifest",
+    "path": "projection-manifest.json"
+  }
+}

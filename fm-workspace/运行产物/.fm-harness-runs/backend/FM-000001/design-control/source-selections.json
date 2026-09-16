@@ -1,0 +1,22 @@
+[
+  {"requirementId": "REQ-SOW-HOME-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/main.js", "src/modules/aop_assetcenter/core/router/index.js", "src/modules/aop_assetcenter/Entry.vue"], "reason": "SOW管理为全新模块，参考现有 aop_assetcenter 模块结构作为入口模板", "conclusion": "新建 src/modules/aop_sowmgmt 模块，含 main.js/Entry.vue/router/store，新增 SOW 列表页、搜索筛选、分页和状态按钮渲染"},
+  {"requirementId": "REQ-SOW-HOME-002", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "搜索筛选为列表页内功能，随 HOME 页面一同实现", "conclusion": "在 SOW 列表页实现搜索筛选组件"},
+  {"requirementId": "REQ-SOW-HOME-003", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "操作按钮按状态展示为前端渲染逻辑，随 HOME 页面一同实现", "conclusion": "在 SOW 列表操作列按状态条件渲染按钮组"},
+  {"requirementId": "REQ-SOW-HOME-004", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "分页为列表页标配功能，随 HOME 页面一同实现", "conclusion": "在 SOW 列表页集成通用分页组件，10条/页"},
+  {"requirementId": "REQ-SOW-CREATE-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "新建SOW为独立侧滑面板组件", "conclusion": "新建 SOW 创建侧滑面板组件，含表单字段和操作按钮"},
+  {"requirementId": "REQ-SOW-CREATE-002", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "名称校验为表单校验规则，随 CREATE 组件实现", "conclusion": "在创建表单中添加 SOW 名称校验规则：中英文≤30字必填"},
+  {"requirementId": "REQ-SOW-CREATE-003", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "字段长度校验为表单校验规则，随 CREATE 组件实现", "conclusion": "在创建表单中添加关联商机/商机编号长度校验：各≤30字"},
+  {"requirementId": "REQ-SOW-CREATE-004", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "SOW类型选择为表单字段，随 CREATE 组件实现", "conclusion": "在创建表单中添加 SOW 类型单选：POC/交付/FM1/其他"},
+  {"requirementId": "REQ-SOW-CREATE-005", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "产品类型选择为表单字段，随 CREATE 组件实现", "conclusion": "在创建表单中添加产品类型单选：业务产品/平台产品/工具产品"},
+  {"requirementId": "REQ-SOW-CREATE-006", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "创建操作为表单提交逻辑，随 CREATE 组件实现", "conclusion": "实现仅创建和创建并继续设计两种提交模式"},
+  {"requirementId": "REQ-SOW-EDIT-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "编辑页为独立路由页面，含 Tab 布局", "conclusion": "新建 SOW 编辑页路由，实现基本信息/SOW清单 Tab 布局"},
+  {"requirementId": "REQ-SOW-EDIT-002", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "POC信息为编辑页内的条件渲染区域", "conclusion": "在编辑页基本信息Tab中，POC类型SOW展示总分/自评/竞对得分"},
+  {"requirementId": "REQ-SOW-EDIT-003", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "批量导入为 SOW 清单 Tab 内的文件上传与解析功能", "conclusion": "实现批量导入弹窗：模板下载→xlsx上传→解析→展示清单/差异对比"},
+  {"requirementId": "REQ-SOW-EDIT-004", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "模板规则为导入功能的子功能", "conclusion": "按 SOW 类型区分模板列：非POC 6列，POC 11列"},
+  {"requirementId": "REQ-SOW-EDIT-005", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "编辑功能信息为 SOW 清单行内编辑弹窗", "conclusion": "实现功能编辑弹窗：功能名称/说明/合用，POC含POC字段"},
+  {"requirementId": "REQ-SOW-EDIT-006", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "删除功能为 SOW 清单行操作", "conclusion": "实现功能删除：校验方案匹配后确认删除，已匹配提示方案名称"},
+  {"requirementId": "REQ-SOW-DELETE-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "删除SOW为列表行操作", "conclusion": "实现 SOW 删除确认弹窗：未关联直接删，已关联阻断并提示方案名称"},
+  {"requirementId": "REQ-SOW-SUBMIT-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "提交完成为状态变更操作", "conclusion": "实现提交完成校验与确认：必填字段+清单已导入+合用评价完成"},
+  {"requirementId": "REQ-SOW-VIEW-001", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "查看详情为独立路由只读页面", "conclusion": "新建 SOW 详情页路由，展示基本信息/SOW清单/关联文档/关联方案/项目概览"},
+  {"requirementId": "REQ-SOW-VIEW-002", "mode": "new", "seeds": ["src/modules/aop_assetcenter/core/router/index.js"], "reason": "关联方案查看为详情页内的跳转操作", "conclusion": "在详情页关联方案Tab中实现方案名称点击新开页跳转"}
+]

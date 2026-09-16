@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "fm-requirement-package/1.0",
+  "baselineId": "BASELINE-SOW-MGT-001",
+  "version": "1.0.0",
+  "status": "approved",
+  "requirementModelSchemaVersion": "fm-requirement-model/1.5",
+  "primaryModel": "sow-management-requirement-model-v1.0.0.json",
+  "narrative": "sow-management-完整需求-v1.0.0.md",
+  "decisionLog": "sow-management-需求问题与决策记录-v1.0.0.md",
+  "visuals": [
+    "images/sow-management-v1.0.0-VIS-SOW-001-59b3d0820841b56f.png",
+    "images/sow-management-v1.0.0-VIS-SOW-002-2ea7ff116f7374a7.png",
+    "images/sow-management-v1.0.0-VIS-SOW-003-cd21529b849003a0.png",
+    "images/sow-management-v1.0.0-VIS-SOW-004-ba39e6fa65ba7a1e.png",
+    "images/sow-management-v1.0.0-VIS-SOW-005-9b8f65e584110a92.png",
+    "images/sow-management-v1.0.0-VIS-SOW-006-4a50d1e33510323f.png",
+    "images/sow-management-v1.0.0-VIS-SOW-007-75b111b05275b010.png",
+    "images/sow-management-v1.0.0-VIS-SOW-008-c0ef943860623932.png",
+    "images/sow-management-v1.0.0-VIS-SOW-009-105a3019e3c5435e.png",
+    "images/sow-management-v1.0.0-VIS-SOW-010-85390b5608f0b02c.png",
+    "images/sow-management-v1.0.0-VIS-SOW-011-39a66995602f108e.png"
+  ],
+  "files": [
+    {
+      "path": "sow-management-需求问题与决策记录-v1.0.0.md",
+      "role": "decision-log",
+      "sizeBytes": 14462,
+      "sha256": "sha256:c0be709eaf9a86d3ff36c020871f66d467268515335088f6ebfe062d760e6589"
+    },
+    {
+      "path": "sow-management-完整需求-v1.0.0.md",
+      "role": "narrative",
+      "sizeBytes": 58349,
+      "sha256": "sha256:7ab001ff5eaa64353b2a90a86d1cfc68103508bfce591ca24cb2f159e73662fd"
+    },
+    {
+      "path": "sow-management-requirement-model-v1.0.0.json",
+      "role": "primary-model",
+      "sizeBytes": 164808,
+      "sha256": "sha256:04e1e7e234b3d903b2cc121eadd09bd9cab275cdec6191bc14e410b8f2810bda"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-001-59b3d0820841b56f.png",
+      "role": "visual",
+      "sizeBytes": 129992,
+      "sha256": "sha256:59b3d0820841b56faa3b0209159220746ba583c6dce302643059906303b29b32"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-002-2ea7ff116f7374a7.png",
+      "role": "visual",
+      "sizeBytes": 74326,
+      "sha256": "sha256:2ea7ff116f7374a7fc58460e94209d5ceefcba7a0c1ff87a744b6a35240dbf86"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-003-cd21529b849003a0.png",
+      "role": "visual",
+      "sizeBytes": 65310,
+      "sha256": "sha256:cd21529b849003a0e397b260a6eeb0ff88e0baff9157b8734aac4ad40582e5e1"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-004-ba39e6fa65ba7a1e.png",
+      "role": "visual",
+      "sizeBytes": 42132,
+      "sha256": "sha256:ba39e6fa65ba7a1ea9ca27093c0f2efd18b56a3965f2a5cf9b8623cd3da474e0"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-005-9b8f65e584110a92.png",
+      "role": "visual",
+      "sizeBytes": 157704,
+      "sha256": "sha256:9b8f65e584110a9283da4de94308a18e5dbaf0d36c9c1b79553872496122bb50"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-006-4a50d1e33510323f.png",
+      "role": "visual",
+      "sizeBytes": 19242,
+      "sha256": "sha256:4a50d1e33510323f1221c54432e1c0d545ed73e50509b4c7c8ce572bb789a101"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-007-75b111b05275b010.png",
+      "role": "visual",
+      "sizeBytes": 63816,
+      "sha256": "sha256:75b111b05275b010da1736e69268e15bf77f020abac70d1e8de1180a334b7e2e"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-008-c0ef943860623932.png",
+      "role": "visual",
+      "sizeBytes": 22393,
+      "sha256": "sha256:c0ef9438606239322d7425c18ec46948af25bc146c68b780869b12dd0e563d8b"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-009-105a3019e3c5435e.png",
+      "role": "visual",
+      "sizeBytes": 20923,
+      "sha256": "sha256:105a3019e3c5435e79282d1cbaa83644c27f2143143d97652ff79c2d8d978b86"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-010-85390b5608f0b02c.png",
+      "role": "visual",
+      "sizeBytes": 21541,
+      "sha256": "sha256:85390b5608f0b02c05852a3e571e34478c659019c551d0f1d8d6b12755155bec"
+    },
+    {
+      "path": "images/sow-management-v1.0.0-VIS-SOW-011-39a66995602f108e.png",
+      "role": "visual",
+      "sizeBytes": 84765,
+      "sha256": "sha256:39a66995602f108ea5d2fb81779370449fad6153f28ab4cea64c84d1e036bb70"
+    }
+  ],
+  "aggregateSha256": "sha256:2b2e33be7965ead4ad4b03ecd16a3d15ad31be83ea8f7d98c143605830161298",
+  "versions": {
+    "loader": "1.0.0",
+    "parser": "1.0.0",
+    "schema": "1.0",
+    "skill": "3.1.1"
+  },
+  "gate": {
+    "status": "pass",
+    "blockingIssueCount": 0,
+    "openDecisionCount": 0,
+    "warnings": []
+  },
+  "supersession": [],
+  "activeDecisionIds": [
+    "DEC-SOW-001",
+    "DEC-SOW-002",
+    "DEC-SOW-003",
+    "DEC-SOW-004",
+    "DEC-SOW-005",
+    "DEC-SOW-006",
+    "DEC-SOW-007",
+    "DEC-SOW-008",
+    "DEC-SOW-009",
+    "DEC-SOW-010"
+  ]
+}

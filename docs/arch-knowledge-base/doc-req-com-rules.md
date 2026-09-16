@@ -47,5 +47,5 @@
 | storage-read | src/modules/aop_tradedesign/views/dicmgmt/components/dic_view/index.vue | localStorage.getItem | 137 | verified |
 | storage-read | src/modules/aop_tradedesign/views/dicmgmt/components/sideBar.vue | sessionStorage.getItem | 206 | verified |
 
-公共机制分析：284 / 1651 个索引文件；1367 个文件留待 Design 按需求定向分析。not-found 仅适用于当前范围。
+公共机制分析：284 / 1653 个索引文件；1369 个文件留待 Design 按需求定向分析。not-found 仅适用于当前范围。
 <!-- frontend-engineering:end -->

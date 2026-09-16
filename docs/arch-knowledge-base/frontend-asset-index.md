@@ -31,8 +31,10 @@ pathBase: webSourceRoot
 | configuration | uat2.env | . | `config/uat2.env.js` | candidate |
 | configuration | workspace-config | . | `fm-workspace/workspace-config.json` | candidate |
 | configuration | requirement-package-manifest-v1.0.0 | . | `fm-workspace/设计产物/FM-000001/run-20260916-3d8e72b4/00_REQUIREMENT/requirement-package-manifest-v1.0.0.json` | candidate |
+| configuration | requirement-package-manifest | . | `fm-workspace/设计产物/FM-000001/run-20260916-3d8e72b4/00_REQUIREMENT/requirement-package-manifest.json` | candidate |
 | configuration | sow-management-acceptance-model-v1.0.0 | . | `fm-workspace/设计产物/FM-000001/run-20260916-3d8e72b4/00_REQUIREMENT/sow-management-acceptance-model-v1.0.0.json` | candidate |
 | configuration | sow-management-requirement-model-v1.0.0 | . | `fm-workspace/设计产物/FM-000001/run-20260916-3d8e72b4/00_REQUIREMENT/sow-management-requirement-model-v1.0.0.json` | candidate |
+| configuration | design-context | . | `fm-workspace/设计产物/FM-000001/run-20260916-3d8e72b4/01_DESIGN/design-context.json` | candidate |
 | configuration | package | . | `package.json` | candidate |
 | component | Entry | src/modules/aop_assetcenter | `src/modules/aop_assetcenter/Entry.vue` | candidate |
 | module | conf | src/modules/aop_assetcenter | `src/modules/aop_assetcenter/conf.js` | candidate |

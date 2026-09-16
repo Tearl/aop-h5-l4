@@ -1,0 +1,1575 @@
+{
+  "schemaVersion": "fm-frontend-engineering-change-contract/1.0",
+  "sourceSkill": "skill_fm-frontend-design",
+  "productType": "internal-management",
+  "businessType": "internal-management",
+  "channelType": "internal-web",
+  "frontendStack": "vue",
+  "designProfile": "internal-web",
+  "contentPolicy": "internal-management",
+  "requirements": [
+    {
+      "requirementId": "REQ-SOW-HOME-001",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-013",
+        "ARTIFACT-011",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-002",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-012",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-011",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-003",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-014",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-013",
+        "ARTIFACT-011",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-HOME-004",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-013",
+        "ARTIFACT-011",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-001",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-002",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-003",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-004",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-005",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-CREATE-006",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-015",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-001",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-017",
+        "ARTIFACT-016",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-002",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-018",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-017",
+        "ARTIFACT-016",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-003",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-019",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-020",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-004",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-019",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-020",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-005",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-019",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-021",
+        "ARTIFACT-016",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-EDIT-006",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-019",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-DELETE-001",
+      "artifactIds": [
+        "ARTIFACT-026",
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-SUBMIT-001",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-027",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-VIEW-001",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-024",
+        "ARTIFACT-022",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-023",
+        "ARTIFACT-009"
+      ]
+    },
+    {
+      "requirementId": "REQ-SOW-VIEW-002",
+      "artifactIds": [
+        "ARTIFACT-005",
+        "ARTIFACT-001",
+        "ARTIFACT-022",
+        "ARTIFACT-010",
+        "ARTIFACT-002",
+        "ARTIFACT-008",
+        "ARTIFACT-003",
+        "ARTIFACT-025",
+        "ARTIFACT-004",
+        "ARTIFACT-006",
+        "ARTIFACT-007",
+        "ARTIFACT-009"
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "artifactId": "ARTIFACT-001",
+      "kind": "module",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt",
+      "name": "ART-MODULE",
+      "description": "add module at src/modules/aop_sowmgmt",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-005"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-002",
+      "kind": "module",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/package.json",
+      "name": "ART-MODULE-PKG",
+      "description": "add configuration at src/modules/aop_sowmgmt/package.json",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-003",
+      "kind": "module",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/main.js",
+      "name": "ART-MODULE-MAIN",
+      "description": "add module at src/modules/aop_sowmgmt/main.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-005"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-004",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/Entry.vue",
+      "name": "ART-MODULE-ENTRY",
+      "description": "add component at src/modules/aop_sowmgmt/Entry.vue",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-005"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-005",
+      "kind": "module",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/conf.js",
+      "name": "ART-MODULE-CONF",
+      "description": "add configuration at src/modules/aop_sowmgmt/conf.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-006",
+      "kind": "module",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/desc.js",
+      "name": "ART-MODULE-DESC",
+      "description": "add configuration at src/modules/aop_sowmgmt/desc.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-007",
+      "kind": "route",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/router/index.js",
+      "name": "ART-ROUTER-INDEX",
+      "description": "add route at src/modules/aop_sowmgmt/core/router/index.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-005"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-008",
+      "kind": "store",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/store/index.js",
+      "name": "ART-STORE-INDEX",
+      "description": "add state at src/modules/aop_sowmgmt/core/store/index.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-009",
+      "kind": "store",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/store/modules/sow.js",
+      "name": "ART-STORE-SOW",
+      "description": "add state at src/modules/aop_sowmgmt/core/store/modules/sow.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-010",
+      "kind": "service",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/core/api/sow.js",
+      "name": "ART-API-SOW",
+      "description": "add service at src/modules/aop_sowmgmt/core/api/sow.js",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-011",
+      "kind": "page",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/index.vue",
+      "name": "ART-PAGE-HOME",
+      "description": "add page at src/modules/aop_sowmgmt/views/home/index.vue",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-012",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/SearchBar.vue",
+      "name": "ART-COMP-SEARCH",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/SearchBar.vue",
+      "requirementIds": [
+        "REQ-SOW-HOME-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-013",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/SowTable.vue",
+      "name": "ART-COMP-TABLE",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/SowTable.vue",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-014",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/ActionButtons.vue",
+      "name": "ART-COMP-ACTIONS",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/ActionButtons.vue",
+      "requirementIds": [
+        "REQ-SOW-HOME-003"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-015",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/CreateDrawer.vue",
+      "name": "ART-DRAWER-CREATE",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/CreateDrawer.vue",
+      "requirementIds": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-016",
+      "kind": "page",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/index.vue",
+      "name": "ART-PAGE-EDIT",
+      "description": "add page at src/modules/aop_sowmgmt/views/edit/index.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-005"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-017",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/components/BasicInfo.vue",
+      "name": "ART-COMP-BASIC",
+      "description": "add component at src/modules/aop_sowmgmt/views/edit/components/BasicInfo.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-018",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/components/PocInfo.vue",
+      "name": "ART-COMP-POC",
+      "description": "add component at src/modules/aop_sowmgmt/views/edit/components/PocInfo.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-019",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/components/SowItems.vue",
+      "name": "ART-COMP-ITEMS",
+      "description": "add component at src/modules/aop_sowmgmt/views/edit/components/SowItems.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-020",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/components/ImportDialog.vue",
+      "name": "ART-COMP-IMPORT",
+      "description": "add component at src/modules/aop_sowmgmt/views/edit/components/ImportDialog.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-021",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/edit/components/ItemEditDialog.vue",
+      "name": "ART-COMP-ITEMEDIT",
+      "description": "add component at src/modules/aop_sowmgmt/views/edit/components/ItemEditDialog.vue",
+      "requirementIds": [
+        "REQ-SOW-EDIT-005"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-022",
+      "kind": "page",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/view/index.vue",
+      "name": "ART-PAGE-VIEW",
+      "description": "add page at src/modules/aop_sowmgmt/views/view/index.vue",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-023",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/view/components/BasicInfo.vue",
+      "name": "ART-COMP-VIEW-BASIC",
+      "description": "add component at src/modules/aop_sowmgmt/views/view/components/BasicInfo.vue",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-024",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/view/components/SowItems.vue",
+      "name": "ART-COMP-VIEW-ITEMS",
+      "description": "add component at src/modules/aop_sowmgmt/views/view/components/SowItems.vue",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-025",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/view/components/SolutionsTab.vue",
+      "name": "ART-COMP-VIEW-SOLUTIONS",
+      "description": "add component at src/modules/aop_sowmgmt/views/view/components/SolutionsTab.vue",
+      "requirementIds": [
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-026",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/DeleteDialog.vue",
+      "name": "ART-COMP-DELETE-DIALOG",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/DeleteDialog.vue",
+      "requirementIds": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    },
+    {
+      "artifactId": "ARTIFACT-027",
+      "kind": "component",
+      "platform": "web",
+      "changeType": "add",
+      "targetPath": "src/modules/aop_sowmgmt/views/home/components/SubmitDialog.vue",
+      "name": "ART-COMP-SUBMIT-DIALOG",
+      "description": "add component at src/modules/aop_sowmgmt/views/home/components/SubmitDialog.vue",
+      "requirementIds": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ],
+      "status": "proposed",
+      "existingPath": null,
+      "pathStatus": "proposed"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipId": "REL-001",
+      "sourceArtifactId": "ARTIFACT-003",
+      "targetArtifactId": "ARTIFACT-004",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "MODULE-MAIN depends on MODULE-ENTRY",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-002",
+      "sourceArtifactId": "ARTIFACT-004",
+      "targetArtifactId": "ARTIFACT-007",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "MODULE-ENTRY depends on ROUTER-INDEX",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-003",
+      "sourceArtifactId": "ARTIFACT-007",
+      "targetArtifactId": "ARTIFACT-011",
+      "relationType": "route",
+      "direction": "source-to-target",
+      "contract": "ROUTER-INDEX depends on PAGE-HOME",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-004",
+      "sourceArtifactId": "ARTIFACT-007",
+      "targetArtifactId": "ARTIFACT-016",
+      "relationType": "route",
+      "direction": "source-to-target",
+      "contract": "ROUTER-INDEX depends on PAGE-EDIT",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-005",
+      "sourceArtifactId": "ARTIFACT-007",
+      "targetArtifactId": "ARTIFACT-022",
+      "relationType": "route",
+      "direction": "source-to-target",
+      "contract": "ROUTER-INDEX depends on PAGE-VIEW",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-006",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-013",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on TABLE",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-007",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-012",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on SEARCH",
+      "requirementIds": [
+        "REQ-SOW-HOME-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-008",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-014",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on ACTIONS",
+      "requirementIds": [
+        "REQ-SOW-HOME-003"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-009",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-015",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on CREATE",
+      "requirementIds": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-010",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-026",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on DELETE-DIALOG",
+      "requirementIds": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-011",
+      "sourceArtifactId": "ARTIFACT-011",
+      "targetArtifactId": "ARTIFACT-027",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-HOME depends on SUBMIT-DIALOG",
+      "requirementIds": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-012",
+      "sourceArtifactId": "ARTIFACT-013",
+      "targetArtifactId": "ARTIFACT-009",
+      "relationType": "state",
+      "direction": "source-to-target",
+      "contract": "TABLE depends on STORE-SOW",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-013",
+      "sourceArtifactId": "ARTIFACT-013",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "TABLE depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-014",
+      "sourceArtifactId": "ARTIFACT-015",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "CREATE depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-015",
+      "sourceArtifactId": "ARTIFACT-015",
+      "targetArtifactId": "ARTIFACT-009",
+      "relationType": "state",
+      "direction": "source-to-target",
+      "contract": "CREATE depends on STORE-SOW",
+      "requirementIds": [
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-016",
+      "sourceArtifactId": "ARTIFACT-026",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "DELETE-DIALOG depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-DELETE-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-017",
+      "sourceArtifactId": "ARTIFACT-027",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "SUBMIT-DIALOG depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-SUBMIT-001"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-018",
+      "sourceArtifactId": "ARTIFACT-016",
+      "targetArtifactId": "ARTIFACT-017",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-EDIT depends on BASIC",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-019",
+      "sourceArtifactId": "ARTIFACT-016",
+      "targetArtifactId": "ARTIFACT-019",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-EDIT depends on ITEMS",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-020",
+      "sourceArtifactId": "ARTIFACT-017",
+      "targetArtifactId": "ARTIFACT-018",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "BASIC depends on POC",
+      "requirementIds": [
+        "REQ-SOW-EDIT-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-021",
+      "sourceArtifactId": "ARTIFACT-019",
+      "targetArtifactId": "ARTIFACT-020",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "ITEMS depends on IMPORT",
+      "requirementIds": [
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-022",
+      "sourceArtifactId": "ARTIFACT-019",
+      "targetArtifactId": "ARTIFACT-021",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "ITEMS depends on ITEMEDIT",
+      "requirementIds": [
+        "REQ-SOW-EDIT-005"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-023",
+      "sourceArtifactId": "ARTIFACT-020",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "IMPORT depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-EDIT-003"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-024",
+      "sourceArtifactId": "ARTIFACT-021",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "ITEMEDIT depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-EDIT-005"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-025",
+      "sourceArtifactId": "ARTIFACT-022",
+      "targetArtifactId": "ARTIFACT-023",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-VIEW depends on VIEW-BASIC",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-026",
+      "sourceArtifactId": "ARTIFACT-022",
+      "targetArtifactId": "ARTIFACT-024",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-VIEW depends on VIEW-ITEMS",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-027",
+      "sourceArtifactId": "ARTIFACT-022",
+      "targetArtifactId": "ARTIFACT-025",
+      "relationType": "contains",
+      "direction": "source-to-target",
+      "contract": "PAGE-VIEW depends on VIEW-SOLUTIONS",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-028",
+      "sourceArtifactId": "ARTIFACT-016",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "PAGE-EDIT depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-029",
+      "sourceArtifactId": "ARTIFACT-022",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "api",
+      "direction": "source-to-target",
+      "contract": "PAGE-VIEW depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    },
+    {
+      "relationshipId": "REL-030",
+      "sourceArtifactId": "ARTIFACT-009",
+      "targetArtifactId": "ARTIFACT-010",
+      "relationType": "state",
+      "direction": "source-to-target",
+      "contract": "STORE-SOW depends on API-SOW",
+      "requirementIds": [
+        "REQ-SOW-HOME-001",
+        "REQ-SOW-HOME-002",
+        "REQ-SOW-HOME-003",
+        "REQ-SOW-HOME-004",
+        "REQ-SOW-CREATE-001",
+        "REQ-SOW-CREATE-002",
+        "REQ-SOW-CREATE-003",
+        "REQ-SOW-CREATE-004",
+        "REQ-SOW-CREATE-005",
+        "REQ-SOW-CREATE-006",
+        "REQ-SOW-EDIT-001",
+        "REQ-SOW-EDIT-002",
+        "REQ-SOW-EDIT-003",
+        "REQ-SOW-EDIT-004",
+        "REQ-SOW-EDIT-005",
+        "REQ-SOW-EDIT-006",
+        "REQ-SOW-DELETE-001",
+        "REQ-SOW-SUBMIT-001",
+        "REQ-SOW-VIEW-001",
+        "REQ-SOW-VIEW-002"
+      ],
+      "evidenceRefs": [
+        "open-gap:GAP-SOW-008"
+      ]
+    }
+  ]
+}

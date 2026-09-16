@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "fm-requirement-package/1.0",
+  "primaryModel": "sow-management-requirement-model-v1.0.0.json",
+  "narrative": "sow-management-完整需求-v1.0.0.md",
+  "decisionLog": "sow-management-需求问题与决策记录-v1.0.0.md",
+  "requirementModelSchemaVersion": "fm-requirement-model/1.5",
+  "visuals": [
+    "images/sow-management-v1.0.0-VIS-SOW-001-59b3d0820841b56f.png",
+    "images/sow-management-v1.0.0-VIS-SOW-002-2ea7ff116f7374a7.png",
+    "images/sow-management-v1.0.0-VIS-SOW-003-cd21529b849003a0.png",
+    "images/sow-management-v1.0.0-VIS-SOW-004-ba39e6fa65ba7a1e.png",
+    "images/sow-management-v1.0.0-VIS-SOW-005-9b8f65e584110a92.png",
+    "images/sow-management-v1.0.0-VIS-SOW-006-4a50d1e33510323f.png",
+    "images/sow-management-v1.0.0-VIS-SOW-007-75b111b05275b010.png",
+    "images/sow-management-v1.0.0-VIS-SOW-008-c0ef943860623932.png",
+    "images/sow-management-v1.0.0-VIS-SOW-009-105a3019e3c5435e.png",
+    "images/sow-management-v1.0.0-VIS-SOW-010-85390b5608f0b02c.png",
+    "images/sow-management-v1.0.0-VIS-SOW-011-39a66995602f108e.png"
+  ],
+  "aggregateSha256": "sha256:2b2e33be7965ead4ad4b03ecd16a3d15ad31be83ea8f7d98c143605830161298"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "2.1",
+  "designSkill": "skill_fm-frontend-design",
+  "projectType": "internal-management",
+  "productType": "internal-management",
+  "businessType": "internal-management",
+  "channelType": "internal-web",
+  "frontendStack": "vue",
+  "designProfile": "internal-web",
+  "contentPolicy": "internal-management",
+  "outputPlatforms": [
+    "web"
+  ],
+  "draftArtifact": "web-design-draft.md",
+  "policyDimensions": [
+    "menu-and-action-permission",
+    "field-and-data-scope",
+    "approval-and-audit",
+    "session-and-security"
+  ],
+  "classificationEvidence": [
+    "\"路由定义（src/modules/aop_assetcenter/core/router/map/architectureManagement.js）涵盖架构管理类视图：系统全景、架构全景、产品模型、流程模型、能力模型、实体模型、数据管理、应用架构、技术架构、部署架构——全部为内部架构管理功能，无面向客户的银行业务页面。\"",
+    "\"模块命名与依赖：aop_assetcenter（资产中心）、aop_tradecode（交易编码）、aop_tradedesign（交易设计）三个模块均面向内部架构与开发设计场景；依赖 @antv/g6（图可视化）、@logicflow（流程图）、plantuml-encoder（图表编码），均为内部设计工具。路由中包含 s4Design/s5Design/d4workbench 等工作台编辑器，为服务/交易内部设计工具，未涉及账户、支付、转账或金融产品功能。\""
+  ],
+  "sourceAnalysisPolicy": "fm-requirement-source-analysis/1.0",
+  "sourceAnalysisRoots": {
+    "webSourceRoot": "/root/.agentix/agentic-dev/runs/DEV-cb8e7b22-ace5-11f1-8b9e-d35516c89fb6-0bb6d926-3434-42bb-8531-419bae790e15/worktree",
+    "knowledgeRoot": "/root/.agentix/agentic-dev/runs/DEV-cb8e7b22-ace5-11f1-8b9e-d35516c89fb6-0bb6d926-3434-42bb-8531-419bae790e15/worktree/docs/arch-knowledge-base"
+  }
+}

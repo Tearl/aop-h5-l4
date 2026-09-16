@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "fm-frontend-design-metrics/1.0",
+  "updatedAt": "2026-09-16T09:44:22+00:00",
+  "parallelPreparation": true,
+  "cacheHit": false,
+  "fingerprintCacheHit": true,
+  "fullSourceScans": 0,
+  "modelPasses": 1,
+  "repairCount": 0,
+  "inputCounts": {
+    "requirements": 20,
+    "scenarios": 19,
+    "acceptanceCriteria": 20,
+    "decisions": 10,
+    "visuals": 11,
+    "sourceFiles": 1653,
+    "knowledgeFiles": 12
+  },
+  "steps": [
+    {
+      "name": "parallel-input-preparation",
+      "durationMs": 1567.685,
+      "cacheHit": true
+    },
+    {
+      "name": "validate-and-render-design-ir",
+      "durationMs": 1702.877,
+      "incremental": false,
+      "outputs": [
+        "design-context.json",
+        "engineering-change-contract.json",
+        "open-gaps-list.md",
+        "projection-manifest.json",
+        "requirement-design-traceability.json",
+        "sow-management-前端详细设计.docx",
+        "sow-management-前端详细设计.md"
+      ]
+    }
+  ],
+  "durationMs": 2300.366,
+  "compilePasses": 1,
+  "renderedArtifacts": 7
+}
